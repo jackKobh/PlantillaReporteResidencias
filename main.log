@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.27)  9 SEP 2016 01:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.27)  9 SEP 2016 10:55
 entering extended mode
 **./main.tex
 (main.tex
@@ -737,7 +737,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 (main.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
- (Capitulos/cap1.aux) (Capitulos/Conclusiones.aux) (Apendices/Ap.aux))
+ (Capitulos/cap1.aux) (Capitulos/cap2.aux) (Capitulos/Conclusiones.aux) (Apendi
+ces/Ap.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
@@ -754,6 +755,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -835,7 +837,7 @@ LaTeX Info: Redefining \nameref on input line 23.
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
- <Img/encabezado.png, id=34, 529.177pt x 70.664pt>
+ <Img/encabezado.png, id=38, 529.177pt x 70.664pt>
 File: Img/encabezado.png Graphic file (type png)
 
 <use Img/encabezado.png>
@@ -1503,25 +1505,19 @@ LaTeX Info: Redefining \% on input line 23.
 (Capitulos/Conclusiones.aux) (Apendices/Ap.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 169.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 169.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 44AAB0388EF283476319954E3AA16929;490.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 9E251B6C1926783CCD1E17FADA657417;436
-(rerunfilecheck)             After:  44AAB0388EF283476319954E3AA16929;490.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 169.
  ) 
 Here is how much of TeX's memory you used:
- 7690 strings out of 493334
- 106978 string characters out of 3139243
- 209005 words of memory out of 3000000
- 11067 multiletter control sequences out of 15000+200000
+ 7693 strings out of 493334
+ 107034 string characters out of 3139243
+ 209348 words of memory out of 3000000
+ 11068 multiletter control sequences out of 15000+200000
  6937 words of font info for 25 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  29i,5n,30p,390b,387s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1533,9 +1529,9 @@ onts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmsl10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmtt10.pfb>
-Output written on main.pdf (17 pages, 142853 bytes).
+Output written on main.pdf (17 pages, 143610 bytes).
 PDF statistics:
- 160 PDF objects out of 1000 (max. 8388607)
+ 164 PDF objects out of 1000 (max. 8388607)
  26 named destinations out of 1000 (max. 500000)
- 70 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 78 words of extra memory for PDF output out of 10000 (max. 10000000)
 
