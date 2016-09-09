@@ -1,0 +1,66 @@
+\documentclass[10pt,spanish,titlepage,letterpaper,openany]{book}
+\usepackage[spanish]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{titlesec}
+\usepackage{enumerate}
+\usepackage{anysize}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage[nottoc]{tocbibind}
+\usepackage{float}
+\usepackage{fancyhdr}
+\usepackage{color,soul}
+\usepackage{amsfonts}
+\usepackage{cite}
+\usepackage{url}
+\usepackage{colortbl}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\definecolor{black}{rgb}{0,0,0}
+\setulcolor{black}
+
+\input{config/codeConf}
+
+
+\begin{document}
+	
+	
+
+\input{config/spanishAlgorithmic} % mi archivo de traducci�n
+\input{config/config} %configuracion de tablas y figuras  
+ % config de codificacion
+
+\newpage
+	%\renewcommand\abstractname{Resumen}
+	\pagenumbering{roman}
+
+			\input{Resumen/resumen}						\tableofcontents 
+			\listoffigures
+			\listoftables
+			\listofalgorithms
+			\addcontentsline{toc}{chapter}{Lista de algoritmos}  
+			\input{Extras/acronimos}
+			\addcontentsline{toc}{chapter}{Lista de siglas}
+			\newpage
+		
+	\pagenumbering{arabic}	
+	
+	\input{1.Introduccion/introduccion}	
+	\input{2.Generalidades/generalidades}
+	\input{3.FundaTeo/fundateo}
+	\input{4.Desarollo/desarrollo}
+	\input{5.PrueRes/pruebas}
+	\input{6.Conclusion/conclusiones}
+	\input{Referencias/referencias}	
+	\appendix
+	\input{7.Anexos/siglas}
+	
+	\renewcommand\appendixname{Anexo}
+	\input{7.Anexos/codigos}
+	
+	\bibliographystyle{plain}
+	\bibliography{biblio}
+	\nocite{*}
+\end{document}

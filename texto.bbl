@@ -1,0 +1,166 @@
+\begin{thebibliography}{10}
+
+\bibitem{Cr05}
+M.~Crussi\`ere, {\em \'Etude et Optimisation de Communications \`a Haut-d\'ebit
+  sur lignes d'\'energie: exploitation de la combinaison OFDM/CDMA}.
+\newblock Institut National des Sciences Appliqu\'ees de Rennes, Rennes,
+  Francia, 2005.
+
+\bibitem{Bi03}
+E.~Biglieri, ``Coding and {M}odulation for a {H}orrible {C}hannel,'' {\em IEEE
+  Communications Magazine}, vol.~41, pp.~92--98, Mayo 2003.
+
+\bibitem{Pa03}
+N.~Pavlidou, ``Power {L}ine {C}ommunication: {S}tate of the art and future
+  trends,'' {\em IEEE Communications Magazine}, pp.~34--40, Abril 2003.
+
+\bibitem{Ya10}
+H.~Yan, S.~Zhou, {\em et~al.}, ``{DSP} {I}mplementation of {SISO} and {MIMO}
+  {OFDM} {A}coustic {M}odems,'' {\em Conference OCEANS 2010 IEEE Sydney},
+  pp.~89--92, 2010.
+
+\bibitem{Du09}
+V.~Duc {\em et~al.}, ``Implementation of an {OFDM} system based on the
+  {TMS}320{C}6416,'' {\em The 2009 International Conference on Advance
+  Technologies for Communications}, pp.~74--77, 2009.
+
+\bibitem{Do06}
+A.~Doukas, A.~Kotsopoulos, and G.~Kalivas, ``{DSP} {I}mplementation of {SNR}
+  {E}stimation {A}lgorithm for {OFDM} {S}ystems,'' {\em Communications,
+  Circuits and Systems Proceedings, 2006 International Conference},
+  pp.~583--587, 2006.
+
+\bibitem{Ba03}
+S.~Baig and N.~Gohar, ``A {D}iscrete {M}ultitone {T}ransceiver at the {H}eart
+  of the {PHY} {L}ayer of an {I}n-{H}ome {P}ower {L}ine {C}ommunication {L}ocal
+  {A}rea {N}etwork,'' {\em IEEE Communications Magazine}, pp.~48--53, Abril
+  2003.
+
+\bibitem{Ca06}
+J.~L. Carmona, F.~J. Ca\~nete, {\em et~al.}, ``A {DMT} {M}odem {P}rototype for
+  {B}roadband {PLC},'' {\em Power Line Communications and Its Applications,
+  2006 IEEE International Symposium}, pp.~56--61, 2006.
+
+\bibitem{Wa09}
+J.~Wang {\em et~al.}, ``A {N}ew {OFDM} blind synchronization algorithm suitable
+  for {PLC},'' {\em Image and Signal Processing, 2009. CISP '09. 2nd
+  International}, pp.~1--5, Octubre 2009.
+
+\bibitem{Wa08}
+H.~Wang {\em et~al.}, ``A {N}ew {S}ynchronization {S}cheme for {PLC},'' {\em
+  Future Information Technology and Management Engineering, 2008. FITME '08},
+  pp.~604--607, Noviembre 2008.
+
+\bibitem{AhBi11}
+A.~K. Aminuddin~Bin and M.~Y. Bin~Alias, ``Performance of {OFDM} in the
+  {V}ariation of the {P}ath {Q}uantity in {P}ower {L}ine {C}ommunications,''
+  {\em International Journal of Network and Mobile Technologies}, pp.~44--48,
+  Enero 2011.
+
+\bibitem{BaHe09}
+J.~Y. Baudais and J.~F. Helard, ``Increase in {M}ulticast {OFDM} {D}ata {R}ate
+  in {PLC} {N}etwork using {A}daptive {LP-OFDM},'' {\em International Journal
+  of Network and Mobile Technologies}, pp.~384--389, Enero 2009.
+
+\bibitem{MaBa09}
+A.~Maiga, J.~Y. Baudais, and J.~F. Helard, ``Very high bit rate power line
+  communications for home networks,'' {\em Power Line Communications and Its
+  Applications. ISPLC 2009. IEEE International}, pp.~313--318, Abril 2009.
+
+\bibitem{YoEl07}
+M.~S. Yousuf and M.~El-Shafei, ``Power {L}ine {C}ommunication: {A}n {O}verview
+  - {P}art {I},'' {\em Innovations in Information Technology, 2007. IIT '07.
+  4th International Conference}, pp.~218--222, Noviembre 2007.
+
+\bibitem{YoEl08}
+M.~S. Yousuf and M.~El-Shafei, ``Power {L}ine {C}ommunication: {A}n {O}verview
+  - {P}art {II},'' {\em Information and Communication Technologies: From Theory
+  to Applications, 2008. ICTTA 2008. 3rd International Conference}, pp.~1--6,
+  Abril 2008.
+
+\bibitem{hp11}
+{Home Plug Power line Alliance}, ``White {P}apers {H}ome{P}lug 1.0.''
+\newblock https://www.homeplug.org/tech/whitepapers. [Consulta: Noviembre
+  2011].
+
+\bibitem{MaCa04}
+A.~Majumder and J.~J. Caffery, ``Power {L}ine {C}ommunication: an overview,''
+  {\em IEEE Communications Magazine}, pp.~4--13, Noviembre 2004.
+
+\bibitem{La09}
+G.~Laguna and R.~Barr\'on, {\em Especificaci\'on de referencia parasistema de
+  comunicaci\'on por la l\'nea el\'ectrica (PLC)}.
+\newblock Instituto Polit\'ecnico Nacional, Centro de Investigaci\'on en
+  Computaci\'on, Enero 2009.
+
+\bibitem{QiJu09}
+G.~Qiang and Z.~Jun, ``{LMS} {A}lgorithms for noise {O}ffset in
+  {M}edium-{V}oltage {P}ower {L}ine {C}ommunication,'' {\em Intelligent Systems
+  and Applications, ISA'09. International Workshop}, pp.~1--4, Mayo 2009.
+
+\bibitem{OPERA11}
+{Open PLC European Research Alliance}, ``{PLC} {T}echnology license.''
+\newblock http://www.ipcf.org [Consulta: Febrero 2011].
+
+\bibitem{IEEESA12}
+{IEEE Standards Association}, ``P1901.2 - {S}tandard for {L}ow {F}requency
+  (less than 500 khz) {N}arrow {B}and {P}ower {L}ine {C}ommunications for
+  {S}mart {G}rid {A}pplications.''
+\newblock http://standards.ieee.org/develop/project/1901.2.html [Consulta:
+  Junio 2012].
+
+\bibitem{RR03}
+R.~W. Chang and R.~A. Gibby, ``A theoretical study of performance of an
+  orthogonal multiplexing data transmission scheme,'' {\em IEEE Transactions on
+  Communication Technology}, pp.~529--540, Agosto 2003.
+
+\bibitem{Pr04}
+R.~Prasad, {\em {OFDM} for wireless communication}.
+\newblock Boston London: Artech House Publishers, 2004.
+
+\bibitem{Li09}
+X.~Liang {\em et~al.}, ``160 {G}b/s {OFDM} {T}ransmission {U}tilizing {A}n
+  {A}ll-optical {S}ymbol {G}enerator {B}ased on {PLC},'' {\em Communications
+  and Photonics Conference and Exhibition (ACP), Asia}, vol.~41, pp.~1--7,
+  Noviembre 2009.
+
+\bibitem{Ha02}
+H.~Harada and R.~Prasad, {\em Simulation and software radio for mobile
+  communications}.
+\newblock Boston London: Artech House Publishers, 2002.
+
+\bibitem{La11}
+G.~Laguna and A.~Prieto, {\em Simulador {M}onte {C}arlo para el esquema
+  b\'asico de comunicaci\'on {OFDM} sobre la red el\'ectrica}.
+\newblock M\'exico, DF.: Universidad Aut\'onoma Metropolitana,
+  02.0201.II.15.003.2011, 2011.
+
+\bibitem{Texas01}
+{Texas Instrument Incorporated}, {\em TMS320C6414, TMS320C6415, TMS320C6416
+  Fixed-point Digital Signal Processors}.
+\newblock Literature Number: SPRS146N, Febrero 2001.
+
+\bibitem{Texas03}
+{Texas Instrument Incorporated}, {\em TMS320C64x DSP Library Programmer\'s
+  Reference}.
+\newblock Literature Number: SPRU565B, Octubre 2004.
+
+\bibitem{Texas00}
+{Texas Instrument Incorporated}, {\em TMS320C6000 Code Composer Studio
+  Tutorial}.
+\newblock Literature Number: SPRU301C, Febrero 2000.
+
+\bibitem{Texas04}
+{Texas Instrument Incorporated}, {\em Code Composer Studio v3.1 Getting Started
+  Guide}.
+\newblock Literature Number: SPRU509E, Septiembre 2004.
+
+\bibitem{Fa12}
+L.~I. Fabian {\em et~al.}, ``{Programación y evaluación en un DSP de un esquema
+  de correción de errores unidireccional ( Forward Error Correction FEC )}.''.
+
+\bibitem{FFT12}
+T.~Roberts and M.~Slaney, ``{FFT using fixed point arthmetic in C}.''
+\newblock www.jjj.de/fft/fftpage.html [Consulta: Febrero. 2012].
+
+\end{thebibliography}

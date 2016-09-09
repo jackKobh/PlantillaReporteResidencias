@@ -1,0 +1,14 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: D:\Academia\MCyTI\Tesis\tesis\texto.aux
+The style file: ieeetr.bst
+Database file #1: biblio.bib
+You're missing a field name---line 258 of file biblio.bib
+ :    
+ :    %publisher =   "Instituto Polit\'ecnico Nacional, Centro de Investigaci\'on en Computaci\'on",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 268 of file biblio.bib
+ : @misc{hp11
+ :           ,
+I'm skipping whatever remains of this entry
+Warning--empty note in Fa12
+(There were 2 error messages)

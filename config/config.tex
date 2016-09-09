@@ -1,0 +1,60 @@
+\renewcommand{\familydefault}{\sfdefault}%arial
+	\input{Portada/portada}
+	\thispagestyle{empty}
+	\newpage
+
+	\newcommand{\bigrule}{\titlerule[0.5mm]}
+	\titleformat{\chapter}[display] % cambiamos el formato de los capï¿½tulos
+	{\bfseries\Huge} % por defecto se usarï¿½n caracteres de tamaï¿½o \Huge en negrita
+	{% contenido de la etiqueta
+ 	\titlerule % lï¿½nea horizontal
+ 	\filleft % texto alineado a la derecha
+	 	\Large\chaptertitlename\ % "Capï¿½tulo" o "Apï¿½ndice" en tamaï¿½o \Large en lugar de \Huge
+	 	\Large\thechapter} % nï¿½mero de capï¿½tulo en tamaï¿½o \Large
+		{0mm} % espacio mï¿½nimo entre etiqueta y cuerpo
+	{\filleft} % texto del cuerpo alineado a la derecha
+	[\vspace{0.5mm} \bigrule] % despuï¿½s del cuerpo, dejar espacio vertical y trazar lï¿½nea horizontal gruesa
+	\pagestyle{fancy}
+	\fancyhf{}
+	\fancyhead[LO]{\leftmark} % En las pï¿½ginas impares, parte izquierda del encabezado, aparecerï¿½ el nombre de capï¿½tulo
+	\fancyhead[RE]{\rightmark} % En las pï¿½ginas pares, parte derecha del encabezado, aparecerï¿½ el nombre de secciï¿½n
+	\fancyhead[RO,LE]{\thepage} % Nï¿½meros de pï¿½gina en las esquinas de los encabezados
+
+	\renewcommand{\chaptermark}[1]{\markboth{\textbf{\thechapter. #1}}{}} % Formato para el capï¿½tulo: N. Nombre
+	\renewcommand{\sectionmark}[1]{\markright{\textbf{\thesection. #1}}} % Formato para la secciï¿½n: N.M. Nombre
+
+	\renewcommand{\headrulewidth}{0.6pt} % Ancho de la lï¿½nea horizontal bajo el encabezado
+	\renewcommand{\footrulewidth}{0.6pt} % Ancho de la lï¿½nea horizontal sobre el pie (que en este ejemplo estï¿½ vacï¿½o)
+	
+
+
+  % perzonalizar pie de pagina
+\renewcommand\thefootnote{\textcolor{blue}{\bf\arabic{footnote}}}
+
+% perzonalizar figuras
+  \renewcommand\thefigure{\textcolor{blue}{\thechapter.\arabic{figure}}}
+  \renewcommand{\figurename}{\textcolor{blue}{Figura}}
+  
+  \renewcommand\citeform[1]{\textcolor{blue}{#1}}%cambia el color al texto de las referencias
+% perzonalizar tablas
+
+  \renewcommand\thetable{\textcolor{blue}{\thechapter.\arabic{table}}}
+  \renewcommand{\tablename}{\textcolor{blue}{Tabla}}
+  
+% perzonalizar el enumerate
+\renewcommand{\labelenumi}{\textbf{\alph{enumi}$)$}} %letras
+\renewcommand{\labelenumii}{\textbf{\arabic{enumii}$)$}} %numero arabigos
+\renewcommand{\labelenumiii}{\textbf{\Roman{enumiii}.}} %numero ronanos
+\renewcommand{\labelenumiv}{\textbf{\fnsymbol{enumiv}}}
+
+\renewcommand{\labelitemi}{$\bullet$}%personaliza los itmes
+
+	\setlength{\headheight}{1.5\headheight} % Aumenta la altura del encabezado en una vez y media
+
+	%\marginsize{3cm}{2cm}{2.5cm}{2.5cm}% Margenes de la pagina
+
+	\renewcommand\listfigurename{Lista de figuras}
+	\renewcommand\listtablename{Lista de tablas}
+	\renewcommand\listtablename{Lista de tablas}
+	\renewcommand\contentsname{Tabla de contenido}
+	\renewcommand\bibname{Bibliograf\'ia}

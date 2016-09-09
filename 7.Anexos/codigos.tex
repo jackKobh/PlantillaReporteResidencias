@@ -1,0 +1,170 @@
+\chapter{Lineamientos para la publicaci\'on de memorias de residencias}
+Documentar el c\'odigo fuente de un programa es a\~nadir suficiente informaci\'on como para explicar lo que hace, punto por punto, de forma que no s\'olo las computadoras sepan qu\'e hacer, sino que adem\'as los humanos entiendan qu\'e est\'an haciendo y por qu\'e.\\
+
+Porque entre lo que tiene que hacer un programa y c\'omo lo hace hay una distancia impresionante: todas las horas que el programador ha dedicado a la una soluci\'on y escribirla en el lenguaje que corresponda para que la computadora la ejecute ciegamente.\\
+
+Documentar un programa no es s\'olo un acto de buen hacer del programador, es adem\'as una necesidad que s\'olo se aprecia en su debida magnitud cuando hay errores que reparar o hay que extender el programa con nuevas capacidades o adaptarlo a un nuevo escenario. Hay dos reglas que no se deben olvidar nunca:
+
+\begin{enumerate}[1)]
+	\item 	Todos los programas tienen errores y descubrirlos s\'olo es cuesti\'on de tiempo y de que el programa tenga \'exito y se utilice frecuentemente.
+
+	\item Todos los programas sufren modificaciones a lo largo de su vida, al menos todos aquellos que tienen \'exito
+\end{enumerate}
+
+Por una u otra raz\'on, todo programa que tenga \'exito ser\'a modificado en el futuro, bien por el programador original o por otro que le sustituya. Pensando en esta revisi\'on de c\'odigo es por lo que es importante que el programa se entienda: para poder repararlo y modificarlo.
+
+\section{?`Qu\'{e} hay que documentar?}
+
+Hay que a\~nadir explicaciones a todo lo que no es evidente. No hay que repetir lo que se hace, sino explicar por qu\'e se hace.
+Y eso se traduce en:
+
+\begin{itemize}
+	\item ?`de qu\'e se encarga una clase? ?`un paquete?
+	\item ?`qu\'e hace un m\'etodo?
+	\item ?`cu\'al es el uso esperado de un m\'etodo?
+	\item ?`para qu\'e se usa una variable?
+	\item ?`cu\'al es el uso esperado de una variable?
+	\item ?`qu\'e algoritmo estamos usando? ?`de d\'onde lo hemos sacado?
+\end{itemize}
+
+Por ejemplo, el lenguaje Java dispone de tres notaciones para introducir comentarios:\\
+
+\begin{enumerate}[1)]
+	\item \textbf{javadoc}. Comienzan con los caracteres ''/**'', se pueden prolongar a lo largo de varias l\'ineas (que probablemente comiencen con el car\'acter ''*'') y terminan con los caracteres ''*/''.
+	
+	\item \textbf{Una l\'inea}. Comienzan con los caracteres ''//'' y terminan con la l\'inea
+	
+	\item \textbf{Tipo C}. Comienzan con los caracteres ''/*'', se pueden prolongar a lo largo de varias l\'ineas (que probablemente comiencen con el car\'acter "*") y terminan con los caracteres "*/".
+\end{enumerate}
+
+Cada tipo de comentario se debe adaptar a un prop\'osito: \textbf{javadoc} es para generar documentaci\'on externa. \textbf{Una l\'inea} se usa para documentar c\'odigo que no necesite que aparezca en la documentaci\'on externa (que genere javadoc)
+Este tipo de comentarios se usar\'a incluso cuando el comentario ocupe varias l\'ineas, cada una de las cuales comenzar\'a con ''//''.\textbf{Tipo C} es para eliminar c\'odigo. Ocurre a menudo que c\'odigo obsoleto no queremos que desaparezca, sino mantenerlo ''por si acaso''. Para que no se ejecute, se comenta.(En ingl\'es se suele denominar ''comment out'').\\
+
+Es importante respetar las normas y est\'andares correspondientes a cada lenguaje de programaci\'on. As\'i como los comentarios, tambi\'en existen otras reglas que deben ser consideras al momento de insertar un c\'odigo fuente en alg\'un reporte. Algunas de estas reglas son alineaci\'on, indentado, legibilidad y otras m\'as.\\
+
+En el siguiente c\'odigo se presenta un ejemplo del lenguaje Java, en el cual se aprecia un est\'ilo apropiado para comentar c\'odigo.
+
+\begin{lstlisting}
+import java.util.ArrayList;
+import java.util.Random;
+ 
+/**
+ * Esta clase define objetos que contienen tantos enteros aleatorios entre 0 y 1000 como se le definen al crear un objeto
+ * @author: Academia de Sistemas y Computacion
+ * @version: 20/09/2014
+**/
+ 
+public class SerieDeAleatoriosD {
+ 
+    //Campos de la clase
+    private ArrayList<Integer> serieAleatoria;
+    /**
+     * Constructor para la serie de numeros aleatorios
+     * @param numeroItems El parametro numeroItems define el numero de elementos que va a tener la serie aleatoria
+     */
+    public SerieDeAleatoriosD (int numeroItems) {
+        serieAleatoria = new ArrayList<Integer> ();
+        for (int i=0; i<numeroItems; i++) {  serieAleatoria.add(0);  }
+        System.out.println ("Serie inicializada. El numero de elementos en la serie es: " + getNumeroItems() );
+    } //Cierre del constructor
+    /*
+     * Metodo que devuelve el numero de items (numeros aleatorios) existentes en la serie
+     * @return El numero de items (numeros aleatorios) de que consta la serie
+     */
+    public int getNumeroItems() { return serieAleatoria.size(); }
+    /**
+     * Metodo que genera la serie de numeros aleatorios
+     */
+    public void generarSerieDeAleatorios () {
+        Random numAleatorio;
+        numAleatorio = new Random ();
+        for (int i=0; i < serieAleatoria.size(); i++) { serieAleatoria.set(i, numAleatorio.nextInt(1000) ); }
+        System.out.print ("Serie generada! ");
+    } //Cierre del metodo
+} //Cierre de la clase
+\end{lstlisting}
+
+\section{Marcado de palabras clave}
+
+Es importante que todo c\'odigo anexado sea presentable y legible, para ello se puede hacer uso de diferentes colores para diferenciar  palabras clave, clases, variables, etc. A continuaci\'on se presenta un c\'odigo en lenguaje HTML.
+
+\begin{lstlisting}
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Canvas</title>
+    <meta charset="UTF-8" />
+    <style>
+      #square {
+        border: 1px solid black;
+                transform: scale(10) rotate(3deg) translateX(0px);
+                -moz-transform: scale(10) rotate(3deg) translateX(0px);
+      }
+
+            .box {              
+                transition-duration: 2s;
+                transition-property: transform;
+                transition-timing-function: linear;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="square" width="200" height="200"></canvas>
+    <script>
+            var canvas = document.createElement('canvas');
+            canvas.width = 200;
+            canvas.height = 200;
+
+            var image = new Image();
+            image.src = 'images/card.png';
+            image.width = 114;
+            image.height = 158;
+            image.onload = window.setInterval(function() {
+                rotation();
+            }, 1000/60);
+   </script>
+  </body>
+</html>
+    \end{lstlisting}
+
+\section{Indentado}
+
+Las normas de indentaci\'on indican la posici\'on en la que se deben colocar los diferentes elementos que se incluyen en el c\'odigo fuente, por lo que forman parte del estilo de codificaci\'on. Otro ejemplo de ello es la separaci\'on con espacios en blanco entre los diferentes elementos que componen las l\'ineas de c\'odigo.
+
+\subsection{Objetivo de la indentaci\'on}
+
+El objetivo fundamental de la indentaci\'on del c\'odigo fuente es facilitar su lectura y comprensi\'on. Hay dos tipos de posibles lectores del c\'odigo fuente: programas y personas. A los programas les da igual la indentaci\'on, leen bien nuestro c\'odigo siempre que cumpla la sintaxis del lenguaje. Luego la indentaci\'on debe centrarse en la lectura y comprensi\'on del c\'odigo por personas.\\
+
+A continuaci\'on se presenta un ejemplo de identaci\'on usando el lenguaje de programaci\'on Python. Las funciones de Python no tienen begin o end expl\'icitos, ni llaves que marquen d\'onde empieza o termina su c\'odigo. El \'unico delimitador son dos puntos (:) y el indentado del propio c\'odigo.\\
+
+\begin{lstlisting}
+"""Modulo para ejemplificar el uso de *epydoc*. 
+   :author: Raul Gonzalez 
+   :version: 0.1"""  
+  
+__docformat__ = "restructuredtext"  
+  
+class Persona:  
+    """Modela una persona."""  
+    def __init__(self, nombre, edad):  
+        """Inicializador de la clase `Persona`. 
+           :param nombre: Nombre de la persona. 
+           :param edad: Edad de la persona"""  
+        self.nombre = nombre  
+        self.edad = edad  
+        self.mostrar_nombre()  
+  
+    def mostrar_nombre(self):  
+        """Imprime el nombre de la persona"""  
+        print "Esta es la persona %s" % self.nombre  
+  
+class Empleado(Persona):  
+    """Subclase de `Persona` correspondiente a las personas 
+       que trabajan para la organizacion. 
+       :todo: Escribir implementacion."""  
+    pass  
+  
+  
+if __name__ == "__main__":  
+    juan = Persona("Juan", 26) 
+\end{lstlisting}
