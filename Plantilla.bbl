@@ -2,7 +2,7 @@
 
 \bibitem{Ab10}
 Soraya Abad~Mota.
-\newblock Lineamientos sobre c�mo escribir informes t�cnicos.
+\newblock Lineamientos sobre c\'omo escribir informes t\'ecnicos.
 \newblock http://cpc.ldc.usb.ve/documentos/comoEscribirInf07.pdf [Consulta:
   Marzo 2013].
 
@@ -18,9 +18,27 @@ Matthieu Crussi\`ere.
 \newblock Institut National des Sciences Appliqu\'ees de Rennes, Rennes,
   Francia, 2005.
 
+\bibitem{OPERA11}
+{Open PLC European Research Alliance}.
+\newblock {PLC} {T}echnology license.
+\newblock http://www.ipcf.org [Consulta: Febrero 2011].
+
+\bibitem{QiJu09}
+Gao Qiang and Zhang Jun.
+\newblock {LMS} {A}lgorithms for noise {O}ffset in {M}edium-{V}oltage {P}ower
+  {L}ine {C}ommunication.
+\newblock {\em Intelligent Systems and Applications, ISA'09. International
+  Workshop}, pages 1--4, Mayo 2009.
+
 \bibitem{ElNa99}
 Elmasri R. and Navathe S.~B.
 \newblock Fundamentals of database systems.
 \newblock 1999.
+
+\bibitem{WeRiSc96}
+Stefan Wermter, Ellen Riloff, and Scheler Gabriele.
+\newblock {\em Connectionist, Statistical and Symbolic Approaches to Learning
+  for Natural Language Processing}.
+\newblock Springer-Verlag, 1996.
 
 \end{thebibliography}
