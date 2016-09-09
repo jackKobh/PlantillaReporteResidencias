@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.27)  9 SEP 2016 18:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.27)  9 SEP 2016 18:18
 entering extended mode
 **./Plantilla.tex
 (Plantilla.tex
@@ -506,98 +506,48 @@ Package pdftex.def Info: logo_carrera.png used on input line 45.
 
 
 {C:/Users/JACKW10U/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./logo.p
-ng> <./logo_carrera.png>]) [2]) (Resumen/resumen.tex
-LaTeX Font Info:    Try loading font information for U+msa on input line 5.
+ng> <./logo_carrera.png>]) [2]) (Plantilla.lof
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+LaTeX Font Info:    Try loading font information for U+msa on input line 4.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 5.
+LaTeX Font Info:    Try loading font information for U+msb on input line 4.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Underfull \hbox (badness 10000) in paragraph at lines 10--10
-[]|\OT1/cmr/m/n/10 Academia de Sis-te-mas y
- []
+))
+\tf@lof=\write3
+\openout3 = `Plantilla.lof'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--12
-[]|\OT1/cmr/m/n/10 Academia de Sis-te-mas y
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5--15
-
- []
-
-)
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <10> not available
-(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 39.
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 41.
 
 [1
-
-] (Plantilla.toc
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 2.
-
-
-Package spanish Warning: Replacing `OT1/cmr/bx/sc' by 
-(spanish)                faked small caps on input line 2.
-
-
-Package spanish Warning: Replacing `OT1/cmr/bx/sc' by 
-(spanish)                faked small caps on input line 3.
-
-
-Package spanish Warning: Replacing `OT1/cmr/bx/sc' by 
-(spanish)                faked small caps on input line 4.
-
-
-Package spanish Warning: Replacing `OT1/cmr/bx/sc' by 
-(spanish)                faked small caps on input line 5.
-
-[2
-
-])
-\tf@toc=\write3
-\openout3 = `Plantilla.toc'.
-
-LaTeX Info: Redefining \. on input line 40.
-LaTeX Info: Redefining \% on input line 40.
- [3] (Plantilla.lof
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-)
-\tf@lof=\write4
-\openout4 = `Plantilla.lof'.
-
- [4
 
 ] (Plantilla.lot
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
-\tf@lot=\write5
-\openout5 = `Plantilla.lot'.
+\tf@lot=\write4
+\openout4 = `Plantilla.lot'.
 
- [5
+ [2
 
 ] (Plantilla.loa)
-\tf@loa=\write6
-\openout6 = `Plantilla.loa'.
+\tf@loa=\write5
+\openout5 = `Plantilla.loa'.
 
+ (Extras/acronimos.tex [3
 
-(Extras/acronimos.tex [6
+]) [4
 
-]) [7
-
-] (1.Introduccion/introduccion.tex
+]
+(1.Introduccion/introduccion.tex
 Cap\'{\i }tulo 1.
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
@@ -650,7 +600,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--51
 
 [6
 
-] <./figuras/Fig1.jpg, id=63, 948.54375pt x 1100.11pt>
+] <./figuras/Fig1.jpg, id=52, 948.54375pt x 1100.11pt>
 File: ./figuras/Fig1.jpg Graphic file (type jpg)
 
 <use ./figuras/Fig1.jpg>
@@ -806,39 +756,34 @@ n-for-mes tecni-cos.
 ] (Plantilla.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
-)
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
- ) 
+) ) 
 Here is how much of TeX's memory you used:
- 8033 strings out of 493334
- 112704 string characters out of 3139243
+ 8024 strings out of 493334
+ 112585 string characters out of 3139243
  304622 words of memory out of 3000000
- 11332 multiletter control sequences out of 15000+200000
+ 11330 multiletter control sequences out of 15000+200000
  15119 words of font info for 56 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  40i,14n,58p,1419b,2178s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\JACKW10U\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi6
-00\tctt0900.pk> <C:\Users\JACKW10U\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkn
-appen\ec\dpi600\tcrm1000.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx7.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmsl10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmss10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmss9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssb
-x10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on Plantilla.pdf (30 pages, 576528 bytes).
+ <C:\Users\JACKW10U\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi
+600\tctt0900.pk> <C:\Users\JACKW10U\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jk
+nappen\ec\dpi600\tcrm1000.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc1
+0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmss10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmss9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+msy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on Plantilla.pdf (27 pages, 561524 bytes).
 PDF statistics:
- 179 PDF objects out of 1000 (max. 8388607)
+ 166 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
