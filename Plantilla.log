@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.27)  9 SEP 2016 18:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.27)  9 SEP 2016 22:44
 entering extended mode
 **./Plantilla.tex
 (Plantilla.tex
@@ -746,9 +746,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 138--139
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
  [20]
-Underfull \hbox (badness 10000) in paragraph at lines 4--8
-[]\OT1/cmr/m/n/10 Soraya Abad Mo-ta.  Li-nea-mien-tos so-bre como es-cri-bir i
-n-for-mes tecni-cos.
+Underfull \hbox (badness 10000) in paragraph at lines 22--25
+[]\OT1/cmr/m/n/10 S. Abad Mo-ta, ``Li-nea-mien-tos so-bre como es-cri-bir in-f
+or-mes tecni-cos,''
  []
 
 ) [21
@@ -758,10 +758,10 @@ LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 ) ) 
 Here is how much of TeX's memory you used:
- 8024 strings out of 493334
- 112585 string characters out of 3139243
+ 8037 strings out of 493334
+ 112817 string characters out of 3139243
  304622 words of memory out of 3000000
- 11330 multiletter control sequences out of 15000+200000
+ 11343 multiletter control sequences out of 15000+200000
  15119 words of font info for 56 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  40i,14n,58p,1419b,2178s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -781,7 +781,7 @@ s/cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
 msy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on Plantilla.pdf (27 pages, 561524 bytes).
+Output written on Plantilla.pdf (27 pages, 561348 bytes).
 PDF statistics:
  166 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

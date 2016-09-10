@@ -1,44 +1,61 @@
 \begin{thebibliography}{1}
+\providecommand{\url}[1]{#1}
+\csname url@rmstyle\endcsname
+\providecommand{\newblock}{\relax}
+\providecommand{\bibinfo}[2]{#2}
+\providecommand\BIBentrySTDinterwordspacing{\spaceskip=0pt\relax}
+\providecommand\BIBentryALTinterwordstretchfactor{4}
+\providecommand\BIBentryALTinterwordspacing{\spaceskip=\fontdimen2\font plus
+\BIBentryALTinterwordstretchfactor\fontdimen3\font minus
+  \fontdimen4\font\relax}
+\providecommand\BIBforeignlanguage[2]{{%
+\expandafter\ifx\csname l@#1\endcsname\relax
+\typeout{** WARNING: IEEEtran.bst: No hyphenation pattern has been}%
+\typeout{** loaded for the language `#1'. Using the pattern for}%
+\typeout{** the default language instead.}%
+\else
+\language=\csname l@#1\endcsname
+\fi
+#2}}
 
 \bibitem{Ab10}
-Soraya Abad~Mota.
-\newblock Lineamientos sobre c\'omo escribir informes t\'ecnicos.
-\newblock http://cpc.ldc.usb.ve/documentos/comoEscribirInf07.pdf [Consulta:
-  Marzo 2013].
+S.~Abad~Mota, ``Lineamientos sobre c\'omo escribir informes t\'ecnicos,''
+  http://cpc.ldc.usb.ve/documentos/comoEscribirInf07.pdf [Consulta: Marzo
+  2013].
+
 
 \bibitem{ChJo99}
-Chandrasekaran Bash, Josephson J.R., and R.~Benjamins.
-\newblock What are ontologies, and why do we need them?
-\newblock pages 20--26, 1999.
+C.~Bash, J.~J.R., and R.~Benjamins, ``What are ontologies, and why do we need
+  them?'' pp. 20--26, 1999.
+
 
 \bibitem{Cr05}
-Matthieu Crussi\`ere.
-\newblock {\em \'Etude et Optimisation de Communications \`a Haut-d\'ebit sur
-  lignes d'\'energie: exploitation de la combinaison OFDM/CDMA}.
-\newblock Institut National des Sciences Appliqu\'ees de Rennes, Rennes,
-  Francia, 2005.
+M.~Crussi\`ere, \emph{\'Etude et Optimisation de Communications \`a
+  Haut-d\'ebit sur lignes d'\'energie: exploitation de la combinaison
+  OFDM/CDMA}.\hskip 1em plus 0.5em minus 0.4em\relax Institut National des
+  Sciences Appliqu\'ees de Rennes, Rennes, Francia, 2005.
+
 
 \bibitem{OPERA11}
-{Open PLC European Research Alliance}.
-\newblock {PLC} {T}echnology license.
-\newblock http://www.ipcf.org [Consulta: Febrero 2011].
+{Open PLC European Research Alliance}, ``{PLC} {T}echnology license,''
+  http://www.ipcf.org [Consulta: Febrero 2011].
+
 
 \bibitem{QiJu09}
-Gao Qiang and Zhang Jun.
-\newblock {LMS} {A}lgorithms for noise {O}ffset in {M}edium-{V}oltage {P}ower
-  {L}ine {C}ommunication.
-\newblock {\em Intelligent Systems and Applications, ISA'09. International
-  Workshop}, pages 1--4, Mayo 2009.
+G.~Qiang and Z.~Jun, ``{LMS} {A}lgorithms for noise {O}ffset in
+  {M}edium-{V}oltage {P}ower {L}ine {C}ommunication,'' \emph{Intelligent
+  Systems and Applications, ISA'09. International Workshop}, pp. 1--4, Mayo
+  2009.
+
 
 \bibitem{ElNa99}
-Elmasri R. and Navathe S.~B.
-\newblock Fundamentals of database systems.
-\newblock 1999.
+E.~R. and N.~S.~B., ``Fundamentals of database systems,'' 1999.
+
 
 \bibitem{WeRiSc96}
-Stefan Wermter, Ellen Riloff, and Scheler Gabriele.
-\newblock {\em Connectionist, Statistical and Symbolic Approaches to Learning
-  for Natural Language Processing}.
-\newblock Springer-Verlag, 1996.
+S.~Wermter, E.~Riloff, and S.~Gabriele, \emph{Connectionist, Statistical and
+  Symbolic Approaches to Learning for Natural Language Processing}.\hskip 1em
+  plus 0.5em minus 0.4em\relax Springer-Verlag, 1996.
+
 
 \end{thebibliography}
