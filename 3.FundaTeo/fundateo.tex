@@ -147,6 +147,28 @@ Escriba su texto en Arial de 10 pts, espacio simple. No utilice el doble espacia
 
 Los títulos de la figura y de las tablas deben ser en Arial de 9 pts. Use mayúsculas sólo en la primer palabra de cada título de las figuras y de las Tablas. Las figuras y las tablas se deben numerar separadamente. Los títulos de la figura deberán estar centrados debajo de las figuras. Los títulos de las tablas deberán estar centrados arriba de las tablas. 
 
+\begin{table}[t]
+				\begin{center}
+				  \caption{Tabla de prueba.}
+				  \scalebox{0.8}{
+					\begin{tabular}{ l l c c}
+					\hline
+					Expresión & Comentario & Longitud (muestras) & Módulo\\
+					\hline
+  
+					$\vec{\mathbf{v}}_{on-off}$     & Secuencia binaria    & $b*M$ & Información fuente\\
+					$\vec{\mathbf{v}}_{piloto}$     & Secuencia binaria constante  & $64$ & Información fuente\\
+					$\vec{\mathbf{v}}_{on-off-A}$   & Secuencia binaria del símbolo piloto tipo ''A''    & $b*M$ & Información fuente\\
+					$\vec{\mathbf{v}}_{on-off-R}$   & Secuencia binaria del símbolo tipo ''R''    & $b*M$ & Transmisor\\
+					$\vec{\mathbf{v}}_{antipodal}$  & Secuencia antipodal  & $b*M$ & Transmisor\\
+					\hline
+					\end{tabular}}
+					\label{tab:expre}
+				\end{center}
+			\end{table}
+	
+\section{Ecuaciones}
+
 
 
 \section{Título de primer nivel (sección)}
