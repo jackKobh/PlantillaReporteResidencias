@@ -1,51 +1,42 @@
 \select@language {spanish}
-\contentsline {chapter}{Lista de figuras}{\es@scroman {iv}}
-\contentsline {chapter}{Lista de tablas}{\es@scroman {v}}
-\contentsline {chapter}{Lista de algoritmos}{\es@scroman {vi}}
-\contentsline {chapter}{Lista de siglas}{\es@scroman {vii}}
+\contentsline {chapter}{Lista de figuras}{\es@scroman {iii}}
+\contentsline {chapter}{Lista de tablas}{\es@scroman {iv}}
+\contentsline {chapter}{Lista de algoritmos}{\es@scroman {v}}
+\contentsline {chapter}{Lista de siglas}{\es@scroman {vi}}
 \contentsline {chapter}{\numberline {1}Introducci\'on}{1}
-\contentsline {chapter}{\numberline {2}Generalidades}{3}
-\contentsline {section}{\numberline {2.1}Objetivos}{3}
-\contentsline {subsection}{\numberline {2.1.1}Objetivo general}{3}
-\contentsline {subsection}{\numberline {2.1.2}Objetivos espec\'ificos}{3}
-\contentsline {section}{\numberline {2.2}Justificaci\'on}{3}
-\contentsline {paragraph}{}{3}
-\contentsline {paragraph}{}{4}
-\contentsline {section}{\numberline {2.3}Caracterizaci\'on de la empresa en la que particip\'o}{4}
-\contentsline {subsection}{\numberline {2.3.1}Datos generales de la empresa}{4}
-\contentsline {subsection}{\numberline {2.3.2}Descripci\'on del departamento o \'area de trabajo}{4}
-\contentsline {section}{\numberline {2.4}Problemas a resolver (prioriz\'andolos)}{4}
-\contentsline {paragraph}{}{4}
-\contentsline {section}{\numberline {2.5}Alcances y limitaciones}{5}
-\contentsline {chapter}{\numberline {3}Fundamento te\'orico}{6}
-\contentsline {section}{\numberline {3.1}La bibliograf\IeC {\'\i }a y las referencias}{6}
-\contentsline {section}{\numberline {3.2}Inclusi\'on de figuras y tablas}{7}
-\contentsline {section}{\numberline {3.3}Ecuaciones}{7}
-\contentsline {section}{\numberline {3.4}Edici\'on del documento}{8}
-\contentsline {subsection}{\numberline {3.4.1}Caracter\IeC {\'\i }sticas generales}{8}
-\contentsline {subsection}{\numberline {3.4.2}T\IeC {\'\i }tulo principal de cap\IeC {\'\i }tulo}{8}
-\contentsline {subsection}{\numberline {3.4.3}Tipos de letra}{8}
-\contentsline {subsection}{\numberline {3.4.4}Texto principal}{8}
-\contentsline {section}{\numberline {3.5}T\IeC {\'\i }tulo de primer nivel (secci\'on)}{9}
-\contentsline {subsection}{\numberline {3.5.1}T\IeC {\'\i }tulo de segundo nivel (subsecci\'on)}{9}
-\contentsline {subsubsection}{T\IeC {\'\i }tulo de tercer nivel}{9}
-\contentsline {chapter}{\numberline {4}Desarollo}{10}
-\contentsline {chapter}{\numberline {5}Pruebas y resultados}{11}
-\contentsline {section}{\numberline {5.1}Gu\IeC {\'\i }a de vocabulario para la escritura del componente verbal de aprendizaje}{11}
-\contentsline {subsection}{\numberline {5.1.1}Actividades que proporcionan evidencia de conocimiento}{11}
-\contentsline {subsection}{\numberline {5.1.2}Actividades que proporcionan evidencia de comprensi\'on}{11}
-\contentsline {subsection}{\numberline {5.1.3}Actividades que proporcionan evidencia de aplicaci\'on}{11}
-\contentsline {subsection}{\numberline {5.1.4}Actividades que proporcionan evidencia de an\'alisis}{12}
-\contentsline {subsection}{\numberline {5.1.5}Actividades que proporcionan evidencia de s\IeC {\'\i }ntesis}{12}
-\contentsline {subsection}{\numberline {5.1.6}Actividades que proporcionan evidencia de evaluaci\'on}{12}
-\contentsline {section}{\numberline {5.2}Consejos para la escritura de pruebas y resultados}{12}
-\contentsline {section}{\numberline {5.3}Ejemplos de redacci\'on de criterios de evaluaci\'on}{12}
-\contentsline {chapter}{\numberline {6}Conclusiones}{13}
-\contentsline {section}{\numberline {6.1}Conclusiones finales}{13}
-\contentsline {chapter}{\numberline {A}Lineamientos generales}{15}
-\contentsline {chapter}{\numberline {B}Lineamientos para la publicaci\'on de memorias de residencias}{17}
-\contentsline {section}{\numberline {B.1}?`Qu\'{e} hay que documentar?}{17}
-\contentsline {section}{\numberline {B.2}Marcado de palabras clave}{19}
-\contentsline {section}{\numberline {B.3}Indentado}{20}
-\contentsline {subsection}{\numberline {B.3.1}Objetivo de la indentaci\'on}{20}
-\contentsline {chapter}{Bibliograf\'ia}{21}
+\contentsline {chapter}{\numberline {2}Generalidades}{4}
+\contentsline {section}{\numberline {2.1}Objetivos}{4}
+\contentsline {subsection}{\numberline {2.1.1}Objetivo general}{4}
+\contentsline {chapter}{\numberline {3}Fundamento te\'orico}{5}
+\contentsline {section}{\numberline {3.1}La bibliograf\IeC {\'\i }a y las referencias}{5}
+\contentsline {section}{\numberline {3.2}Inclusi\'on de figuras y tablas}{6}
+\contentsline {section}{\numberline {3.3}Ecuaciones}{6}
+\contentsline {section}{\numberline {3.4}Edici\'on del documento}{7}
+\contentsline {subsection}{\numberline {3.4.1}Caracter\IeC {\'\i }sticas generales}{7}
+\contentsline {subsection}{\numberline {3.4.2}T\IeC {\'\i }tulo principal de cap\IeC {\'\i }tulo}{7}
+\contentsline {subsection}{\numberline {3.4.3}Tipos de letra}{7}
+\contentsline {subsection}{\numberline {3.4.4}Texto principal}{7}
+\contentsline {section}{\numberline {3.5}Ecuaciones}{8}
+\contentsline {section}{\numberline {3.6}T\IeC {\'\i }tulo de primer nivel (secci\'on)}{8}
+\contentsline {subsection}{\numberline {3.6.1}T\IeC {\'\i }tulo de segundo nivel (subsecci\'on)}{8}
+\contentsline {subsubsection}{T\IeC {\'\i }tulo de tercer nivel}{8}
+\contentsline {chapter}{\numberline {4}Desarollo}{9}
+\contentsline {chapter}{\numberline {5}Pruebas y resultados}{10}
+\contentsline {section}{\numberline {5.1}Gu\IeC {\'\i }a de vocabulario para la escritura del componente verbal de aprendizaje}{10}
+\contentsline {subsection}{\numberline {5.1.1}Actividades que proporcionan evidencia de conocimiento}{10}
+\contentsline {subsection}{\numberline {5.1.2}Actividades que proporcionan evidencia de comprensi\'on}{10}
+\contentsline {subsection}{\numberline {5.1.3}Actividades que proporcionan evidencia de aplicaci\'on}{10}
+\contentsline {subsection}{\numberline {5.1.4}Actividades que proporcionan evidencia de an\'alisis}{11}
+\contentsline {subsection}{\numberline {5.1.5}Actividades que proporcionan evidencia de s\IeC {\'\i }ntesis}{11}
+\contentsline {subsection}{\numberline {5.1.6}Actividades que proporcionan evidencia de evaluaci\'on}{11}
+\contentsline {section}{\numberline {5.2}Consejos para la escritura de pruebas y resultados}{11}
+\contentsline {section}{\numberline {5.3}Ejemplos de redacci\'on de criterios de evaluaci\'on}{11}
+\contentsline {chapter}{\numberline {6}Conclusiones}{12}
+\contentsline {section}{\numberline {6.1}Conclusiones finales}{12}
+\contentsline {chapter}{\numberline {A}Lineamientos generales}{14}
+\contentsline {chapter}{\numberline {B}Lineamientos para la publicaci\'on de memorias de residencias}{16}
+\contentsline {section}{\numberline {B.1}?`Qu\'{e} hay que documentar?}{16}
+\contentsline {section}{\numberline {B.2}Marcado de palabras clave}{18}
+\contentsline {section}{\numberline {B.3}Indentado}{19}
+\contentsline {subsection}{\numberline {B.3.1}Objetivo de la indentaci\'on}{19}
+\contentsline {chapter}{Bibliograf\'ia}{20}
