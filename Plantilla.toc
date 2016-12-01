@@ -1,0 +1,26 @@
+\select@language {spanish}
+\contentsline {chapter}{Lista de figuras}{\es@scroman {ii}}
+\contentsline {chapter}{Lista de tablas}{\es@scroman {iii}}
+\contentsline {chapter}{Lista de algoritmos}{\es@scroman {iv}}
+\contentsline {chapter}{Lista de siglas}{\es@scroman {v}}
+\contentsline {chapter}{\numberline {1}Generalidades}{1}
+\contentsline {section}{\numberline {1.1}Objetivos}{1}
+\contentsline {subsection}{\numberline {1.1.1}Objetivo general}{1}
+\contentsline {subsection}{\numberline {1.1.2}Objetivos espec\'ificos}{1}
+\contentsline {section}{\numberline {1.2}Justificaci\'on}{1}
+\contentsline {paragraph}{}{1}
+\contentsline {section}{\numberline {1.3}Caracterizaci\'on de la empresa en la que particip\'o}{2}
+\contentsline {subsection}{\numberline {1.3.1}Datos generales de la empresa}{2}
+\contentsline {subsection}{\numberline {1.3.2}Descripci\'on del departamento o \'area de trabajo.}{3}
+\contentsline {section}{\numberline {1.4}Problemas a resolver}{3}
+\contentsline {paragraph}{}{3}
+\contentsline {chapter}{\numberline {2}Fundamento te\'orico}{5}
+\contentsline {section}{\numberline {2.1}Indicador}{5}
+\contentsline {section}{\numberline {2.2}Sistema de gest\'ion}{5}
+\contentsline {section}{\numberline {2.3}HTML Y HTML 5}{7}
+\contentsline {section}{\numberline {2.4}CSS}{8}
+\contentsline {section}{\numberline {2.5}Bootstrap}{8}
+\contentsline {subsection}{\numberline {2.5.1}Framework}{8}
+\contentsline {chapter}{\numberline {3}Desarollo}{9}
+\contentsline {chapter}{\numberline {4}Pruebas y resultados}{10}
+\contentsline {chapter}{\numberline {5}Conclusiones}{11}

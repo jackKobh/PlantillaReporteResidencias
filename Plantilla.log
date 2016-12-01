@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.27)  25 NOV 2016 02:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.27)  1 DEC 2016 02:57
 entering extended mode
 **./Plantilla.tex
 (Plantilla.tex
@@ -287,7 +287,27 @@ Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
 \bigstrutjot=\dimen136
 )
-Package color Info: Redefining color black on input line 22.
+(C:\Users\JACKW10U\AppData\Roaming\MiKTeX\2.9\tex\latex\booktabs\booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen137
+\lightrulewidth=\dimen138
+\cmidrulewidth=\dimen139
+\belowrulesep=\dimen140
+\belowbottomsep=\dimen141
+\aboverulesep=\dimen142
+\abovetopsep=\dimen143
+\cmidrulesep=\dimen144
+\cmidrulekern=\dimen145
+\defaultaddspace=\dimen146
+\@cmidla=\count112
+\@cmidlb=\count113
+\@aboverulesep=\dimen147
+\@belowrulesep=\dimen148
+\@thisruleclass=\count114
+\@lastruleclass=\count115
+\@thisrulewidth=\dimen149
+)
+Package color Info: Redefining color black on input line 23.
 
 (config/codeConf.tex
 (C:\Users\JACKW10U\AppData\Roaming\MiKTeX\2.9\tex\latex\upquote\upquote.sty
@@ -295,23 +315,23 @@ Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
 tim
 )
 (C:\Users\JACKW10U\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty
-\lst@mode=\count112
+\lst@mode=\count116
 \lst@gtempboxa=\box31
 \lst@token=\toks35
-\lst@length=\count113
-\lst@currlwidth=\dimen137
-\lst@column=\count114
-\lst@pos=\count115
-\lst@lostspace=\dimen138
-\lst@width=\dimen139
-\lst@newlines=\count116
-\lst@lineno=\count117
-\lst@maxwidth=\dimen140
+\lst@length=\count117
+\lst@currlwidth=\dimen150
+\lst@column=\count118
+\lst@pos=\count119
+\lst@lostspace=\dimen151
+\lst@width=\dimen152
+\lst@newlines=\count120
+\lst@lineno=\count121
+\lst@maxwidth=\dimen153
 
 (C:\Users\JACKW10U\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count118
-\lst@skipnumbers=\count119
+\c@lstnumber=\count122
+\lst@skipnumbers=\count123
 \lst@framebox=\box32
 )
 (C:\Users\JACKW10U\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.cfg
@@ -324,36 +344,39 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 (C:\Users\JACKW10U\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 ))
-(Plantilla.aux)
+(Plantilla.aux
+LaTeX Info: Redefining \. on input line 6.
+LaTeX Info: Redefining \% on input line 6.
+)
 \openout1 = `Plantilla.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Info: Redefining \. on input line 28.
-LaTeX Info: Redefining \% on input line 28.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Info: Redefining \. on input line 29.
+LaTeX Info: Redefining \% on input line 29.
 
 (C:\Users\JACKW10U\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count120
-\scratchdimen=\dimen141
+\scratchcounter=\count124
+\scratchdimen=\dimen154
 \scratchbox=\box33
-\nofMPsegments=\count121
-\nofMParguments=\count122
+\nofMPsegments=\count125
+\nofMParguments=\count126
 \everyMPshowfont=\toks36
-\MPscratchCnt=\count123
-\MPscratchDim=\dimen142
-\MPnumerator=\count124
-\makeMPintoPDFobject=\count125
+\MPscratchCnt=\count127
+\MPscratchDim=\dimen155
+\MPnumerator=\count128
+\makeMPintoPDFobject=\count129
 \everyMPtoPDFconversion=\toks37
 ) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
@@ -487,7 +510,7 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
-\c@lstlisting=\count126
+\c@lstlisting=\count130
 
 (config/spanishAlgorithmic.tex) (config/config.tex (Portada/portada.tex
 <logo.png, id=1, 764.10469pt x 85.82062pt>
@@ -506,24 +529,62 @@ Package pdftex.def Info: logo_carrera.png used on input line 45.
 
 
 {C:/Users/JACKW10U/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./logo.p
-ng> <./logo_carrera.png>]) [2]) (Plantilla.toc)
+ng> <./logo_carrera.png>]) [2]) (Plantilla.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
+(Font)              using `OT1/cmr/bx/n' instead on input line 2.
+
+
+Package spanish Warning: Replacing `OT1/cmr/bx/sc' by 
+(spanish)                faked small caps on input line 2.
+
+
+Package spanish Warning: Replacing `OT1/cmr/bx/sc' by 
+(spanish)                faked small caps on input line 3.
+
+
+Package spanish Warning: Replacing `OT1/cmr/bx/sc' by 
+(spanish)                faked small caps on input line 4.
+
+
+Package spanish Warning: Replacing `OT1/cmr/bx/sc' by 
+(spanish)                faked small caps on input line 5.
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 7.
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 7.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
 \tf@toc=\write3
 \openout3 = `Plantilla.toc'.
 
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <10> not available
-(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 42.
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 43.
 
 [1
 
-] (Plantilla.lof)
+] (Plantilla.lof
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+)
 \tf@lof=\write4
 \openout4 = `Plantilla.lof'.
 
  [2
 
-] (Plantilla.lot)
+] (Plantilla.lot
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+)
 \tf@lot=\write5
 \openout5 = `Plantilla.lot'.
 
@@ -540,18 +601,9 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <10> not available
 
 ] (2.Generalidades/generalidades.tex
 Cap\'{\i }tulo 1.
-LaTeX Font Info:    Try loading font information for U+msa on input line 15.
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 15.
+[1
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
-
-]
-<figuras/croquis.png, id=40, 630.85687pt x 397.485pt>
+] <figuras/croquis.png, id=41, 630.85687pt x 397.485pt>
 File: figuras/croquis.png Graphic file (type png)
 
 <use figuras/croquis.png>
@@ -564,11 +616,7 @@ File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Info: Redefining \. on input line 57.
 LaTeX Info: Redefining \% on input line 57.
  [2 <./figuras/croquis.png>]
-
-LaTeX Warning: Reference `fig_organigrama' on page 3 undefined on input line 60
-.
-
-<figuras/organigrama.jpg, id=46, 990.099pt x 567.5604pt>
+<figuras/organigrama.jpg, id=47, 990.099pt x 567.5604pt>
 File: figuras/organigrama.jpg Graphic file (type jpg)
 
 <use figuras/organigrama.jpg>
@@ -590,51 +638,126 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
 [5
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 38--39
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
 
  []
 
-Runaway argument?
-{ 2. Determinar las necesidades de recursos humanos del instituto tec\ETC.
-! Paragraph ended before \@xmultirow was complete.
-<to be read again> 
-                   \par 
-l.48 
-     
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
+LaTeX Info: Redefining \. on input line 69.
+LaTeX Info: Redefining \% on input line 69.
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
-! Misplaced \cr.
-\reserved@c ->\ifnum 0=`{}\fi \cr 
-                                  
-l.56 				\cline
-               {2-2} & Prueba & \\
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
+ []
 
-! Misplaced \omit.
-\@cline #1-#2\@nil ->\omit 
-                           \@multicnt #1\advance \@multispan \m@ne \ifnum \@...
-l.56 				\cline{2-2}
-                     & Prueba & \\
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
 
-! Misplaced alignment tab character &.
-<argument> &
-            \omit 
-l.56 				\cline{2-2}
-                     & Prueba & \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
-! Misplaced \omit.
-<argument> &\omi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--78
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--82
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
+
+ []
+
+LaTeX Info: Redefining \. on input line 96.
+LaTeX Info: Redefining \% on input line 96.
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
+
+ []
+
+) (4.Desarollo/desarrollo.tex
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [8]
+Cap\'{\i }tulo 3.
+) (5.PrueRes/pruebas.tex [9
+
+]
+Cap\'{\i }tulo 4.
+) (6.Conclusion/conclusiones.tex [10
+
+]
+Cap\'{\i }tulo 5.
+) (Referencias/referencias.tex)
+No file Plantilla.bbl.
+[11
+
+] (Plantilla.aux
+LaTeX Info: Redefining \. on input line 6.
+LaTeX Info: Redefining \% on input line 6.
+)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 7400 strings out of 493334
+ 106595 string characters out of 3139243
+ 202560 words of memory out of 3000000
+ 10723 multiletter control sequences out of 15000+200000
+ 10324 words of font info for 38 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 40i,19n,58p,818b,541s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\JACKW10U\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi6
+00\tcrm1000.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx
+10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmsl8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmss10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmsy10.pfb>
+Output written on Plantilla.pdf (18 pages, 1979472 bytes).
+PDF statistics:
+ 113 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+
