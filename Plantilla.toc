@@ -20,8 +20,9 @@
 \contentsline {section}{\numberline {2.3}HTML Y HTML 5}{7}
 \contentsline {section}{\numberline {2.4}CSS}{8}
 \contentsline {section}{\numberline {2.5}Javascript}{8}
-\contentsline {section}{\numberline {2.6}Bootstrap}{9}
-\contentsline {subsection}{\numberline {2.6.1}Framework}{9}
-\contentsline {chapter}{\numberline {3}Desarollo}{10}
-\contentsline {chapter}{\numberline {4}Pruebas y resultados}{11}
-\contentsline {chapter}{\numberline {5}Conclusiones}{12}
+\contentsline {section}{\numberline {2.6}C\#}{9}
+\contentsline {section}{\numberline {2.7}Bootstrap}{13}
+\contentsline {subsection}{\numberline {2.7.1}Framework}{13}
+\contentsline {chapter}{\numberline {3}Desarollo}{14}
+\contentsline {chapter}{\numberline {4}Pruebas y resultados}{15}
+\contentsline {chapter}{\numberline {5}Conclusiones}{16}

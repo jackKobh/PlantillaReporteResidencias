@@ -16,6 +16,8 @@ for line in fileIn:
 	line = line.replace("Ñ", "\\~N")
 	line = line.replace("”", "\"")
 	line = line.replace("“", "\"")
+	line = line.replace("#", "\#")
+
 	
 	
 	fileOut.write(line)
