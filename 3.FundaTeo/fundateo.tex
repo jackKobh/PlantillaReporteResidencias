@@ -75,8 +75,46 @@ Las tecnolog\'ias del lado del servidor son todas aquellas en las cuales su ejec
 
 Dentro de los lenguajes de servidor se encuentran los lenguajes de consulta de base de datos, los cuales como su nombre lo dice sirven para manipular la informaci\'on de una base de datos. El lenguaje de manipulaci\'on de datos que se utiliza en los diferentes motores de base de datos es SQL.\\ \\
 A continuaci\'on se definir\'an las tecnolog\'ias del cliente utilizadas para el desarrollo del sistema.
+\section{Arquitectura Cliente-Servidor}
 
-\section{HTML Y HTML 5}
+Se puede definir la computacion cliente servidor  como una arquitectura  distribuida que permite obtener acceso a informacion de manera transparente para el usuario final aun en entornos multiplataforma.\\
+
+La arquitectura cliente servidor es el resultado de la integracion de dos culturas, por un lado la del Mainframe que aporta la capacidad de almacenamiento, integridad y acceso a la informacion, y por otro lado la del computador, la cual aporta la facilidad de uso a bajo costo ademas, provee de una presentacion atractiva y una gran variedad en productos y aplicaciones.\\
+
+El funcionamiento de la arquitectura cliente-servidor es la siguiente:
+
+\begin{itemize}
+	\item Solicitud de informaci\'on del cliente al servidor.
+	\item El servidor recibe la petici\'on del cliente.
+	\item El servidor procesa la solicitud.
+	\item El servidor regresa el resultado con la informaci\'on solicitada.
+	\item El cliente recibe la informaci\'on y la procesa.
+\end{itemize}
+
+La arquitectura cliente servidor est\'a basado en la idea del servicio, en el que el cliente es un proceso consumidor de servicios y el servidor es un proceso proveedor de servicios, esta relaci\'on est\'a establecida en funci\'on del intercambio de mensajes que es el \'unico elemento de acoplamiento entre ambos.\\
+
+Las partes fundamentales de la arquitectura cliente servidor son las siguientes:
+
+\begin{itemize}
+	\item \textbf{Proceso en el cliente:} Es el que inicia el dialogo mediante una petici\'on.
+	\item \textbf{Proceso en el servidor:} Es quien se encuentra en espera de que lleguen peticiones de servicio y da respuesta a las mismas.
+	\item \textbf{Middleware:} Es el medio por el cual se transmite informaci\'on entre cliente y servidor, permitiendo el env\'io y recepci\'on de mensajes.
+\end{itemize}
+
+En la figura \ref{fig_clienteservidor} se muestra el diagrama que ilustra lo anterior.
+
+
+	\begin{figure}[htb]
+        \centering
+        \includegraphics[width=14cm, height=7cm]{figuras/clienteservidor}
+        \caption{Diagrama de modelo cliente-servidor.}
+        \label{fig_clienteservidor}
+    \end{figure}
+
+
+
+\section{Lenguajes en cliente (Frontend)}
+\subsection{HTML Y HTML 5}
 
 Defini\'endolo de forma sencilla, \textsl{"HTML es lo que se utiliza para crear todas las p\'aginas web de Internet"}. M\'as concretamente, HTML es el lenguaje con el que se \textsl{"escriben"} la mayor\'ia de p\'aginas web.\\
 
@@ -104,7 +142,7 @@ HTML5 establece una serie de nuevos elementos y atributos que reflejan el uso t\
 
 Aunque oficialmente no fue declarado, HTML5 es considerado como la combinaci\'on de HTML, CSS y Javascript ya que estas tecnolog\'ias son altamente dependientes y act\'uan como una sola unidad organizada bajo  la especificaci\'on de HTML5. HTML est\'a a cargo de la estructura, CSS presenta esta estructura y Javascript se encarga de darle funcionalidad.
 
-\section{CSS}
+\subsection{CSS}
 
 Como ya se mencion\'o anteriormente el conjunto de tecnolog\'ias que trabajan en conjunto con HTML para formar HTML5 no solamente incluye los nuevos elementos que permiten que la definici\'on de la estructura de un sistema se mas f\'acil, si no tambi\'en es de vital importancia hablar de la parte que permite darle una buena presentaci\'on.\\
 
@@ -113,7 +151,7 @@ Oficialmente CSS no tiene nada que ver con HTML5 ya que es un complemento desarr
 En la versi\'on 3 de CSS es considerado en el desarrollo de HTML5 , debido a esto la integraci\'on entre ambos lenguajes es vital para el desarrollo web  y es la raz\'on por la que cada que se habla de HTML5 tambi\'en se hace referencia a CSS3 aunque oficialmente se trate de dos tecnolog\'ias completamente separadas.
 En estos momentos las nuevas caracter\'isticas que se incorporan a CSS3 se han ido incorporando a los navegadores web al igual que las caracter\'isticas de HTML5.
 
-\section{Javascript}
+\subsection{Javascript}
 
 Javascript es un lenguaje interpretado usado para m\'ultiples prop\'ositos pero solo considerado como un complemento hasta ahora. Una de las innovaciones que ayud\'o a cambiar el modo en que vemos Javascript fue el desarrollo de nuevos motores de interpretaci\'on, creados para acelerar el procesamiento de c\'odigo. La clave de los motores m\'as exitosos fue transformar el c\'odigo Javascript en c\'odigo m\'aquina para lograr velocidades de ejecuci\'on similares a aquellas encontradas en aplicaciones de escritorio. Esta mejorada capacidad permiti\'o superar viejas limitaciones de rendimiento y confirmar el lenguaje Javascript como la mejor opci\'on para la web.\\
 
@@ -122,7 +160,8 @@ Para aprovechar esta prometedora plataforma de trabajo ofrecida por los nuevos n
 
 Despues de hablar de las tecnolog\'ias del lado del cliente, a continuacion hablaremos de las que se ejecutan en el servidor.
 
-\section{C\#}
+\section{Lenguajes en servidor (Backend)}
+\subsection{C\#}
 
 C\# es el nuevo lenguaje de prop\'osito general dise\~nado por Scott Wiltamuth y Anders Hejlsberg, este \'ultimo tambi\'en es conocido por dise\~nar el lenguaje Turbo Pascal y la herramienta RAD Delphi.\\
 
@@ -200,7 +239,7 @@ Las caracter\'isticas principales de C\# son las siguientes:
 \end{itemize}
 
 
-\section{Bootstrap}
+\subsection{Bootstrap}
 
 Para comenzar a hablar de bootstrap es necesario citar algunas definiciones las cuales aclararan el panorama acerca de este.
 

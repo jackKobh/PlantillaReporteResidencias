@@ -17,12 +17,15 @@
 \contentsline {chapter}{\numberline {2}Fundamento te\'orico}{5}
 \contentsline {section}{\numberline {2.1}Indicador}{5}
 \contentsline {section}{\numberline {2.2}Sistema de gest\'ion}{5}
-\contentsline {section}{\numberline {2.3}HTML Y HTML 5}{7}
-\contentsline {section}{\numberline {2.4}CSS}{8}
-\contentsline {section}{\numberline {2.5}Javascript}{8}
-\contentsline {section}{\numberline {2.6}C\#}{9}
-\contentsline {section}{\numberline {2.7}Bootstrap}{13}
-\contentsline {subsection}{\numberline {2.7.1}Framework}{13}
-\contentsline {chapter}{\numberline {3}Desarollo}{14}
-\contentsline {chapter}{\numberline {4}Pruebas y resultados}{15}
-\contentsline {chapter}{\numberline {5}Conclusiones}{16}
+\contentsline {section}{\numberline {2.3}Arquitectura Cliente-Servidor}{7}
+\contentsline {section}{\numberline {2.4}Lenguajes en cliente (Frontend)}{8}
+\contentsline {subsection}{\numberline {2.4.1}HTML Y HTML 5}{8}
+\contentsline {subsection}{\numberline {2.4.2}CSS}{9}
+\contentsline {subsection}{\numberline {2.4.3}Javascript}{9}
+\contentsline {section}{\numberline {2.5}Lenguajes en servidor (Backend)}{10}
+\contentsline {subsection}{\numberline {2.5.1}C\#}{10}
+\contentsline {subsection}{\numberline {2.5.2}Bootstrap}{14}
+\contentsline {subsection}{\numberline {2.5.3}Framework}{14}
+\contentsline {chapter}{\numberline {3}Desarollo}{15}
+\contentsline {chapter}{\numberline {4}Pruebas y resultados}{16}
+\contentsline {chapter}{\numberline {5}Conclusiones}{17}

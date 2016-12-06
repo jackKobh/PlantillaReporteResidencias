@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.27)  4 DEC 2016 00:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.27)  6 DEC 2016 10:33
 entering extended mode
 **./Plantilla.tex
 (Plantilla.tex
@@ -665,70 +665,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--78
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--82
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--84
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--86
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
+
+ []
+
+<figuras/clienteservidor.png, id=61, 548.449pt x 221.628pt>
+File: figuras/clienteservidor.png Graphic file (type png)
+
+<use figuras/clienteservidor.png>
+Package pdftex.def Info: figuras/clienteservidor.png used on input line 109.
+(pdftex.def)             Requested size: 398.33922pt x 199.16914pt.
+LaTeX Info: Redefining \. on input line 112.
+LaTeX Info: Redefining \% on input line 112.
+ [7]
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
+Underfull \hbox (badness 10000) in paragraph at lines 123--124
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--92
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--94
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 95--96
-
- []
-
-LaTeX Info: Redefining \. on input line 96.
-LaTeX Info: Redefining \% on input line 96.
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 109--110
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--112
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 118--119
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
-
- []
-
-LaTeX Info: Redefining \. on input line 121.
-LaTeX Info: Redefining \% on input line 121.
-[8]
 Underfull \hbox (badness 10000) in paragraph at lines 127--128
 
  []
@@ -743,13 +722,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 131--132
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--144
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--146
+LaTeX Info: Redefining \. on input line 132.
+LaTeX Info: Redefining \% on input line 132.
+[8 <./figuras/clienteservidor.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
 
  []
 
@@ -758,16 +734,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 147--148
 
  []
 
-LaTeX Info: Redefining \. on input line 148.
-LaTeX Info: Redefining \% on input line 148.
-[9]
+
 Underfull \hbox (badness 10000) in paragraph at lines 149--150
 
  []
 
-LaTeX Info: Redefining \. on input line 164.
-LaTeX Info: Redefining \% on input line 164.
-[10]
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
+
+ []
+
+LaTeX Info: Redefining \. on input line 159.
+LaTeX Info: Redefining \% on input line 159.
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 166--167
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 168--169
 
  []
@@ -778,55 +767,89 @@ Underfull \hbox (badness 10000) in paragraph at lines 170--171
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--177
+Underfull \hbox (badness 10000) in paragraph at lines 182--183
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 178--179
-
- []
-
-LaTeX Info: Redefining \. on input line 183.
-LaTeX Info: Redefining \% on input line 183.
-[11]
+LaTeX Info: Redefining \. on input line 184.
+LaTeX Info: Redefining \% on input line 184.
+[10]
 Underfull \hbox (badness 10000) in paragraph at lines 184--185
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--196
+Underfull \hbox (badness 10000) in paragraph at lines 186--187
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 197--198
+Underfull \hbox (badness 10000) in paragraph at lines 188--189
 
  []
 
-LaTeX Info: Redefining \. on input line 207.
-LaTeX Info: Redefining \% on input line 207.
-[12]
+LaTeX Info: Redefining \. on input line 201.
+LaTeX Info: Redefining \% on input line 201.
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 209--210
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--218
+
+ []
+
+LaTeX Info: Redefining \. on input line 220.
+LaTeX Info: Redefining \% on input line 220.
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 223--224
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 234--235
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 236--237
+
+ []
+
+LaTeX Info: Redefining \. on input line 237.
+LaTeX Info: Redefining \% on input line 237.
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 248--249
 
  []
 
 ) (4.Desarollo/desarrollo.tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [13]
+ [14]
 Cap\'{\i }tulo 3.
-) (5.PrueRes/pruebas.tex [14
+) (5.PrueRes/pruebas.tex [15
 
 ]
 Cap\'{\i }tulo 4.
-) (6.Conclusion/conclusiones.tex [15
+) (6.Conclusion/conclusiones.tex [16
 
 ]
 Cap\'{\i }tulo 5.
 ) (Referencias/referencias.tex)
 No file Plantilla.bbl.
-[16
+[17
 
 ] (Plantilla.aux
 LaTeX Info: Redefining \. on input line 6.
@@ -837,10 +860,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 7401 strings out of 493334
- 106610 string characters out of 3139243
+ 7407 strings out of 493334
+ 106777 string characters out of 3139243
  202560 words of memory out of 3000000
- 10724 multiletter control sequences out of 15000+200000
+ 10729 multiletter control sequences out of 15000+200000
  10324 words of font info for 38 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  40i,19n,58p,845b,541s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -856,9 +879,9 @@ lic/amsfonts/cm/cmsl8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
 nts/cm/cmss10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
 mssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.
 pfb>
-Output written on Plantilla.pdf (23 pages, 2007629 bytes).
+Output written on Plantilla.pdf (24 pages, 2019208 bytes).
 PDF statistics:
- 133 PDF objects out of 1000 (max. 8388607)
+ 138 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
