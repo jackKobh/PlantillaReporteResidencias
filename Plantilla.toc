@@ -10,13 +10,13 @@
 \contentsline {subsection}{\numberline {2.1.2}Objetivos espec\'ificos}{3}
 \contentsline {section}{\numberline {2.2}Justificaci\'on}{3}
 \contentsline {paragraph}{}{3}
-\contentsline {paragraph}{}{4}
+\contentsline {paragraph}{}{3}
 \contentsline {section}{\numberline {2.3}Caracterizaci\'on de la empresa en la que particip\'o}{4}
 \contentsline {subsection}{\numberline {2.3.1}Datos generales de la empresa}{4}
 \contentsline {subsection}{\numberline {2.3.2}Descripci\'on del departamento o \'area de trabajo}{4}
 \contentsline {section}{\numberline {2.4}Problemas a resolver (prioriz\'andolos)}{4}
 \contentsline {paragraph}{}{4}
-\contentsline {section}{\numberline {2.5}Alcances y limitaciones}{5}
+\contentsline {section}{\numberline {2.5}Alcances y limitaciones}{4}
 \contentsline {chapter}{\numberline {3}Fundamento te\'orico}{6}
 \contentsline {section}{\numberline {3.1}La bibliograf\IeC {\'\i }a y las referencias}{6}
 \contentsline {section}{\numberline {3.2}Inclusi\'on de figuras y tablas}{7}
