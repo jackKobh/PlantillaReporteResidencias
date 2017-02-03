@@ -106,7 +106,7 @@ En la figura \ref{fig_clienteservidor} se muestra el diagrama que ilustra lo ant
 
 	\begin{figure}[htb]
         \centering
-        \includegraphics[width=14cm, height=7cm]{figuras/clienteservidor}
+        \includegraphics[width=16cm, height=7cm]{figuras/clienteservidor}
         \caption{Diagrama de modelo cliente-servidor.}
         \label{fig_clienteservidor}
     \end{figure}
@@ -238,13 +238,60 @@ Las caracter\'isticas principales de C\# son las siguientes:
 	Finalmente, tambi\'en se da la posibilidad de usar controles ActiveX desde c\'odigo .NET y viceversa. Para lo primero se utiliza la utilidad aximp, mientras que para lo segundo se usa la ya mencionada regasm.
 \end{itemize}
 
+\section{Frameworks}
 
-\subsection{Bootstrap}
+El concepto framework se emplea en muchos \'ambitos del desarrollo de sistemas software, no solo en el \'ambito de aplicaciones Web. Podemos encontrar frameworks para el desarrollo de aplicaciones m\'edicas, de visi\'on por computador, para el desarrollo de juegos, y para cualquier \'ambito que pueda ocurr\'irsenos.\\
 
-Para comenzar a hablar de bootstrap es necesario citar algunas definiciones las cuales aclararan el panorama acerca de este.
+En general, con el t\'ermino framework, nos estamos refiriendo a una estructura software compuesta de componentes personalizables e intercambiables para el desarrollo de una aplicaci\'on. En otras palabras, un framework se puede considerar como una aplicaci\'on gen\'erica incompleta y configurable a la que podemos a\~nadirle las \'ultimas piezas para construir una aplicaci\'on concreta.\\
 
-	\subsection{Framework}
+\'Existen frameworks tanto para lenguajes del cliente como del servidor, permitiendo realizar desarrollos mas rápidos y eficientes. Dentro de los frameworks utilizados se encuentran los siguientes:
 
-	El concepto framework se emplea en muchos \'ambitos del desarrollo de sistemas software, no solo en el \'ambito de aplicaciones Web. Podemos encontrar frameworks para el desarrollo de aplicaciones m\'edicas, de visi\'on por computador, para el desarrollo de juegos, y para cualquier \'ambito que pueda ocurr\'irsenos.\\
 
- 	En general, con el t\'ermino framework, nos estamos refiriendo a una estructura software compuesta de componentes personalizables e intercambiables para el desarrollo de una aplicaci\'on. En otras palabras, un framework se puede considerar como una aplicaci\'on gen\'erica incompleta y configurable a la que podemos a\~nadirle las \'ultimas piezas para construir una aplicaci\'on concreta.
+
+
+\subsection{Frameworks en cliente}
+
+	\subsubsection{Bootstrap}
+
+		Bootstrap es un framework de Twitter el cual est\'a enfocado para el desarrollo Web, espec\'ificamente dise\~nado para la maquetaci\'on de sitios Web mediante  el lenguaje de estilos CSS y Javascript. Este est\'a conformado por un conjunto de archivos CSS y Javascript los cuales al incluirlos en un sitio Web se facilita el maquetado y la edici\'on de estilos de la misma sin tocar en absoluto el c\'odigo CSS, esto agiliza el desarrollo de aplicaciones Web d\'andonos un dise\~no elegante y bueno gracias a sus clases predefinidas.\\
+
+		El Framework trae varios elementos con estilos predefinidos f\'aciles de configurar: Botones, Men\'us desplegables, Formularios incluyendo todos sus elementos e integraci\'on jQuery para ofrecer ventanas y mensajes din\'amicos.\\
+
+	\subsubsection{JQuery}
+
+		JQuery es una biblioteca de JavaScript creada inicialmente por John Resig, la cual nos permite simplificar la manera de interactuar con los documentos HTML, manipular el \'arbol DOM, manejar eventos, desarrollar animaciones y agregar integraci\'on con la t\'ecnica AJAX a p\'aginas Web.\\
+
+		El DOM (Document Object Model), proporciona un conjunto est\'andar de objetos para representar documentos HTML y XML, un modelo est\'andar sobre c\'omo pueden combinarse dichos objetos, y una interfaz est\'andar para acceder a ellos y manipularlos. A trav\'es del DOM, los programas pueden acceder y modificar el contenido, estructura y estilo de los documentos HTML y  XML, que es para lo que se dise\~n\'o principalmente.\\
+
+\subsection{Frameworks en servidor}
+
+	\subsubsection{.NET Framework}
+
+		El framework utilizado en el servidor es .NET Framework de Microsoft el cual es un componente de software que puede ser a\~nadido al sistema operativo Windows, este provee un extenso conjunto de soluciones predefinidas para necesidades generales de la programacion de aplicaciones y administra la ejecuci\'on de los programas escritos espec\'ificamente con la plataforma.\\
+
+		.NET Framework podr\'ia ser considerada una respuesta de Microsoft al creciente mercado de los negocios en entornos WEB, como competencia a la plataforma Java de Oracle Corporation y a los diversos Frameworks de desarrollo web usados en PHP. Dicho Framework propone ofrecer una manera r\'apida y econ\'omica, a la vez que segura y robusta para desarrollar aplicaciones permitiendo una integraci\'on r\'apida y \'agil, permitiendo con esto acceso a la informaci\'on desde cualquier tipo de dispositivo.\\
+
+		A continuaci\'on se muestra una breve descripci\'on de las versiones de .NET Framework:
+
+		\begin{itemize}
+			\item \textbf{.NET Framework 1.0: } Lanzado en 2002 (Visual Studio .NET), Esta es la primera versi\'on de .NET Framework, publicado el 13 de febrero de 2002 y disponible para Windows 98,ME,NT 4.0,2000 y XP. El soporte est\'andar de Microsoft para esta versi\'on finaliza 10 de julio de 2007 y el soporte extendido termin\'o el 14 de julio de 2009, con la excepci\'on de XP Media Center y Tablet PC ediciones. 
+
+			\item \textbf{.NET Framework 1.1: } Lanzado en 2003 (Visual Studio 2003), El soporte integrado para tel\'efonos ASP.NET controles. Previamente disponible como un add-on para .NET Framework, que ahora forma parte del marco. Los cambios en la seguridad permiten utilizar ensamblados  para ejecutar aplicaciones en internet con restricciones de confianza permitiendo acceesos restringidos  a las aplicaciones de ASP.NET. El soporte para ODBC y bases de datos le permite una mayor funcionalidad ademas de implementar el soporte para Internet vers\'ion  6.
+
+			\item \textbf{.NET Framework 2.0: } Lanzado en 2005 (Visual Studio .NET 2005), con un nuevo CLR (para manejar los gen\'ericos y tipos anulables) y los compiladores de C\# y VB 2 8.
+			El paquete redistribuible 2.0 se puede descargar de forma gratuita desde Microsoft, y fue publicado el 22 de enero de 2006. 2.0 El SDK(Software Development Kit) se puede descargar de forma gratuita desde Microsoft. Se incluye como parte de Visual Studio 2005 y Microsoft SQL Server 2005. La versi\'on 2.0 sin ning\'un Service Pack es la \'ultima versi\'on con soporte para Windows 98 y Windows Me. Versi\'on 2.0 con Service Pack 2 es la \'ultima versi\'on con soporte oficial para Windows 2000, aunque ha habido algunas soluciones no oficiales publicados en l\'inea para utilizar un subconjunto de la funcionalidad de la Versi\'on 3.5 en Windows 2000. 
+
+			\item \textbf{.NET Framework 3.0: } Lanzado en 2006 , b\'asicamente es s\'olo .NET 2.0 con nuevas bibliotecas como Windows Presentation Foundation, Windows Communication Foundation, Workflow Foundation y Cardspace, .NET Framework 3.0  anteriormente llamado WinFX, fue lanzado el 21 de noviembre de 2006 e incluye un nuevo sistema de c\'odigo administrado API que son una parte integral de Windows Vista y Windows Server 2008 sistemas operativos. También está disponible para Windows XP SP2 y Windows Server 2003 como descarga. No hay grandes cambios de arquitectura que se incluyen con esta versi\'on;. NET Framework 3.0 utiliza el mismoCLR (Common Language Runtime) como NET Framework 2.0 . 
+
+			\item \textbf{.NET Framework 3.5: } Lanzado en 2007, basado en .NET 3.0 incluyendo nuevas bibliotecas como LINQ y TimeZoneInfo, adem\'as de nuevos compiladores de C\# y VB 3.9.
+
+			\item \textbf{.NET Framework 4.0: } Lanzado en 2010 con un nuevo CLR, nuevas bibliotecas y el DLR(Dynamic Languaje Runtime). La parte principal de esta versi\'on son las extensiones que permiten mejorar el apoyo para el computo paralelo, dirigida a multiples n\'ucleos o sistemas distribuidos. Se implementa la tecnolog\'ia de computo paralelo para LINQ llamada PLINQ (Paralel LINQ).
+
+			\item \textbf{.NET Framework 4.5: } Lanzado en 2012 permite el desarrollo en Windows 8, as\'i como bibliotecas adicionales que permiten la resoluci\'on m\'as eficiente de expresiones regulares. Tambi\'en permite definir una cultura para un dominio de aplicaci\'on y soporte para la Unicode(UTF-16).
+
+		\end{itemize}
+
+Debido a la gran facilidad
+
+
+	

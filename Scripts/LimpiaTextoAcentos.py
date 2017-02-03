@@ -17,6 +17,7 @@ for line in fileIn:
 	line = line.replace("”", "\"")
 	line = line.replace("“", "\"")
 	line = line.replace("#", "\#")
+	line = line.replace("ú", "\\'u")
 
 	
 	

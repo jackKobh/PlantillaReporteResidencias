@@ -24,8 +24,12 @@
 \contentsline {subsection}{\numberline {2.4.3}Javascript}{9}
 \contentsline {section}{\numberline {2.5}Lenguajes en servidor (Backend)}{10}
 \contentsline {subsection}{\numberline {2.5.1}C\#}{10}
-\contentsline {subsection}{\numberline {2.5.2}Bootstrap}{14}
-\contentsline {subsection}{\numberline {2.5.3}Framework}{14}
-\contentsline {chapter}{\numberline {3}Desarollo}{15}
-\contentsline {chapter}{\numberline {4}Pruebas y resultados}{16}
-\contentsline {chapter}{\numberline {5}Conclusiones}{17}
+\contentsline {section}{\numberline {2.6}Frameworks}{14}
+\contentsline {subsection}{\numberline {2.6.1}Frameworks en cliente}{14}
+\contentsline {subsubsection}{Bootstrap}{14}
+\contentsline {subsubsection}{JQuery}{14}
+\contentsline {subsection}{\numberline {2.6.2}Frameworks en servidor}{15}
+\contentsline {subsubsection}{.NET Framework}{15}
+\contentsline {chapter}{\numberline {3}Desarollo}{17}
+\contentsline {chapter}{\numberline {4}Pruebas y resultados}{18}
+\contentsline {chapter}{\numberline {5}Conclusiones}{19}
