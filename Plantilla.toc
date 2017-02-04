@@ -30,6 +30,10 @@
 \contentsline {subsubsection}{JQuery}{14}
 \contentsline {subsection}{\numberline {2.6.2}Frameworks en servidor}{15}
 \contentsline {subsubsection}{.NET Framework}{15}
-\contentsline {chapter}{\numberline {3}Desarollo}{17}
-\contentsline {chapter}{\numberline {4}Pruebas y resultados}{18}
-\contentsline {chapter}{\numberline {5}Conclusiones}{19}
+\contentsline {section}{\numberline {2.7}Arquitectura de Software}{16}
+\contentsline {subsection}{\numberline {2.7.1}MVC (Modelo Vista Controlador)}{17}
+\contentsline {chapter}{\numberline {3}Desarollo}{18}
+\contentsline {section}{\numberline {3.1}prueba}{18}
+\contentsline {chapter}{\numberline {4}Pruebas y resultados}{19}
+\contentsline {chapter}{\numberline {5}Conclusiones}{20}
+\contentsline {chapter}{Bibliograf\'ia}{21}

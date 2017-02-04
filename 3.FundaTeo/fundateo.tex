@@ -300,23 +300,23 @@ A continuaci\'on se describen los conceptos de arquitectura de software utilizad
 
 \section{Arquitectura de Software}
 
-En un principio la programaci\'on fue considerada un arte  y se desarrollaba como tal, esto debido a la dificultad que representaba realizar dicha actividad. Con el paso del tiempo se han ido desarrollando nuevas formas para el desarrollo de software con las cuales la resoluci\'on de problemas ha reducido su complejidad. A estas formas de desarrollo se les denomina Arquitectura de Sofware.\\
+	En un principio la programaci\'on fue considerada un arte  y se desarrollaba como tal, esto debido a la dificultad que representaba realizar dicha actividad. Con el paso del tiempo se han ido desarrollando nuevas formas para el desarrollo de software con las cuales la resoluci\'on de problemas ha reducido su complejidad. A estas formas de desarrollo se les denomina Arquitectura de Sofware.\\
 
-La arquitectura de software es definida como un nivel de dise\~no que pone especial inter\'es en aspectos m\'as all\'a de  los algoritmos y estructuras de datos de la computaci\'on; el dise\~no y especificaci\'on de la estructura global del sistema es un nuevo tipo de problema.\\
+	La arquitectura de software es definida como un nivel de dise\~no que pone especial inter\'es en aspectos m\'as all\'a de  los algoritmos y estructuras de datos de la computaci\'on; el dise\~no y especificaci\'on de la estructura global del sistema es un nuevo tipo de problema.\\
 
-La arquitectura de software es el dise\~no de mas alto nivel  de la estructura de un sistema permitiendo con esto contar con un panorama amplio acerca del funcionamiento del sistema.\\
+	La arquitectura de software es el dise\~no de mas alto nivel  de la estructura de un sistema permitiendo con esto contar con un panorama amplio acerca del funcionamiento del sistema.\\
 
-Para elegir una arquitectura de software se necesita realizar un an\'alisis de objetivos y requerimientos, adem\'as de las restricciones, por ejemplo, no es recomendable utilizar una arquitectura de 3 capas para un sistema que manejar\'a informaci\'on en tiempo real.\\
+	Para elegir una arquitectura de software se necesita realizar un an\'alisis de objetivos y requerimientos, adem\'as de las restricciones, por ejemplo, no es recomendable utilizar una arquitectura de 3 capas para un sistema que manejar\'a informaci\'on en tiempo real.\\
 
-Generalmente, no es necesario inventar una nueva arquitectura para cada sistema a desarrollar, mas bien es recomendable adoptar alguna de las existentes.\\
+	Generalmente, no es necesario inventar una nueva arquitectura para cada sistema a desarrollar, mas bien es recomendable adoptar alguna de las existentes.\\
 
-Dentro de las arquitecturas mas conocidas se encuentran las siguientes:\\
-\begin{itemize}
-	\item \textbf{Descomposici\'on modular:} Donde el software se estructura en grupos funcionales muy acoplados.
-	\item \textbf{Cliente-Servidor:} Donde el software reparte su carga de c\'omputo en dos partes independientes pero sin reparto claro de funciones.
-	\item \textbf{Arquitectura de tres niveles:} Especializaci\'on de la arquitectura cliente-servidor donde la carga se divide en tres partes (o capas) con un reparto claro de funciones: una capa para la presentaci\'on (interfaz de usuario), otra para el c\'alculo (donde se encuentra modelado el negocio) y otra para el almacenamiento (persistencia). Una capa solamente tiene relaci\'on con la siguiente.
-	\item \textbf{Modelo Vista Controlador:} Es un patr\'on de arquitectura de software, que separa  los datos y la l\'ogica de negocios de un aplicaci\'on de la interfaz de usuario y el modulo encargado de gestionar  los eventos y las comunicaciones.
-\end{itemize}
+	Dentro de las arquitecturas mas conocidas se encuentran las siguientes:\\
+	\begin{itemize}
+		\item \textbf{Descomposici\'on modular:} Donde el software se estructura en grupos funcionales muy acoplados.
+		\item \textbf{Cliente-Servidor:} Donde el software reparte su carga de c\'omputo en dos partes independientes pero sin reparto claro de funciones.
+		\item \textbf{Arquitectura de tres niveles:} Especializaci\'on de la arquitectura cliente-servidor donde la carga se divide en tres partes (o capas) con un reparto claro de funciones: una capa para la presentaci\'on (interfaz de usuario), otra para el c\'alculo (donde se encuentra modelado el negocio) y otra para el almacenamiento (persistencia). Una capa solamente tiene relaci\'on con la siguiente.
+		\item \textbf{Modelo Vista Controlador:} Es un patr\'on de arquitectura de software, que separa  los datos y la l\'ogica de negocios de un aplicaci\'on de la interfaz de usuario y el modulo encargado de gestionar  los eventos y las comunicaciones.
+	\end{itemize}
 
-La arquitectura seleccionada para el SII es el Modelo Vista Controlador (MVC) el cual debido a la forma de organizar el funcionamiento del sistema cubre muy bien las necesidades del sistema.
-	\subsection{MVC (Modelo Vista Controlador)}
+	La arquitectura seleccionada para el SII es el Modelo Vista Controlador (MVC) el cual debido a la forma de organizar el funcionamiento del sistema cubre muy bien las necesidades del sistema.
+		\subsection{MVC (Modelo Vista Controlador)}

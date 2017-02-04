@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.12.6)  4 FEB 2017 01:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.12.6)  4 FEB 2017 01:54
 entering extended mode
 **./Plantilla.tex
 (Plantilla.tex
@@ -938,9 +938,15 @@ Cap\'{\i }tulo 4.
 
 ]
 Cap\'{\i }tulo 5.
-) (Referencias/referencias.tex)
-No file Plantilla.bbl.
-[20
+) (Referencias/referencias.tex) (Plantilla.bbl [20
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 22--25
+[]\OT1/cmr/m/n/10 S. Abad Mo-ta, ``Li-nea-mien-tos so-bre como es-cri-bir in-f
+or-mes tecni-cos,''
+ []
+
+) [21
 
 ] (Plantilla.aux
 LaTeX Info: Redefining \. on input line 6.
@@ -949,13 +955,16 @@ LaTeX Info: Redefining \% on input line 6.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 7416 strings out of 493334
- 107403 string characters out of 3136669
+ 7444 strings out of 493334
+ 107783 string characters out of 3136669
  202642 words of memory out of 3000000
- 10738 multiletter control sequences out of 15000+200000
- 10324 words of font info for 38 fonts, out of 3000000 for 9000
+ 10763 multiletter control sequences out of 15000+200000
+ 10670 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  40i,19n,58p,845b,539s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Urbano\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
@@ -969,10 +978,11 @@ b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C
 Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl8.pfb><C:/Pro
 gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Progr
 am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Progr
-am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Plantilla.pdf (27 pages, 2037636 bytes).
+am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program
+ Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on Plantilla.pdf (28 pages, 2058584 bytes).
 PDF statistics:
- 149 PDF objects out of 1000 (max. 8388607)
+ 156 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
