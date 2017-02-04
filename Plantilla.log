@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.12.6)  3 FEB 2017 00:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.12.6)  4 FEB 2017 01:44
 entering extended mode
 **./Plantilla.tex
 (Plantilla.tex
@@ -877,22 +877,70 @@ Underfull \hbox (badness 10000) in paragraph at lines 272--273
 
 LaTeX Info: Redefining \. on input line 291.
 LaTeX Info: Redefining \% on input line 291.
-[15]) (4.Desarollo/desarrollo.tex
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 294--295
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 296--297
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--299
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 303--304
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--306
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 307--308
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 309--310
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--312
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--314
+
+ []
+
+) (4.Desarollo/desarrollo.tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
  [16]
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [17]
 Cap\'{\i }tulo 3.
-) (5.PrueRes/pruebas.tex [17
+) (5.PrueRes/pruebas.tex [18
 
 ]
 Cap\'{\i }tulo 4.
-) (6.Conclusion/conclusiones.tex [18
+) (6.Conclusion/conclusiones.tex [19
 
 ]
 Cap\'{\i }tulo 5.
 ) (Referencias/referencias.tex)
 No file Plantilla.bbl.
-[19
+[20
 
 ] (Plantilla.aux
 LaTeX Info: Redefining \. on input line 6.
@@ -922,9 +970,9 @@ Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl8.pfb><C:/Pro
 gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Progr
 am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Progr
 am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Plantilla.pdf (26 pages, 2034060 bytes).
+Output written on Plantilla.pdf (27 pages, 2037636 bytes).
 PDF statistics:
- 146 PDF objects out of 1000 (max. 8388607)
+ 149 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
