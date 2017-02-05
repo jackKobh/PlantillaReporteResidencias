@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.12.6)  4 FEB 2017 01:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.12.6)  5 FEB 2017 02:19
 entering extended mode
 **./Plantilla.tex
 (Plantilla.tex
@@ -564,25 +564,27 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 7.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
-\tf@toc=\write3
-\openout3 = `Plantilla.toc'.
-
-
+)
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <10> not available
-(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 43.
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 40.
 
 [1
 
-] (Plantilla.lof
+])
+\tf@toc=\write3
+\openout3 = `Plantilla.toc'.
+
+LaTeX Info: Redefining \. on input line 43.
+LaTeX Info: Redefining \% on input line 43.
+ [2] (Plantilla.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
 \tf@lof=\write4
 \openout4 = `Plantilla.lof'.
 
- [2
+ [3
 
 ] (Plantilla.lot
 LaTeX Info: Redefining \. on input line 1.
@@ -591,22 +593,22 @@ LaTeX Info: Redefining \% on input line 1.
 \tf@lot=\write5
 \openout5 = `Plantilla.lot'.
 
- [3
+ [4
 
 ] (Plantilla.loa)
 \tf@loa=\write6
 \openout6 = `Plantilla.loa'.
 
 
-(Extras/acronimos.tex [4
+(Extras/acronimos.tex [5
 
-]) [5
+]) [6
 
 ] (2.Generalidades/generalidades.tex
 Cap\'{\i }tulo 1.
 [1
 
-] <figuras/croquis.png, id=41, 630.85687pt x 397.485pt>
+] <figuras/croquis.png, id=44, 630.85687pt x 397.485pt>
 File: figuras/croquis.png Graphic file (type png)
 
 <use figuras/croquis.png>
@@ -619,7 +621,7 @@ File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Info: Redefining \. on input line 57.
 LaTeX Info: Redefining \% on input line 57.
- [2 <./figuras/croquis.png>] <figuras/organigrama.jpg, id=47, 990.099pt x 567.5
+ [2 <./figuras/croquis.png>] <figuras/organigrama.jpg, id=50, 990.099pt x 567.5
 604pt>
 File: figuras/organigrama.jpg Graphic file (type jpg)
 
@@ -683,7 +685,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
 
-<figuras/clienteservidor.png, id=61, 548.449pt x 221.628pt>
+<figuras/clienteservidor.png, id=64, 548.449pt x 221.628pt>
 File: figuras/clienteservidor.png Graphic file (type png)
 
 <use figuras/clienteservidor.png>
@@ -834,61 +836,56 @@ Underfull \hbox (badness 10000) in paragraph at lines 236--237
 LaTeX Info: Redefining \. on input line 237.
 LaTeX Info: Redefining \% on input line 237.
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 243--244
+Underfull \hbox (badness 10000) in paragraph at lines 248--249
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 245--246
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 256--257
+Underfull \hbox (badness 10000) in paragraph at lines 261--262
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 258--259
+Underfull \hbox (badness 10000) in paragraph at lines 263--264
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 262--263
+Underfull \hbox (badness 10000) in paragraph at lines 267--268
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 264--265
+Underfull \hbox (badness 10000) in paragraph at lines 269--270
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 270--271
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
 
  []
 
-LaTeX Info: Redefining \. on input line 271.
-LaTeX Info: Redefining \% on input line 271.
+LaTeX Info: Redefining \. on input line 276.
+LaTeX Info: Redefining \% on input line 276.
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 272--273
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
 
  []
 
-LaTeX Info: Redefining \. on input line 291.
-LaTeX Info: Redefining \% on input line 291.
+LaTeX Info: Redefining \. on input line 296.
+LaTeX Info: Redefining \% on input line 296.
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
+Underfull \hbox (badness 10000) in paragraph at lines 299--300
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 296--297
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 298--299
+Underfull \hbox (badness 10000) in paragraph at lines 301--302
 
  []
 
@@ -898,47 +895,88 @@ Underfull \hbox (badness 10000) in paragraph at lines 303--304
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 305--306
+Underfull \hbox (badness 10000) in paragraph at lines 308--309
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--308
+Underfull \hbox (badness 10000) in paragraph at lines 310--311
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 309--310
+Underfull \hbox (badness 10000) in paragraph at lines 312--313
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 311--312
+Underfull \hbox (badness 10000) in paragraph at lines 314--315
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 313--314
+Underfull \hbox (badness 10000) in paragraph at lines 316--317
 
  []
 
-) (4.Desarollo/desarrollo.tex
+
+Underfull \hbox (badness 10000) in paragraph at lines 318--319
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 330--331
+
+ []
+
+LaTeX Info: Redefining \. on input line 331.
+LaTeX Info: Redefining \% on input line 331.
+[16] <figuras/MVC.pdf, id=99, 613.99059pt x 370.96928pt>
+File: figuras/MVC.pdf Graphic file (type pdf)
+ <use figuras/MVC.pdf>
+Package pdftex.def Info: figuras/MVC.pdf used on input line 366.
+(pdftex.def)             Requested size: 455.25468pt x 284.54907pt.
+LaTeX Info: Redefining \. on input line 370.
+LaTeX Info: Redefining \% on input line 370.
+
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 388--389
+
+ []
+
+LaTeX Info: Redefining \. on input line 389.
+LaTeX Info: Redefining \% on input line 389.
+[18 <./figuras/MVC.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 390--391
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 402--403
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 413--414
+
+ []
+
+LaTeX Info: Redefining \. on input line 431.
+LaTeX Info: Redefining \% on input line 431.
+[19]) (4.Desarollo/desarrollo.tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [16]
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
- [17]
+ [20]
 Cap\'{\i }tulo 3.
-) (5.PrueRes/pruebas.tex [18
+) (5.PrueRes/pruebas.tex [21
 
 ]
 Cap\'{\i }tulo 4.
-) (6.Conclusion/conclusiones.tex [19
+) (6.Conclusion/conclusiones.tex [22
 
 ]
 Cap\'{\i }tulo 5.
-) (Referencias/referencias.tex) (Plantilla.bbl [20
+) (Referencias/referencias.tex) (Plantilla.bbl [23
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 22--25
@@ -946,7 +984,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--25
 or-mes tecni-cos,''
  []
 
-) [21
+) [24
 
 ] (Plantilla.aux
 LaTeX Info: Redefining \. on input line 6.
@@ -955,34 +993,32 @@ LaTeX Info: Redefining \% on input line 6.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 7444 strings out of 493334
- 107783 string characters out of 3136669
+ 7453 strings out of 493334
+ 107918 string characters out of 3136669
  202642 words of memory out of 3000000
- 10763 multiletter control sequences out of 15000+200000
+ 10771 multiletter control sequences out of 15000+200000
  10670 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,19n,58p,845b,539s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,19n,58p,1039b,539s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Urbano\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
 \tcrm1000.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
 cmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
 bx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx
 7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10
 .pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pf
-b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl8.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Progr
-am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Progr
-am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program
- Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Plantilla.pdf (28 pages, 2058584 bytes).
+b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Prog
+ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl8.pfb><C:/Program
+ Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on Plantilla.pdf (32 pages, 2114230 bytes).
 PDF statistics:
- 156 PDF objects out of 1000 (max. 8388607)
+ 176 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

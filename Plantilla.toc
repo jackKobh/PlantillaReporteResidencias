@@ -1,8 +1,8 @@
 \select@language {spanish}
-\contentsline {chapter}{Lista de figuras}{\es@scroman {ii}}
-\contentsline {chapter}{Lista de tablas}{\es@scroman {iii}}
-\contentsline {chapter}{Lista de algoritmos}{\es@scroman {iv}}
-\contentsline {chapter}{Lista de siglas}{\es@scroman {v}}
+\contentsline {chapter}{Lista de figuras}{\es@scroman {iii}}
+\contentsline {chapter}{Lista de tablas}{\es@scroman {iv}}
+\contentsline {chapter}{Lista de algoritmos}{\es@scroman {v}}
+\contentsline {chapter}{Lista de siglas}{\es@scroman {vi}}
 \contentsline {chapter}{\numberline {1}Generalidades}{1}
 \contentsline {section}{\numberline {1.1}Objetivos}{1}
 \contentsline {subsection}{\numberline {1.1.1}Objetivo general}{1}
@@ -32,8 +32,9 @@
 \contentsline {subsubsection}{.NET Framework}{15}
 \contentsline {section}{\numberline {2.7}Arquitectura de Software}{16}
 \contentsline {subsection}{\numberline {2.7.1}MVC (Modelo Vista Controlador)}{17}
-\contentsline {chapter}{\numberline {3}Desarollo}{18}
-\contentsline {section}{\numberline {3.1}prueba}{18}
-\contentsline {chapter}{\numberline {4}Pruebas y resultados}{19}
-\contentsline {chapter}{\numberline {5}Conclusiones}{20}
-\contentsline {chapter}{Bibliograf\'ia}{21}
+\contentsline {section}{\numberline {2.8}Base de Datos}{19}
+\contentsline {subsection}{\numberline {2.8.1}Lenguaje SQL}{20}
+\contentsline {chapter}{\numberline {3}Desarollo}{21}
+\contentsline {chapter}{\numberline {4}Pruebas y resultados}{22}
+\contentsline {chapter}{\numberline {5}Conclusiones}{23}
+\contentsline {chapter}{Bibliograf\'ia}{24}

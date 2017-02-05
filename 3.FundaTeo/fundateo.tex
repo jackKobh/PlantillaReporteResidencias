@@ -238,6 +238,11 @@ Las caracter\'isticas principales de C\# son las siguientes:
 	Finalmente, tambi\'en se da la posibilidad de usar controles ActiveX desde c\'odigo .NET y viceversa. Para lo primero se utiliza la utilidad aximp, mientras que para lo segundo se usa la ya mencionada regasm.
 \end{itemize}
 
+
+
+
+
+
 \section{Frameworks}
 
 El concepto framework se emplea en muchos \'ambitos del desarrollo de sistemas software, no solo en el \'ambito de aplicaciones Web. Podemos encontrar frameworks para el desarrollo de aplicaciones m\'edicas, de visi\'on por computador, para el desarrollo de juegos, y para cualquier \'ambito que pueda ocurr\'irsenos.\\
@@ -319,4 +324,142 @@ A continuaci\'on se describen los conceptos de arquitectura de software utilizad
 	\end{itemize}
 
 	La arquitectura seleccionada para el SII es el Modelo Vista Controlador (MVC) el cual debido a la forma de organizar el funcionamiento del sistema cubre muy bien las necesidades del sistema.
+		
 		\subsection{MVC (Modelo Vista Controlador)}
+
+			Modelo Vista Controlador (MVC) es un estilo de arquitectura de software que separa los datos de una aplicaci\'on, la interfaz de usuario, y la l\'ogica de control en tres componentes distintos. Se trata de un modelo muy maduro y que ha demostrado su validez a lo largo de los a\~nos en todo tipo de aplicaciones, y sobre multitud de lenguajes y plataformas de desarrollo. \\
+
+			Los tres componentes en los que se separa el Modelo Vista Controlador son:
+			\begin{itemize}
+				\item \textbf{Modelo:} Contiene una representaci\'on de los datos que maneja el sistema, su l\'ogica de negocio y sus mecanismos de persistencia.
+				\item \textbf{Vista:} Esta es en otras palabras la interfaz, la cual contiene la informaci\'on que se env\'ia al cliente y los mecanismos de interacci\'on con el mismo.
+				\item \textbf{Controlador:} Este actual como intermediario entre el modelo y la vista, gestionando el flujo de informaci\'on entre ellos y las transformaciones para adoptar los datos a las necesidades.
+			\end{itemize}
+
+			El modelo se encarga de las siguientes acciones:
+			\begin{itemize}
+				\item Acceder a la capa de almacenamiento de datos. Lo ideal es que el modelo sea independiente del sistema de almacenamiento.
+				\item Define las reglas de negocio (la funcionalidad del sistema). Un ejemplo de regla puede ser: "Si la mercanc\'ia pedida no est\'a en el almac\'en, consultar el tiempo de entrega est\'andar del proveedor".
+				\item Lleva un registro de las vistas y controladores del sistema. 
+				\item Si estamos ante un modelo activo, notificar\'a a las vistas los cambios que en los datos pueda producir un agente externo (por ejemplo, un fichero por lotes que actualiza los datos, un temporizador que desencadena una inserci\'on, etc).
+			\end{itemize}
+
+			El controlador se encarga de las siguientes acciones:
+
+			\begin{itemize}
+				\item Recibe los eventos de entrada (un clic, un cambio en un campo de texto, etc). 
+				\item Contiene reglas de gesti\'on de eventos, del tipo "SI Evento Z, entonces Acci\'on W". Estas acciones pueden suponer peticiones al modelo o a las vistas. Una de estas peticiones a las vistas puede ser una llamada al m\'etodo "Actualizar ()". Una petici\'on al modelo puede ser ObtenerTiempoDeEntrega ( nuevaOrdenDeVenta ).
+			\end{itemize}
+
+			La vista se encarga de las siguientes acciones:
+
+			\begin{itemize}
+				\item Recibir datos del modelo y la muestra al usuario. 
+				\item Tienen un registro de su controlador asociado (normalmente porque adem\'as lo instancia).
+				\item Pueden dar el servicio de Actualizaci\'on(), para que sea invocado por el controlador o por el modelo (cuando es un modelo activo que informa de los cambios en los datos producidos por otros agentes).
+			\end{itemize}
+
+			El flujo que sigue una petici\'on dentro del MVC se describe en la f\'igura \ref{fig_MVC}
+
+			\begin{figure}[H]
+		        \centering
+		        \includegraphics[width=16cm, height=10cm]{figuras/MVC}
+		        \caption{Diagrama de flujo de una petici\'on en MVC.}
+		        \label{fig_MVC}
+		    \end{figure}
+
+		    Los pasos que sigue la petici\'on son los siguientes:
+		    \begin{enumerate}
+
+		    	\item El usuario interact\'ua con la interfaz de usuario de alguna forma (por ejemplo, el usuario pulsa un bot\'on, enlace, etc).
+
+		    	\item El controlador recibe (por parte de los objetos de la interfaz-vista) la notificaci\'on de la acci\'on solicitada por el usuario. El controlador gestiona el evento que llega, frecuentemente a trav\'es de un gestor de eventos (handler) o callback. 
+
+		    	\item El controlador accede al modelo, actualiz\'andolo, posiblemente modific\'andolo de forma adecuada a la acci\'on solicitada por el usuario (por ejemplo, el controlador actualiza el carro de la compra del usuario). Los controladores complejos est\'an a menudo estructurados usando un patr\'on de comando que encapsula las acciones y simplifica su extensi\'on. 
+
+		    	\item El controlador delega a los objetos de la vista la tarea de desplegar la interfaz de usuario. La vista obtiene sus datos del modelo para generar la interfaz apropiada para el usuario donde se refleja los cambios en el modelo (por ejemplo, produce un listado del contenido del carro de la compra). El modelo no debe tener conocimiento directo sobre la vista. Sin embargo, se podr\'ia utilizar el patr\'on Observador para proveer cierta indirecci\'on entre el modelo y la vista, permitiendo al modelo notificar a los interesados de cualquier cambio. Un objeto vista puede registrarse con el modelo y esperar a los cambios, pero aun as\'i el modelo en s\'i mismo sigue sin saber nada de la vista. El controlador no pasa objetos de dominio (el modelo) a la vista aunque puede dar la orden a la vista para que se actualice. Nota: En algunas implementaciones la vista no tiene acceso directo al modelo, dejando que el controlador envíe los datos del modelo a la vista.
+
+		    	\item La interfaz de usuario espera nuevas interacciones del usuario, comenzando el ciclo nuevamente.
+		    \end{enumerate}
+
+
+\section{Base de Datos}
+
+	En los \'ultimos tiempos, se ha empezado a considerar la informaci\'on como un recurso estrat\'egico de una organizaci\'on; pues facilita su supervivencia y le permite, adem\'as, ser competitiva en el mercado. Dicha informaci\'on le permite tener una visi\'on de los posibles cambios, y con esto mejorar la toma de decisiones.\\
+
+	Una base de datos se define como una colecci\'on de datos almacenados de una manera permanente, que pueden ser compartidos y usados con distintos prop\'ositos por m\'ultiples usuarios.\\
+
+	La informaci\'on se debe considerar como otro recurso corporativo de la misma manera que se considera el recurso humano o los recursos f\'isicos. Por lo tanto, la administraci\'on de la informaci\'on debe implicar:
+
+	\begin{itemize}
+		\item Planear su adquisici\'on por anticipado.
+		\item Protegerla contra la destrucci\'on o mal uso.
+		\item Asegurar su calidad.
+		\item Retirarla de la organizaci\'on cuando ya no se le requiera.
+	\end{itemize}
+
+
+	Debido que la cantidad de informaci\'on que una organizaci\'on necesita para subsistir es cada vez mayor, deben existir m\'etodos eficientes tanto para el almacenamiento r\'apido como para la consulta \'agil. La tecnolog\'ia m\'as utilizada para manejar estas grandes cantidades de informaci\'on son las Bases de Datos.\\
+
+	La tecnolog\'ia de bases de datos proporciona los medios para que se cumplan los objetivos de lograr m\'aximos beneficios en la administraci\'on de informaci\'on debido a las siguientes razones:
+
+	\begin{itemize}
+		\item Se logra que el desarrollo de aplicaciones sea m\'as r\'apido debido a que los programadores reutilizan datos u procedimientos almacenados en la base de datos.
+		\item Hay una mayor participaci\'on del usuario final en la creaci\'on de las aplicaciones, haciendo software m\'as tangible y de mayor valor inmediato.
+		\item El acceso a los datos es flexible y r\'apido.
+	\end{itemize}
+
+
+	Gracias a esto las organizaciones tienen m\'as y mejor informaci\'on para la toma de decisiones, adem\'as de incrementar su productividad.\\
+
+	A continuaci\'on se presentan las ventajas y desventajas de un sistema de base de datos:
+	\begin{enumerate}
+		\item Ventajas
+			\begin{enumerate}
+				\item \textbf{Econom\'ia de escala:} esencialmente, la concentraci\'on de aplicaciones en una sola localidad puede reducir costos.
+				\item \textbf{Mayor informaci\'on:} existe una mayor facilidad para el an\'alisis y la toma de desiciones.
+				\item \textbf{Datos y programas compartidos:} la reutilizaci\'on de los mismos datos y programas, permiten minimizar o controlar la redundancia.
+				\item \textbf{Declaraci\'on de est\'andares:} Debido a que la informaci\'on se vuelve muy grande, es necesario declarar est\'andares para el acceso y manejo de los datos.
+				\item \textbf{Consistencia de datos:} Esta dada por el control o eliminaci\'on de la redundancia.
+				\item \textbf{Integridad:} El sistema de base de datos debe velar por el grado de validez y de correcci\'on de los datos. Debe permitir definir reglas que deben cumplir los datos en la base de datos.
+				\item \textbf{Seguridad:} Se pueden especificar niveles de acceso mediante perfiles de usuario.
+			\end{enumerate}
+		\item Desventajas
+			\begin{itemize}
+				\item \textbf{Tama\~no:} Un sistema de base de datos es un gran conjunto de programas que a lo largo de su uso su tama\~no incrementa considerablemente.
+				\item \textbf{Mayor susceptibilidad a fallas:} Debido a la cantidad de informaci\'on es m\'as probable que se generen fallas.
+				\item \textbf{Recuperaci\'on a las fallas:} La recuperaci\'on de un DBMS interactivo y multiusuario puede ser muy compleja.
+			\end{itemize}
+	\end{enumerate}
+
+	Los sitemas de base de datos utilizan un lenguaje el cual le permite realizar modificaciones sobre ella. Este lenguajes es el llamado SQL.
+
+	\subsection{Lenguaje SQL}
+
+	El lenguaje SQL es un conjunto de onstrucciones que permite crear, consultar y modificar una base de datos. Para realizar estas acciones, SQL se divide en tres grupos de lenguajes de base de datos:
+	\begin{itemize}
+		\item \textbf{DML (Data Manipulation Language):} Permite consultar y modificar datos.
+		\item \textbf{DDL (Data Definition Language):} Permite definir la base de datos.
+		\item \textbf{DAL (Data Acces Language):} Permite administrar el acceso a la base de datos.
+	\end{itemize}
+
+	Todos los sistemas gestores de base de datos cuentan con estos tres grupos para poder realizar las acciones sobre las bases de datos. Dentro de los sitemas gestores de base de datos mas comunes se encuentran los siguientes:
+
+	\begin{itemize}
+		\item SQL Server.
+		\item MySQL.
+		\item Postgress SQL.
+		\item Oracle.
+	\end{itemize}
+
+	El lenguaje elegido para realizar el SII es SQL Server, esto debido a la integraci\'on que tiene con el ambiente de desarrollo y los lenguajes seleccionados.
+
+
+
+
+
+
+
+
+
+
