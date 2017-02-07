@@ -34,7 +34,19 @@
 \contentsline {subsection}{\numberline {2.7.1}MVC (Modelo Vista Controlador)}{17}
 \contentsline {section}{\numberline {2.8}Base de Datos}{19}
 \contentsline {subsection}{\numberline {2.8.1}Lenguaje SQL}{20}
-\contentsline {chapter}{\numberline {3}Desarollo}{21}
-\contentsline {chapter}{\numberline {4}Pruebas y resultados}{22}
-\contentsline {chapter}{\numberline {5}Conclusiones}{23}
-\contentsline {chapter}{Bibliograf\'ia}{24}
+\contentsline {subsection}{\numberline {2.8.2}Microsoft SQL Server}{20}
+\contentsline {subsubsection}{Requisitos de hardware}{21}
+\contentsline {subsubsection}{Rendimiento}{21}
+\contentsline {subsubsection}{Administraci\'on y mantenimiento}{21}
+\contentsline {subsubsection}{Estabilidad}{22}
+\contentsline {subsubsection}{Desarrollo de aplicaciones}{22}
+\contentsline {subsubsection}{Licencias}{22}
+\contentsline {section}{\numberline {2.9}Metodolog\'ia de desarrollo}{22}
+\contentsline {subsection}{\numberline {2.9.1}Modelo en cascada}{24}
+\contentsline {subsubsection}{Ventajas}{25}
+\contentsline {subsubsection}{Desventajas}{25}
+\contentsline {subsubsection}{Probable fracaso del modelo de cascada}{26}
+\contentsline {chapter}{\numberline {3}Desarollo}{27}
+\contentsline {chapter}{\numberline {4}Pruebas y resultados}{28}
+\contentsline {chapter}{\numberline {5}Conclusiones}{29}
+\contentsline {chapter}{Bibliograf\'ia}{30}

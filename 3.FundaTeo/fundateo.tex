@@ -303,6 +303,7 @@ Para mejorar el funcionamiento del SII fue necesario aplicar un modelo  de arqui
 A continuaci\'on se describen los conceptos de arquitectura de software utilizados en el SII.\\
 
 
+
 \section{Arquitectura de Software}
 
 	En un principio la programaci\'on fue considerada un arte  y se desarrollaba como tal, esto debido a la dificultad que representaba realizar dicha actividad. Con el paso del tiempo se han ido desarrollando nuevas formas para el desarrollo de software con las cuales la resoluci\'on de problemas ha reducido su complejidad. A estas formas de desarrollo se les denomina Arquitectura de Sofware.\\
@@ -454,12 +455,192 @@ A continuaci\'on se describen los conceptos de arquitectura de software utilizad
 
 	El lenguaje elegido para realizar el SII es SQL Server, esto debido a la integraci\'on que tiene con el ambiente de desarrollo y los lenguajes seleccionados.
 
+	\subsection{Microsoft SQL Server}
+
+	Microsoft SQL server es un sistema de gesti\'on de bases de datos relacional producido por Microsoft. Su principal lenguaje de consulta es Transact-SQL, una aplicaci\'on de las normas ANSI/ISO estándar Structured Query Language (SQL) utilizando por ambas Microsoft y Sybase.
+	
+	Las caracter\'isticas de Microsoft SQL Server son las siguientes:
+	\begin{itemize}
+		\item Soporte de transacciones.
+		\item Escalabilidad, estabilidad y seguridad.
+		\item Soporta procedimientos almacenados.
+		\item Incluye tambi\'en un potente entorno gr\'afico de administraci\'on, que permite el uso de comandos DDL y DML gr\'aficamente.
+		\item Permite trabajar en modo cliente-servidor, donde la informaci\'on y datos se alojan en el servidor y las terminales o clientes de la red s\'olo acceden a la informaci\'on.
+		\item Adem\'as permite administrar informaci\'on de otros servidores de datos.
+	\end{itemize}
+
+	Este sistema incluye una versi\'on reducida, llamada MSDE con el mismo motor de base de datos pero orientado a proyectos m\'as peque\~nos, que en su versi\'on 2005 pasa a ser el SQL Express Edition, que se distribuye en forma gratuita. \\
+
+	Microsoft SQL Server constituye la alternativa de Microsoft a otros potentes sistemas gestores de bases de datos como son Oracle, Sybase ASE, PostgreSQL o MySQL.
+
+		\subsubsection{Requisitos de hardware}
+
+			\begin{table}[H]
+			\centering
+			\caption{Requisitos de Hardware de Microsoft SQL Server}
+			\label{RequisitosSQL}
+				\begin{tabular}{ll}
+				\hline
+				COMPONENTE               & REQUISITO                                                                                                                                                                                                                                                                                                                    \\ \hline
+				Memor\'ia                  & \begin{tabular}[c]{@{}l@{}}Minimo:\\ \\ Ediciones Express: 512 MB\\ \\ Todas las dem\'as ediciones: 1 GB\\ \\ Recomendaciones:\\ \\ Ediciones Express: 1 GB\\ \\ Todas las dem\'as ediciones: Al menos 4 GB y debe aumentar a medida que el tama\~no de la base de datos aumente para asegurar un rendimiento \'optimo.\end{tabular} \\ \hline
+				Velocidad del procesador & \begin{tabular}[c]{@{}l@{}}Minimo\\ \\ - Procesador x86: 1 GHz.\\ - Procesador x64: 1.4 Ghz.\\ \\ Recomendado: 2 GHz o m\'as.\end{tabular}                                                                                                                                                                                     \\ \hline
+				Tipo de procesador       & \begin{tabular}[c]{@{}l@{}}- Procesador x64: AMD Opteron, AMD Athlon 64, Intel Xeon compatible \\ con Intel EM64T Intel Pentium IV.  \\ - Procesador x86: compatible con Pentium III o superior.\end{tabular}                                                                                                                \\ \hline
+				\end{tabular}
+			\end{table}
+
+		\subsubsection{Rendimiento}
+
+			Respecto al rendimiento de Microsoft SQL Server, este se desempe\~na dentro de cualquier arquitectura .NET o J2EE.\\
+
+			Del mismo modo este se beneficia de RAID (Redundant Array of Independent Disks) el cual es un sistema de almacenamiento de datos entre los que se distribuye o replican los datos, es decir, este se desempe\~na mejor si se ejecuta en un servidor dedicado espec\'ificamente a \'el.\\
+
+			Microsoft SQL Server como cualquier otro sistema manejador de bases de datos depende de la estructura de las instrucciones que recibe para determinar su rendimiento, esto debido a que existen distintas maneras de consultar o modificar la informaci\'on, es por ello que es importante seguir la documentaci\'on del producto para realizar las instrucciones m\'as r\'apidas posibles.
+
+		\subsubsection{Administraci\'on y mantenimiento}
+
+			Microsoft SQL Server ofrece un grupo de acciones que permiten administrar los recursos dentro del mismo, las cuales se enlistan a continuaci\'on:
+
+			\begin{itemize}
+				\item Se provee de un sistema de copias de seguridad en la cual se vuelcan los datos y estructura en un archivo con extensi\'on ".bak".
+
+				\item Soporta tres tipos de replicaci\'n:
+					\begin{itemize}
+						\item \textbf{Instantanea:} En la replicaci\'on de instant\'aneas los datos se copian tal y como aparecen exactamente en un momento determinado.
+
+						\item \textbf{Transaccional:} En este caso se propaga una instant\'anea inicial de datos a los suscriptores, y despu\'es, cuando se efect\'uan las modificaciones en el publicador, las transacciones individuales se propagan a los suscriptores. Microsoft SQL Server almacena las transacciones que afectan a los objetos replicados y propaga esos cambios a los suscriptores de forma continua o a intervalos programados. Al finalizar la propagaci\'on de los cambios, todos los suscriptores tendr\'an los mismos valores que el publicador.
+
+						\item \textbf{Mixta:} Permite que varios sitios funcionen en l\'inea o desconectados de manera aut\'onoma, y mezclar m\'as adelante las modificaciones de datos realizadas en un resultado \'unico y uniforme. La instant\'anea inicial se aplica a los suscriptores; a continuaci\'on SQL Server 2000 hace un seguimiento de los cambios realizados en los datos publicados en el publicador y en los suscriptores.
+					\end{itemize}
+			\end{itemize}
+
+		\subsubsection{Estabilidad}
+
+			Microsoft SQL Server tiene una gran resistencia a la corrupci\'on de datos  ya que los datos van a trav\'es de distintos puestos de control y previene contratiempos en caso de que el sistema colapse sin previo aviso. Se puede considerar como un contratiempo a un fallo inesperado del equipo hu\'esped de Microsoft SQL Server o un apagado inesperado del mismo.
+
+		\subsubsection{Desarrollo de aplicaciones}
+
+			\begin{itemize}
+				\item Se cuenta con m\'ultiples APIs para acceder a \'el.
+				\item Se apoya en ODBC y JDBC para conectividad en red, as\'i como los m\'etodos de acceso de base de datos nativos.
+				\item Soporta conexiones desde distintos lenguajes como C/C++, Java, Perl, Python, PHP, C\# y Visual Basic.
+				\item Soporta m\'etodos de cifrado SSL.
+			\end{itemize}
+
+		\subsubsection{Licencias}
+
+			El licenciamiento de Microsoft SQL Server esta disponible de las siguientes dos maneras:
+			\begin{itemize}
+				\item \textbf{Por Procesador:} Requiere una licencia \'unica para cada CPU en el equipo que ejecuta e incluye el acceso limitado de clientes.
+				\item \textbf{Servidor/por asiento:} Se requiere una licencia para el servidor y las licencias para cada cliente.
+			\end{itemize}
+
+	Ya terminados los putos de la parte técnica del proyecto, hablaremos de la parte de la metodología utilizada para realizar el mismo.
+
+\section{Metodolog\'ia de desarrollo}
+
+	Se le llama metodolog\'ia a el conjunto de t\'ecnicas y herramientas que dan una documentaci\'on formal al proyecto referente a los procesos, las pol\'iticas y procedimientos que ayudan a los desarrolladores para la realizaron de un producto (software) .\\
+
+	El objetivo principal de una metodolog\'ia es tener mayor eficacia al cumplir con los requisitos que se plantearon desde un principio en el proyecto, adem\'as  de prevenir las p\'erdidas de tiempo en la realizaci\'on del mismo, siendo un guía que llevar\'a de manera ordenada el equipo de trabajo en el desarrollo de software con respecto a las actividades y a que el software tiene un ciclo de vida, es decir, tiene un tiempo l\'imite para su cumplimiento.\\
+
+	De forma general el ciclo de vida del software est\'a definido de los siguientes puntos:
+	\begin{itemize}
+		\item \textbf{Definici\'on de objetivos:} se definen todas las ideas concretas del proyecto permitiendo tener una visi\'on general del mismo, adem\'as de establecer un panorama amplio para la definici\'on de alcances.
+		\item \textbf{An\'alisis de requisitos y su viabilidad:} Se recopilan los requisitos del cliente y examina cualquier restricci\'on que se pueda aplicar, es aqu\'i donde se comienzan a visualizar los alcances del proyecto.
+		\item \textbf{Dise\~no general:} Son los requisitos generales de la arquitectura del proyecto.
+		\item \textbf{Dise\~no en detalle:} Es la definici\'on precisa de cada bloque de la aplicaci\'on, esto hace referencia al detalle del funcionamiento y acciones a realizar por el sistema.
+		\item \textbf{Programaci\'on:} Es la implementaci\'on de un lenguaje de programaci\'on para crear los modulos o funciones definidas en el proyecto.
+		\item \textbf{Prueba de unidad:} Es la prueba individual de cada bloque para verificar que cumplen con las especificaciones de dise\~no y funcionalidad del proyecto.
+		\item \textbf{Prueba beta:} Esta prueba se encarga de garantizar que el software cumple con las especificaciones originales y cumpla con todos los objetivos establecidos.
+		\item \textbf{Documentaci\'on:} Es la gu\'ia que servirla a los usuarios que utilizaran el software a aclarar sus dudas respecto al funcionamiento del mismo en caso de usuarios finales, adem\'as de la creaci\'on de un manual t\'ecnico que servir\'a como gu\'ia para los encargados del soporte.
+		\item \textbf{Implementaci\'on:} Es la puesta en marcha del proyecto para su uso, para llegar a esta parte es necesario que los puntos anteriores se evaluaran de manera satisfactoria y con esto validar que el software esta listo para ponerse en un ambiente de producci\'on.
+		\item \textbf{Mantenimiento:} Es la correcci\'on de los posibles errores resultantes del uso cotidiano de los usuarios finales, estos se pueden presentar de dos maneras, errores de datos y errores de sistema. 
+		\begin{itemize}
+			\item Los errores de datos hacen referencia a una mala captura de informaci\'on por parte del sistema o el usuario final, truncando con esto alguno de los procesos posteriores debido a informaci\'on incorrecta o falta de la misma.
+			\item Los errores de sistema son aquellos en los que la falla es ocasionada por un fallo directamente en la programaci\'on del sistema.
+		\end{itemize}
+
+	\end{itemize}
+
+	Los modelos para el desarrollo de software est\'an clasificados en tres grupos, de los cuales cada uno de ellos representa el proceso de desarrollo de software de una manera particular, y a pesar de estar definidos claramente, no representan necesariamente la realidad de c\'omo  se debe desarrollar el software, si no que establece un enfoque com\'un. Un modelo puede ser modificado y adaptado de acuerdo a las necesidades de software en desarrollo.\\
+
+	Los tres grupos de modelos de desarrollo son los siguientes:
+	\begin{itemize}
+		\item Modelo en cascada.
+		\item Modelo evolutivo.
+		\item Modelo basado en componentes.
+	\end{itemize}
+
+	El modelo que se utilizar\'a para el desarrollo de este proyecto es el modelo en cascada, del cual hablaremos a continuaci\'on.
+
+	\subsection{Modelo en cascada}
+
+	Modelo conocido tambi\'en como modelo cl\'asico, modelo tradicional o modelo lineal secuencial.\\
+
+	Es el m\'as b\'asico de todos los modelos y sirve como bloque de construcci\'on para los dem\'as paradigmas de ciclo de vida del desarrollo de sistemas, se puede decir que es un m\'etodo puro que implica un desarrollo r\'igido y lineal. Est\'a basado en el ciclo convencional de una ingenier\'ia y su visi\'on es muy simple: el desarrollo de software se debe realizar siguiendo una secuencia de fases. Cada etapa tiene un conjunto de metas bien definidas y las actividades dentro de cada una contribuyen a la satisfacci\'on de metas de esa.
+
+	Las fases normalmente aplicadas son:
+	\begin{itemize}
+		\item \textbf{An\'alisis del Sistema:} En esta fase se establecen los requisitos de todos los elementos del sistema y luego se asigna alg\'un subconjunto de estos requisitos al software.
+		\item \textbf{An\'alisis de requisitos del software:} El proceso de recopilaci\'on de los requisitos se centra e intensifica especialmente en el software. Es necesario comprender el \'ambito de la informaci\'on del software as\'i como la funci\'on, el rendimiento y las interfaces requeridas.
+		\item \textbf{Dise\~no del sistema:} Se enfoca en cuatro atributos distintos del programa: 
+			\begin{itemize}
+				\item La estructura de los datos.
+				\item La arquitectura del software.
+				\item El detalle procedimental.
+				\item La caracterizaci\'on de la interfaz. 
+			\end{itemize}
+		\item \textbf{Dise\~no del programa:} El proceso de dise\~no traduce los requisitos en una representaci\'on del software con la calidad requerida antes de que comience la codificaci\'on
+		\item \textbf{Codificaci\'on:} El dise\~no debe traducirse en una forma legible para la m\'aquina. Si el dise\~no se realiza de una manera detallada, la codificaci\'on puede realizarse mec\'anicamente.
+		\item \textbf{Pruebas:} Generado el c\'odigo se inicia la prueba del programa. Que se centra en la l\'ogica interna del software y en las funciones externas, realizando pruebas que aseguren que la entrada definida produce los resultados que realmente se requieren.
+		\item \textbf{Implantaci\'on:} Significa programaci\'on. Producto de esta etapa es el c\'odigo en cualquier nivel, incluido el producido por sistemas de generaci\'on autom\'atica.
+		\item \textbf{Mantenimiento:} el software  puede sufrir\'a algunos cambios despu\'es de que se entrega al cliente. Los cambios ocurrir\'an debidos a que se haya encontrado errores, a que el software deba adaptarse a cambios del entorno externo (sistema operativo o dispositivos perif\'ericos) o a que el cliente requiera ampliaciones funcionales o del rendimiento.
+	\end{itemize}
 
 
+	Sin embargo debemos saber que los proyectos reales raramente siguen el flujo secuencial que propone el modelo. Siempre hay iteraciones y se crean problemas en la aplicaci\'on del paradigma.\\
+
+	Es dif\'icil para el cliente establecer todos los requisitos expl\'icitamente. El ciclo de vida cl\'asico lo requiere y tiene dificultades en acomodar posibles incertidumbres que pueden existir al comienzo de muchos productos. \\
+
+	Por lo tanto se inicia con la especificaci\'on de requerimientos del cliente, continua con la planificaci\'on, el modelado, la construcci\'on y el despliegue para finalizar en el enfoque del software. El modelo está dirigido por documentos y no proporciona resultados tangibles de software hasta el final del ciclo de vida de algunas herramientas. El dise\~no en cascada es una secuencia definida de los acontecimientos y los resultados finales para proporcionar una estructura para cualquier proyecto que siga el contenido espec\'ifico y detallado. Puede ser apropiado para proyectos de software que son estables especialmente cuando sus requisitos no cambian. Es caracterizado por ordenar de manera rigurosa las etapas del ciclo de vida de software, dado que el comienzo de cada etapa debe esperar a la finalizaci\'on de la inmediata anterior.\\
+
+	La metodolog\'ia en cascada es esencialmente:
+	\begin{itemize}
+		\item El inicio y el alcance del proyecto.
+		\item La planificaci\'on del proyecto (calendario, recursos necesarios, costo).
+		\item Definici\'on de las necesidades del negocio y el an\'alisis en detalle de la soluci\'on.
+		\item La creaci\'on de la soluci\'on.
+		\item Prueba que la soluci\'on funciona.
+		\item La entrega de la soluci\'on a su p\'ublico objetivo.
+		\item Cierre del proyecto.
+	\end{itemize}
+
+	\subsubsection{Ventajas}
+	\begin{itemize}
+		\item Permite el control de gesti\'on.
+		\item Plazos normalmente adecuados para cada etapa de desarrollo.
+		\item Este proceso conduce a entregar el proyecto a tiempo.
+		\item Es sencilla y facilita la gesti\'on de proyectos.
+		\item Permite tener bajo control el proyecto.
+		\item Limita la cantidad de interacci\'on entre equipos que se produce durante el desarrollo.
+	\end{itemize}
 
 
+	\subsubsection{Desventajas}
+	\begin{itemize}
+		\item No conocer si la soluci\'on es correcta hasta estar cerca de su lanzamiento.
+		\item Poco tiempo para corregir fallas.
+		\item Depuraci\'on complicada.
+		\item Los cambios introducidos durante el desarrollo pueden confundir al equipo.
+		\item No es frecuente que el cliente o usuario final explicite clara y completamente los requisitos.
+		\item Es necesaria la paciencia del cliente.
+		\item El cliente podría detectar un error.
+		\item El proceso es lento y pesado.
+	\end{itemize}
 
-
-
-
-
+	\subsubsection{Probable fracaso del modelo de cascada}
+	\begin{itemize}
+		\item Los clientes quieren ver el producto a medida que se desarrolla.
+		\item El cliente no puede validar el producto a medida que lo desarrollamos.
+		\item No poder tomas decisiones por la falta de avances o resultados.
+		\item Las actividades est\'an estrictamente ligadas causando as\'i impedir que una actividad empiece antes determinar totalmente la anterior, provocando invertir alg\'un tiempo de desarrollo innecesariamente.
+	\end{itemize}
