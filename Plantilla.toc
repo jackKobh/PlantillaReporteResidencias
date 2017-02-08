@@ -47,6 +47,14 @@
 \contentsline {subsubsection}{Desventajas}{25}
 \contentsline {subsubsection}{Probable fracaso del modelo de cascada}{26}
 \contentsline {chapter}{\numberline {3}Desarollo}{27}
-\contentsline {chapter}{\numberline {4}Pruebas y resultados}{28}
-\contentsline {chapter}{\numberline {5}Conclusiones}{29}
-\contentsline {chapter}{Bibliograf\'ia}{30}
+\contentsline {section}{\numberline {3.1}An\'alisis del sistema}{27}
+\contentsline {section}{\numberline {3.2}An\'alisis de requisitos del software}{28}
+\contentsline {section}{\numberline {3.3}Dise\~no del sistema}{28}
+\contentsline {section}{\numberline {3.4}Dise\~no del programa}{28}
+\contentsline {section}{\numberline {3.5}Codificaci\'on}{28}
+\contentsline {section}{\numberline {3.6}Pruebas}{28}
+\contentsline {section}{\numberline {3.7}Implantaci\'on}{28}
+\contentsline {section}{\numberline {3.8}Mantenimiento}{28}
+\contentsline {chapter}{\numberline {4}Pruebas y resultados}{29}
+\contentsline {chapter}{\numberline {5}Conclusiones}{30}
+\contentsline {chapter}{Bibliograf\'ia}{31}
