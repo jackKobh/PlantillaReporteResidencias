@@ -49,12 +49,16 @@
 \contentsline {chapter}{\numberline {3}Desarollo}{27}
 \contentsline {section}{\numberline {3.1}An\'alisis del sistema}{27}
 \contentsline {section}{\numberline {3.2}An\'alisis de requisitos del software}{28}
-\contentsline {section}{\numberline {3.3}Dise\~no del sistema}{28}
-\contentsline {section}{\numberline {3.4}Dise\~no del programa}{28}
-\contentsline {section}{\numberline {3.5}Codificaci\'on}{28}
-\contentsline {section}{\numberline {3.6}Pruebas}{28}
-\contentsline {section}{\numberline {3.7}Implantaci\'on}{28}
-\contentsline {section}{\numberline {3.8}Mantenimiento}{28}
-\contentsline {chapter}{\numberline {4}Pruebas y resultados}{29}
-\contentsline {chapter}{\numberline {5}Conclusiones}{30}
-\contentsline {chapter}{Bibliograf\'ia}{31}
+\contentsline {subsection}{\numberline {3.2.1}Requerimientos f\'isicos}{28}
+\contentsline {subsection}{\numberline {3.2.2}Interfaces}{29}
+\contentsline {subsubsection}{Entrada de datos}{29}
+\contentsline {subsubsection}{Salida de datos}{29}
+\contentsline {section}{\numberline {3.3}Dise\~no del sistema}{30}
+\contentsline {section}{\numberline {3.4}Dise\~no del programa}{30}
+\contentsline {section}{\numberline {3.5}Codificaci\'on}{30}
+\contentsline {section}{\numberline {3.6}Pruebas}{30}
+\contentsline {section}{\numberline {3.7}Implantaci\'on}{30}
+\contentsline {section}{\numberline {3.8}Mantenimiento}{30}
+\contentsline {chapter}{\numberline {4}Pruebas y resultados}{31}
+\contentsline {chapter}{\numberline {5}Conclusiones}{32}
+\contentsline {chapter}{Bibliograf\'ia}{33}

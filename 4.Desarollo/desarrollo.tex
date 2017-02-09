@@ -17,7 +17,7 @@
 
 		Cada uno de ellos requiere obtener informaci\'on espec\'ifica la cual permitir\'a mejorar cada uno de sus procesos.
 
-		El sistema ser\'a capaz de recalcular los indicadores con los cambios que se le presenten a lo largo del periodo declarado, permitiendo con esto tomas decisiones estrat\'egicas para mejorar en caso de que los indicadores sean bajos, o mantener las buenas pr\'acticas en caso de que los indicadores sean los esperados.\\
+		El sistema ser\'a capaz de recalcular los indicadores con los cambios que se le presenten a lo largo del periodo declarado, permitiendo con esto tomar decisiones estrat\'egicas para mejorar en caso de que los indicadores sean bajos, o mantener las buenas pr\'acticas en caso de que los indicadores sean los esperados.\\
 
 		Los reportes a configurar dentro del sistema contendr\'an un n\'umero indefinido de c\'alculos, es decir, el n\'umero de datos a calcular es din\'amico permitiendo con esto darle flexibilidad y adaptaci\'on a diferentes circunstancias.\\
 
@@ -33,6 +33,69 @@
 		Con estas tres caracter\'isticas el sistema debe ser capaz de calcular y mostrar las cifras de los indicadores por departamento.
 
 	\section{An\'alisis de requisitos del software}
+
+		Para la realizaci\'on del Sistema Integral de Indicadores se requiere que este se desarrolle en un ambiente Web, esto para permitir que multiples usuarios puedan acceder a estos datos simult\'aneamente.\\
+
+		A lo largo de esta secci\'on se detallaran los distintos tipos de requerimientos necesarios para el desarrollo del sistema.\\
+
+		\subsection{Requerimientos f\'isicos}
+			Para el correcto funcionamiento del sistema es necesario contar con el equipo y software  adecuado, del cual hablaremos a continuaci\'on:
+
+			\begin{itemize}
+				\item Hardware
+					\begin{itemize}
+						\item \textbf{Servidor 1:} Equipo con Windows Server 2012 R2 (recomendado) o alg\'un sistema operativo con Windows a 64 bits dedicado para el servidor de base de datos. M\'inimo 4GB de RAM, para su correcto funcionamiento se necesitan 6 GB o m\'as, Procesador x64 a 1.4 GHz, para su correcto funcionamiento procesadores a 2.0 GHz o m\'as. M\'inimo 6GB de disco duro para su instalaci\'on, el tama\~no del disco duro depende a las demandas de espacio al ir almacenando informaci\'on.
+
+						\item \textbf{Servidor 2:} Equipo con Windows Server 2012 R2 (recomendado) o alg\'un sistema operativo con Windows a 64 bits dedicado para el servidor de aplicaci\'on. M\'inimo 2GB de RAM, para su correcto funcionamiento se necesitan 4 GB o m\'as, Procesador x64 a 1.4 GHz, para su correcto funcionamiento procesadores a 2.0 GHz o más. Disco duro de 500GB para almacenamiento de sitios y archivos en servidor.
+
+						\item \textbf{Desarrollo:} Equipo con Windows Server 7 Ultimate a 64 bits dedicado para el desarrollo del sistema, 6GB de RAM o m\'as. Procesador x64 a 1.4 GHz, para su correcto funcionamiento procesadores a 2.0 GHz o m\'as. Disco duro de 500GB para almacenamiento de fuentes y archivos de instalaci\'on.
+
+					\end{itemize}
+				\item Software
+					\begin{itemize}
+						\item Microsoft SQL Server 2012.
+						\item IIS Server 8.0 o superior.
+						\item Navegador Web (Mozilla Firefox preferentemente)
+						\item Microsoft Visual Studio 2013 Test Premium
+					\end{itemize}
+			\end{itemize}
+
+		El servidor 1 deber\'a tener instalado Microsoft SQL Server 2012 para fungir como servidor de base de datos.\\
+
+		El servidor 1 deber\'a tener instalado IIS Server 8.0 para fungir como servidor de aplicaci\'on y almacenamiento de archivos.\\
+
+		El equipo de desarrollo deber\'a tener instalado Microsoft Visual Studio 2013 Test Premium, Navegador Web adem\'as de IIS Server 8.0 para fungir como ambiente de desarrollo.\\
+
+		\subsection{Interfaces}
+		
+			El Sistema Integral de Indicadores ser\'a un sistema alimentado de todas las tablas del sistema general. Para esto es necesario establecer los m\'etodos de entrada y salida de datos.\\
+
+		\subsubsection{Entrada de datos}
+
+			Para la entrada de datos es necesario contar con una serie de configuraciones que permitan obtener la informaci\'on de cualquier tabla de la base de datos, esto permitir\'a obtener datos din\'amicos adaptables a las necesidades que tenga en ese momento el usuario.
+
+			Los m\'odulos para realizar la configuraci\'on del sistema son:
+			\begin{itemize}
+				\item \textbf{Departamentos:} En este m\'odulo se permitir\'a declarar la informaci\'on de los departamentos que se manejar\'an en el SII, los datos requeridos hasta el momento son Id, nombre y descripci\'on.
+				\item \textbf{Formulas:} En este m\'odulo se configurar\'an las f\'ormulas que extraer\'an los datos de la base de datos y realizaran los c\'alculos establecidos en estas. Los campos requeridos para configurar una formula son id formula, nombre y la definici\'on de la formula.
+				\item \textbf{Colecciones:} Este m\'odulo permite establecer las f\'ormulas que se aplicaran a cada proceso. Las formulas pueden estar en m\'as de un proceso, esto debido a que se puede reutilizar un cálculo de un departamento a otro. Los campos necesarios en este m\'odulo solamente son el id de formula y el id de colecci\'on.
+				\item \textbf{Procesos:} En este se definen los datos del periodo dentro de los cuales se necesitan el departamento al que pertenece, numero interno de proceso, descripci\'on, grupo de f\'ormulas a aplicar, fecha de inicio y fin, responsable y unidad de medida.
+			\end{itemize}
+
+		\subsubsection{Salida de datos}
+
+			Para la salida de datos se necesita hasta el momento una sola vista en donde se ve el resultado del proceso del periodo de indicadores, esta secci\'on mostrara los siguientes datos:
+			\begin{itemize}
+				\item \textbf{N\'umero interno de periodo de indicadores:} El n\'umero interno del periodo de indicadores es el identificador \'unico para cada periodo de indicadores.
+				\item \textbf{N\'umero consecutivo:} Este se asignar\'a al momento de resolver la formula d\'andole a cada registro del detalle del proceso un identificador.
+				\item \textbf{Formula sistema:} Aqu\'i se mostrar\'a la formula tal cual est\'a en el sistema al momento del proceso.
+				\item \textbf{Formula pre compilado:} En esta se resuelven las funciones propias del sistema, es decir, las formulas programadas en el sistema, dando como resultado una formula la cual se encuentra lista para ser resuelta por el m\'odulo de f\'ormulas de Microsoft Excel.
+				\item \textbf{Resultado:} En este se mostrara el resultado de la formula resuelta por Excel y ser\'a el dato m\'as interesante ya que ser\'a el resultado del indicador.
+				De los datos insertados en el sistema, el que requiere de especial atenci\'on es la definici\'on de la formula, esto debido a que si existe alg\'un error en sintaxis al momento de procesar la formulas, esta retornara un valor de 0.
+			\end{itemize}
+
+
+
 	\section{Dise\~no del sistema}
 	\section{Dise\~no del programa}
 	\section{Codificaci\'on}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.12.6)  8 FEB 2017 01:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.12.6)  9 FEB 2017 00:46
 entering extended mode
 **./Plantilla.tex
 (Plantilla.tex
@@ -1053,16 +1053,51 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
 [27
 
-]) (5.PrueRes/pruebas.tex
+]
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
+
+ []
+
+LaTeX Info: Redefining \. on input line 72.
+LaTeX Info: Redefining \% on input line 72.
+[28]) (5.PrueRes/pruebas.tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [28]
+ [29]
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [30]
 Cap\'{\i }tulo 4.
-) (6.Conclusion/conclusiones.tex [29
+) (6.Conclusion/conclusiones.tex [31
 
 ]
 Cap\'{\i }tulo 5.
-) (Referencias/referencias.tex) (Plantilla.bbl [30
+) (Referencias/referencias.tex) (Plantilla.bbl [32
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 22--25
@@ -1070,7 +1105,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--25
 or-mes tecni-cos,''
  []
 
-) [31
+) [33
 
 ] (Plantilla.aux
 LaTeX Info: Redefining \. on input line 6.
@@ -1101,9 +1136,9 @@ ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program 
 Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Plantilla.pdf (39 pages, 2127339 bytes).
+Output written on Plantilla.pdf (41 pages, 2132108 bytes).
 PDF statistics:
- 196 PDF objects out of 1000 (max. 8388607)
+ 202 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
