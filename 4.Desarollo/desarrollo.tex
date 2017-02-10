@@ -70,29 +70,166 @@
 		
 			El Sistema Integral de Indicadores ser\'a un sistema alimentado de todas las tablas del sistema general. Para esto es necesario establecer los m\'etodos de entrada y salida de datos.\\
 
-		\subsubsection{Entrada de datos}
+			\subsubsection{Entrada de datos}
 
-			Para la entrada de datos es necesario contar con una serie de configuraciones que permitan obtener la informaci\'on de cualquier tabla de la base de datos, esto permitir\'a obtener datos din\'amicos adaptables a las necesidades que tenga en ese momento el usuario.
+				Para la entrada de datos es necesario contar con una serie de configuraciones que permitan obtener la informaci\'on de cualquier tabla de la base de datos, esto permitir\'a obtener datos din\'amicos adaptables a las necesidades que tenga en ese momento el usuario.
 
-			Los m\'odulos para realizar la configuraci\'on del sistema son:
+				Los m\'odulos para realizar la configuraci\'on del sistema son:
+				\begin{itemize}
+					\item \textbf{Departamentos:} En este m\'odulo se permitir\'a declarar la informaci\'on de los departamentos que se manejar\'an en el SII, los datos requeridos hasta el momento son Id, nombre y descripci\'on.
+					\item \textbf{Formulas:} En este m\'odulo se configurar\'an las f\'ormulas que extraer\'an los datos de la base de datos y realizaran los c\'alculos establecidos en estas. Los campos requeridos para configurar una formula son id formula, nombre y la definici\'on de la formula.
+					\item \textbf{Colecciones:} Este m\'odulo permite establecer las f\'ormulas que se aplicaran a cada proceso. Las formulas pueden estar en m\'as de un proceso, esto debido a que se puede reutilizar un cálculo de un departamento a otro. Los campos necesarios en este m\'odulo solamente son el id de formula y el id de colecci\'on.
+					\item \textbf{Procesos:} En este se definen los datos del periodo dentro de los cuales se necesitan el departamento al que pertenece, numero interno de proceso, descripci\'on, grupo de f\'ormulas a aplicar, fecha de inicio y fin, responsable y unidad de medida.
+				\end{itemize}
+
+			\subsubsection{Salida de datos}
+
+				Para la salida de datos se necesita hasta el momento una sola vista en donde se ve el resultado del proceso del periodo de indicadores, esta secci\'on mostrara los siguientes datos:
+				\begin{itemize}
+					\item \textbf{N\'umero interno de periodo de indicadores:} El n\'umero interno del periodo de indicadores es el identificador \'unico para cada periodo de indicadores.
+					\item \textbf{N\'umero consecutivo:} Este se asignar\'a al momento de resolver la formula d\'andole a cada registro del detalle del proceso un identificador.
+					\item \textbf{Formula sistema:} Aqu\'i se mostrar\'a la formula tal cual est\'a en el sistema al momento del proceso.
+					\item \textbf{Formula pre compilado:} En esta se resuelven las funciones propias del sistema, es decir, las formulas programadas en el sistema, dando como resultado una formula la cual se encuentra lista para ser resuelta por el m\'odulo de f\'ormulas de Microsoft Excel.
+					\item \textbf{Resultado:} En este se mostrara el resultado de la formula resuelta por Excel y ser\'a el dato m\'as interesante ya que ser\'a el resultado del indicador.
+					De los datos insertados en el sistema, el que requiere de especial atenci\'on es la definici\'on de la formula, esto debido a que si existe alg\'un error en sintaxis al momento de procesar la formulas, esta retornara un valor de 0.
+				\end{itemize}
+
+		\subsection{Usuarios y factores humanos}
+
+			El Sistema Integral de Indicadores est\'a pensado para tres tipos de usuarios de usuarios los cuales tendr\'an roles y permisos diferentes. Los usuarios que se podr\'an usar en el sistema son los siguientes:
+
 			\begin{itemize}
-				\item \textbf{Departamentos:} En este m\'odulo se permitir\'a declarar la informaci\'on de los departamentos que se manejar\'an en el SII, los datos requeridos hasta el momento son Id, nombre y descripci\'on.
-				\item \textbf{Formulas:} En este m\'odulo se configurar\'an las f\'ormulas que extraer\'an los datos de la base de datos y realizaran los c\'alculos establecidos en estas. Los campos requeridos para configurar una formula son id formula, nombre y la definici\'on de la formula.
-				\item \textbf{Colecciones:} Este m\'odulo permite establecer las f\'ormulas que se aplicaran a cada proceso. Las formulas pueden estar en m\'as de un proceso, esto debido a que se puede reutilizar un cálculo de un departamento a otro. Los campos necesarios en este m\'odulo solamente son el id de formula y el id de colecci\'on.
-				\item \textbf{Procesos:} En este se definen los datos del periodo dentro de los cuales se necesitan el departamento al que pertenece, numero interno de proceso, descripci\'on, grupo de f\'ormulas a aplicar, fecha de inicio y fin, responsable y unidad de medida.
+				\item Usuario administrador.
+				\item Usuario soporte
+				\item Usuario consulta
 			\end{itemize}
 
-		\subsubsection{Salida de datos}
+			\subsubsection{Usuario administrador}
 
-			Para la salida de datos se necesita hasta el momento una sola vista en donde se ve el resultado del proceso del periodo de indicadores, esta secci\'on mostrara los siguientes datos:
+				Este usuario tendr\'a permisos para de acceso a todos los m\'odulos teniendo la capacidad de modificar cualquier dato dentro del sistema, adem\'as de tener la capacidad de procesar y reprocesar los periodos de indicadores.\\
+
+				Este usuario debe tener conocimientos de programaci\'on, ya que tendr\'a que programar y modificar funciones para los c\'alculos de indicadores. Ademas deber\'a de tener conocimientos de rastreo de errores y base de datos para poder consultar los errores guardados en el log de base de datos cuando estos se generen. \\
+
+				El usuario de soporte debe hacerse cargo de dar soporte a los tickets reportados referentes a errores l\'ogicos y ajustes de programaci\'on que se requieran seg\'un las necesidades, por lo que este deber\'a tener conocimientos en desarrollo Web con C\# y MVC 4, adem\'as de conocer JQuery y bases de datos con Microsoft SQL Server 2012.\\
+
+			\subsubsection{Usuario soporte}
+
+				Este usuario tendr\'a la capacidad de modificar los datos de los m\'odulos de f\'ormulas y grupos de f\'ormulas con lo cual podr\'a configurar los datos resultantes del proceso de indicadores. Este adem\'as podr\'a tener la capacidad de reprocesar periodos de indicadores con autorizaci\'on de un usuario de soporte.\\
+
+				Este usuario deber\'a de tener conocimientos b\'asicos en programaci\'on para realizar la creaci\'on y modificaci\'on de f\'ormulas de sistema.\\
+
+			\subsubsection{Usuario consulta}
+			
+				Este usuario es el usuario m\'as limitado del sistema, pues este solamente podr\'a consultar los resultados de los periodos procesados.\\
+
+				Este usuario no necesita conocimientos espec\'ificos ya que su funci\'on es solamente de consulta.
+
+		\subsection{Funcionalidad}
+
+			En esta secci\'on se detalla la funcionalidad que el Sistema Integral de Indicadores tendr\'a.\\
+
+			La funcionalidad del Sistema Integral de Indicadores se ver\'a marcada por 3 etapas muy importantes, las cuales son:
 			\begin{itemize}
-				\item \textbf{N\'umero interno de periodo de indicadores:} El n\'umero interno del periodo de indicadores es el identificador \'unico para cada periodo de indicadores.
-				\item \textbf{N\'umero consecutivo:} Este se asignar\'a al momento de resolver la formula d\'andole a cada registro del detalle del proceso un identificador.
-				\item \textbf{Formula sistema:} Aqu\'i se mostrar\'a la formula tal cual est\'a en el sistema al momento del proceso.
-				\item \textbf{Formula pre compilado:} En esta se resuelven las funciones propias del sistema, es decir, las formulas programadas en el sistema, dando como resultado una formula la cual se encuentra lista para ser resuelta por el m\'odulo de f\'ormulas de Microsoft Excel.
-				\item \textbf{Resultado:} En este se mostrara el resultado de la formula resuelta por Excel y ser\'a el dato m\'as interesante ya que ser\'a el resultado del indicador.
-				De los datos insertados en el sistema, el que requiere de especial atenci\'on es la definici\'on de la formula, esto debido a que si existe alg\'un error en sintaxis al momento de procesar la formulas, esta retornara un valor de 0.
+				\item Configuraci\'on.
+				\item Proceso de datos.
+				\item Visualizaci\'on de informaci\'on.
 			\end{itemize}
+
+			\subsubsection{Configuraci\'on}
+
+				En esta etapa se realizara la configuraci\'on necesaria la cual servir\'a para alimentar el motor de informaci\'on, adem\'as de ser un paso necesario ya que sin \'el no ser\'a posible configurar los par\'ametros de los indicadores.\\
+
+				El proceso de configuraci\'on consta de 3 pasos los cuales se muestran en la figura \ref{fig_ConfiguracionIndicadores}.\\
+
+				\begin{figure}[H]
+			        \centering
+			        \includegraphics[width=16cm, height=8.5cm]{figuras/ConfiguracionIndicadores}
+			        \caption{Diagrama del proceso de configuraci\'on de f\'ormulas de indicadores.}
+			        \label{fig_ConfiguracionIndicadores}
+			    \end{figure}
+
+		    	\begin{enumerate}[1.]
+		    		\item \textbf{Identificar las tablas con informaci\'on \'util.}
+
+		    			El Sistema Integral de Indicadores necesitar\'a contar con la informaci\'on de las tablas del sistema para que \'el pueda generar consultas din\'amicas de informaci\'on, es por esto que se pide identificar las tablas que contienen informaci\'on que sea de utilidad para los fines de los indicadores.
+		    			Estas tablas estar\'an disponibles para su consulta y creaci\'on de f\'ormulas permitiendo al usuario la facilidad de consultar cualquier campo que le sea de utilidad.
+		    		\item \textbf{Crear pantalla con detalles de las tablas necesarias.}
+
+		    			Este punto consta de realizar el dise\~no de una pantalla  que permita mostrar las tablas en una pantalla para poder ser consultadas y aplicadas directamente a las formulas del sistema.
+						Los datos a mostrar en la pantalla son solamente el nombre de la tabla, permitiendo con esto navegar y ubicar los datos de mejor manera. La pantalla de tablas por solicitud del usuario mostrara todas las tablas de la base de datos.
+						Estas tablas se mostraran en una lista en el m\'odulo de creaci\'on de f\'ormulas.
+					\item \textbf{Crear pantalla con el detalle de los campos.}
+
+						Esta pantalla ser\'a para complementar la pantalla tablas ya que el detalle de los campos de de cada tabla se mostrara en una segunda lista en el m\'odulo de creaci\'on de f\'ormulas, permitiendo con esto tener a la mano todos las herramientas necesarias para el dise\~no de estas.
+
+		    	\end{enumerate}
+
+		    \subsubsection{Proceso de datos}
+
+		    	En este proceso se realizar\'a una de las tareas m\'as delicadas del sistema, ya que es aqu\'i donde se procesar\'a la informaci\'on de los indicadores.\\
+
+				En este proceso se realizaran los c\'alculos de los indicadores, realizando el registro de los datos para tener la informaci\'on organizada seg\'un los datos reales y adem\'as para hacer m\'as eficiente la consulta de informaci\'on.\\
+
+				En este paso se realizarla lo descrito  en la figura \ref{fig_ProcesoIndicador}
+
+				\begin{figure}[H]
+			        \centering
+			        \includegraphics[width=16cm, height=8.5cm]{figuras/ProcesoIndicadores}
+			        \caption{Diagrama del proceso de informaci\'on de indicadores.}
+			        \label{fig_ProcesoIndicador}
+			    \end{figure}
+
+			    La definici\'on de los indicadores es la parte en donde se definen los datos para generar los resultados de los indicadores, el cual se realizara de acuerdo a los lineamientos del Instituto Tecnol\'ogico de Tl\'ahuac el cual establece que la informaci\'on se organizar\'a primeramente por instituci\'on, despu\'es se especificar\'a el departamento al que pertenece el indicador y por \'ultimo se organizar\'an por un rango de fechas especificado manualmente. Este rango de fechas podr\'a ser utilizado en la programaci\'on de las formulas permitiendo filtrar los datos.
+
+			    \begin{enumerate}[1.]
+		    		\item \textbf{Definic\'ion del proceso de indicador.}
+
+		    			Este proceso consta de realizar la creaci\'on del proceso de indicador que se desee, para el cual se necesitan los siguientes datos:
+		    			\begin{itemize}
+		    				\item \textbf{ID instituci\'on:} Este campo contendr\'a el ID de la instituci\'on a la que pertenece el indicador, este campo formar\'a parte de la llave para identificar el indicador.
+		    				\item \textbf{Departamento:} Este campo es el n\'umero de departamento.
+		    				\item \textbf{N\'umero interno del proceso:} Este campo se autogenerara cuando se crea un nuevo proceso, ya que es \'unico para poder identificar los procesos dentro de todo el sistema.
+		    				\item \textbf{Descripci\'on:} Este campo contendr\'a el detalle del contenido del indicador, permitiendo tener un resumen r\'apido del mismo.
+		    				\item \textbf{Colecci\'on de f\'ormulas:} Este campo contendr\'a el n\'umero de colecci\'on que se utilizara para realizar el c\'alculo del indicador.
+		    				\item \textbf{Fecha inicial:} Fecha de inicio del proceso.
+		    				\item \textbf{Fecha final:} Fecha de fin del proceso.
+		    				\item \textbf{Responsable:} Este campo es para almacenar el puesto o el nombre del responsable de calcular la informaci\'on de este indicador.
+		    				\item \textbf{Unidad de medida:} Especifica la unidad que se utiliza para medir el indicador, este regularmente es un porcentaje.
+		    			\end{itemize}
+
+		    		\item \textbf{Configuraci\'on de f\'ormulas de indicadores.}
+
+		    			Este proceso consiste en realizar la configuraci\'on de las f\'ormulas que permitir\'an de manera din\'amica obtener los datos configurados en la misma.
+
+						Para realizar la configuraci\'on de la misma es necesario conocer algunos de los elementos que se pueden utilizar en las mismas los cuales son:
+						\begin{itemize}
+							\item F\'ormulas definidas en el sistema
+							\item F\'ormulas de  Microsoft Excel
+						\end{itemize}
+
+						\textbf{F\'ormulas definidas en el sistema:} Esta funcionalidad permite realizar acciones generales basadas en funciones parametrizables, las cuales se podr\'an acceder con la siguiente nomenclatura NOMBRE\_FUNCION (PARAMETRO\_1, PARAMETRO\_2 ... PARAMETRO\_N).
+
+						Con esto la primera capa de resoluci\'on de f\'ormulas nos permite obtener datos procesados en f\'ormulas que se pueden programar en c\'odigo, ampliando la potencia de la resoluci\'on delas mismas.
+
+						\textbf{F\'ormulas de Microsoft Excel:} Esta funcionalidad es el segundo y \'ultimo de los niveles de resoluci\'on de f\'ormulas del sistema de indicadores, ya que al tener los datos obtenidos mediante la resoluci\'on de f\'ormulas de sistema, podemos realizar la resoluci\'on de f\'ormulas de Excel, permitiendo usar la potencia del motor de f\'ormulas de dicho software, y al tener esta posibilidad se pueden obtener los resultados como si estuvi\'eramos en el mismo software.
+
+					\item \textbf{Procesamiento del indicador.}
+
+						Este es el paso final del proceso de datos el cual consiste en realizar el procesamiento de las f\'ormulas y almacenamiento de dichos datos.
+
+						Este proceso se plane\'o con el fin de tener informaci\'on espec\'ifica adem\'as de registrar estos datos en la base de datos para mejorar la eficiencia de la visualizaci\'on de los indicadores. Si este paso no existiera, la resoluci\'on de las f\'ormulas se tendr\'ia que realizar cada que un indicador se visualice generando con esto posibles inconsistencias en la informaci\'on por la adici\'on  nuevos datos, adem\'as de lentitud al momento de usar el sistema.
+
+		    	\end{enumerate}
+
+
+
+
+
+
+		
+		
+		
+
 
 
 
