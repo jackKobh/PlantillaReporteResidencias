@@ -61,10 +61,9 @@
 \contentsline {subsubsection}{Configuraci\'on}{30}
 \contentsline {subsubsection}{Proceso de datos}{31}
 \contentsline {section}{\numberline {3.3}Dise\~no del sistema}{33}
-\contentsline {section}{\numberline {3.4}Dise\~no del programa}{33}
-\contentsline {section}{\numberline {3.5}Codificaci\'on}{33}
-\contentsline {section}{\numberline {3.6}Pruebas}{33}
-\contentsline {section}{\numberline {3.7}Implantaci\'on}{33}
-\contentsline {section}{\numberline {3.8}Mantenimiento}{33}
-\contentsline {chapter}{\numberline {4}Pruebas y resultados}{34}
-\contentsline {chapter}{\numberline {5}Conclusiones}{35}
+\contentsline {subsection}{\numberline {3.3.1}Estructura de los datos}{33}
+\contentsline {subsubsection}{Definici\'on del diccionario de datos del sistema}{35}
+\contentsline {subsubsection}{Definici\'on del diccionario de datos del sistema}{36}
+\contentsline {section}{\numberline {3.4}Caracterizaci\'on de la interfaz}{37}
+\contentsline {chapter}{\numberline {4}Pruebas y resultados}{39}
+\contentsline {chapter}{\numberline {5}Conclusiones}{40}

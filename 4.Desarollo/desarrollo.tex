@@ -221,21 +221,208 @@
 
 		    	\end{enumerate}
 
-
-
-
-
-
-		
-		
-		
-
-
-
-
 	\section{Dise\~no del sistema}
-	\section{Dise\~no del programa}
-	\section{Codificaci\'on}
-	\section{Pruebas}
-	\section{Implantaci\'on}
-	\section{Mantenimiento}
+		Para el dise\~no del sistema se tomar\'an dos puntos de la metodolog\'ia de cascada los cuales son:
+		\begin{itemize}
+			\item Estructura de los datos.
+			\item Caracterizaci\'on de la interfaz.
+		\end{itemize}
+
+		\subsection{Estructura de los datos}
+
+			Para la creaci\'on de la base de datos del Sistema Integral de Indicadores es necesario identificar las entidades principales para poder comenzar con el proceso de dise\~no de la misma. Las entidades que se utilizar\'an en el sistema son:
+			\begin{itemize}
+				\item Departamentos.
+				\item F\'ormulas.
+				\item Grupos de f\'ormulas.
+				\item Proceso.
+			\end{itemize}
+
+			Estas entidades est\'an ligadas con una que ya existe llamada Instituci\'on, la cual tiene la informaci\'on de las instituciones que administra el sistema.\\
+
+			Para relacionar las entidades identificadas se cre\'o un diagrama entidad-relaci\'on como se muestra en la figura \ref{fig_DEntidadRel}.
+
+			\begin{figure}[H]
+		        \centering
+		        \includegraphics[width=16cm, height=8.5cm]{figuras/DEntidadRel}
+		        \caption{Diagrama entidad relaci\'on del sistema de indicadores.}
+		        \label{fig_DEntidadRel}
+		    \end{figure}
+
+		    \begin{itemize}
+		    	\item \textbf{instituci\'on:} Esta entidad es parte del sistema general del Tecnol\'ogico de Tl\'ahuac por lo que solamente haremos referencia a ella para validar la integridad de los datos verificando que los indicadores est\'en ligados a una instituci\'on existente.
+		    	\item \textbf{Departamentos:} La entidad departamentos contendr\'a la informaci\'on necesaria de cada departamento como son un identificador, su nombre y descripci\'on. Posteriormente se podr\'an agregar campos para futuras funcionalidades.
+		    	\item \textbf{Formulas:} Esta entidad contendr\'a la informaci\'on de las formulas necesaria para ser identificada en el proceso. La informaci\'on que se requiere es la instituci\'on, identificador, nombre y la definici\'on de la f\'ormula. Posteriormente se pueden a\~nadir campos para futuras funcionalidades.
+		    	\item \textbf{GFormulas:} Esta entidad est\'a encargada de agrupar las formulas en grupos. Estos grupos ser\'an utilizados para ser procesados en un proceso de indicadores, esta entidad se considerar\'a una entidad compuesta partiendo los datos en encabezado y detalle, permitiendo con esto evitar la redundancia de datos.
+		    	\item \textbf{Procesos:} Esta entidad es la parte m\'as importante del sistema de indicadores, pues es en ella donde se almacena el resultado del c\'alculo y avance de los procesos de indicadores. Esta es considerada una entidad compuesta partiendo los datos en encabezado y detalle.
+		    \end{itemize}
+
+		    Despu\'es de identificar las entidades compuestas el diagrama sufre algunos cambios, los cuales se muestran en la figura \ref{fig_DEntidadRelComp}.
+
+		    \begin{figure}[H]
+		        \centering
+		        \includegraphics[width=16cm, height=8.5cm]{figuras/DEntidadRelComp}
+		        \caption{Diagrama entidad relaci\'on con tablas compuestas del sistema de indicadores.}
+		        \label{fig_DEntidadRelComp}
+		    \end{figure}
+
+		    \subsubsection{Definici\'on del diccionario de datos del sistema}
+
+		    	De acuerdo a la definici\'on de los datos, se puede generar el diagrama relacional indicando como es que los datos estarán organizados en la base de datos. La figura \ref{fig_DEntidadRelComp} ilustra este diagrama.
+
+		    	\begin{figure}[H]
+			        \centering
+			        \includegraphics[width=16cm, height=8.5cm]{figuras/Relacional}
+			        \caption{Diagrama relaional con campos del sistema de indicadores.}
+			        \label{fig_DEntidadRelComp}
+			    \end{figure}
+
+		    \subsubsection{Definici\'on del diccionario de datos del sistema}
+
+		    	De acruerdo a los diagramas anteriores, se procede a realizar la definicion del diccionario de datos para la
+
+		    	\begin{table}[H]
+				\centering
+				\caption{Detalle de los campos de la tabla departamentos.}
+				\label{tab_departamentos}
+					\begin{tabular}{|l|c|c|c|c|c|c|}
+						\hline
+						\rowcolor[HTML]{329A9D} 
+						\multicolumn{7}{|c|}{\cellcolor[HTML]{329A9D}DEPARTAMENTOS}                                                      \\ \hline
+						\rowcolor[HTML]{00D2CB} 
+						\multicolumn{1}{|c|}{\cellcolor[HTML]{00D2CB}Nombre} & Tipo     & TipoNativo & Longitud & Precisi\'on & Orden & PK \\ \hline
+						DEP\_ACTIVO                                          & tinyint  & tinyint    & 1        & 3         & 4     & No \\ \hline
+						DEP\_ID\_INSTITUCION                                 & smallint & smallint   & 2        & 5         & 1     & Si \\ \hline
+						DEP\_ID\_DEPARTAMENTO                                & int      & int        & 4        & 10        & 2     & Si \\ \hline
+					\end{tabular}
+				\end{table}
+
+
+				\begin{table}[H]
+					\centering
+					\caption{Detalle de los campos de la tabla formulasc.}
+					\label{tab_formulasc}
+					\begin{tabular}{|l|c|c|c|c|c|c|}
+						\hline
+						\rowcolor[HTML]{329A9D} 
+						\multicolumn{7}{|c|}{\cellcolor[HTML]{329A9D}FORMULASC}                                                          \\ \hline
+						\rowcolor[HTML]{00D2CB} 
+						\multicolumn{1}{|c|}{\cellcolor[HTML]{00D2CB}Nombre} & Tipo     & TipoNativo & Longitud & Precisi\'on & Orden & PK \\ \hline
+						FORC\_INSTITUCION                                    & smallint & smallint   & 2        & 5         & 1     & Si \\ \hline
+						FORC\_IDFORMULA                                      & int      & int        & 4        & 10        & 2     & Si \\ \hline
+						FORC\_NOMBRE                                         & varchar  & varchar    & 200      & 200       & 3     & No \\ \hline
+						FORC\_FORMULA                                        & varchar  & varchar    & Max      & Max       & 4     & No \\ \hline
+					\end{tabular}
+				\end{table}
+
+				\begin{table}[H]
+					\centering
+					\caption{Detalle de los campos de la tabla gformulase.}
+					\label{tab_gformulase}
+					\begin{tabular}{|l|l|l|l|l|l|l|}
+						\hline
+						\rowcolor[HTML]{329A9D} 
+						\multicolumn{7}{|c|}{\cellcolor[HTML]{329A9D}GFORMULASE}                       \\ \hline
+						\rowcolor[HTML]{00D2CB} 
+						Nombre             & Tipo     & TipoNativo & Longitud & Precisi\'on & Orden & PK \\ \hline
+						GFORE\_INSTITUCION & smallint & smallint   & 2        & 5         & 1     & Si \\ \hline
+						GFORE\_IDGRUPO     & int      & int        & 4        & 10        & 2     & Si \\ \hline
+						GFORE\_NOMBRE      & varchar  & varchar    & 200      & 200       & 3     & No \\ \hline
+						GFORE\_DESCRIPCION & varchar  & varchar    & Max      & Max       & 4     & No \\ \hline
+					\end{tabular}
+				\end{table}
+
+				\begin{table}[H]
+					\centering
+					\caption{Detalle de los campos de la tabla gformulasr.}
+					\label{tab_gformulasr}
+					\begin{tabular}{|c|c|c|c|c|c|c|}
+						\hline
+						\rowcolor[HTML]{329A9D} 
+						\multicolumn{7}{|c|}{\cellcolor[HTML]{329A9D}GFORMULASR}                       \\ \hline
+						\rowcolor[HTML]{00D2CB} 
+						Nombre             & Tipo     & TipoNativo & Longitud & Precisi\'on & Orden & PK \\ \hline
+						GFORR\_INSTITUCION & smallint & smallint   & 2        & 5         & 1     & Si \\ \hline
+						GFORR\_IDFORMULA   & int      & int        & 4        & 10        & 2     & Si \\ \hline
+						GFORR\_IDGRUPO     & int      & int        & 4        & 10        & 3     & Si \\ \hline
+					\end{tabular}
+				\end{table}
+
+				\begin{table}[H]
+					\centering
+					\caption{Detalle de los campos de la tabla procesoe.}
+					\label{tab_procesoe}
+					\begin{tabular}{|l|c|c|c|c|c|c|}
+						\hline
+						\rowcolor[HTML]{329A9D} 
+						\multicolumn{7}{|c|}{\cellcolor[HTML]{329A9D}PROCESOE}                                                           \\ \hline
+						\rowcolor[HTML]{00D2CB} 
+						\multicolumn{1}{|c|}{\cellcolor[HTML]{00D2CB}Nombre} & Tipo     & TipoNativo & Longitud & Precisi\'on & Orden & PK \\ \hline
+						PROE\_PROCESADO                                      & tinyint  & tinyint    & 1        & 3         & 10    & No \\ \hline
+						PROE\_INSTITUCION                                    & smallint & smallint   & 2        & 5         & 1     & Si \\ \hline
+						PROE\_DEPARTAMENTO                                   & int      & int        & 4        & 10        & 2     & Si \\ \hline
+						PROE\_NUMINTERNO                                     & int      & int        & 4        & 10        & 3     & Si \\ \hline
+						PROE\_IDGRUPO                                        & int      & int        & 4        & 10        & 5     & No \\ \hline
+						PROE\_FECHAINI                                       & datetime & datetime   & 8        & 23        & 6     & No \\ \hline
+						PROE\_FECHAFIN                                       & datetime & datetime   & 8        & 23        & 7     & No \\ \hline
+						PROE\_DESCRIPCION                                    & varchar  & varchar    & 200      & 200       & 4     & No \\ \hline
+						PROE\_RESPONSABLE                                    & varchar  & varchar    & 100      & 100       & 8     & No \\ \hline
+						PROE\_UNIDMEDIDA                                     & varchar  & varchar    & 100      & 100       & 9     & No \\ \hline
+					\end{tabular}
+				\end{table}
+
+				\begin{table}[H]
+					\centering
+					\caption{Detalle de los campos de la tabla procesod.}
+					\label{tab_procesod}
+					\begin{tabular}{|l|c|c|c|c|c|c|}
+						\hline
+						\rowcolor[HTML]{329A9D} 
+						\multicolumn{7}{|c|}{\cellcolor[HTML]{329A9D}PROCESOD}                                                             \\ \hline
+						\rowcolor[HTML]{00D2CB} 
+						\multicolumn{1}{|c|}{\cellcolor[HTML]{00D2CB}Nombre} & Tipo     & TipoNativo & Longitud & Precisi\'on & Orden & PK \\ \hline
+						PROD\_INSTITUCION                                    & smallint & smallint   & 2        & 5           & 1     & Si \\ \hline
+						PROD\_NUMINTERNO                                     & int      & int        & 4        & 10          & 2     & Si \\ \hline
+						PROD\_CONSECUTIVO                                    & int      & int        & 4        & 10          & 3     & Si \\ \hline
+						PROD\_FORMULASIS                                     & varchar  & varchar    & Max      & Max         & 4     & No \\ \hline
+						PROD\_FORMULAPRE                                     & varchar  & varchar    & Max      & Max         & 5     & No \\ \hline
+						PROD\_FORMULARES                                     & varchar  & varchar    & Max      & Max         & 6     & No \\ \hline
+					\end{tabular}
+				\end{table}
+
+				Con esto la definici\'on de los datos queda completa, permitiendo tener los argumentos suficientes para la descripci\'on de las interfaces.
+
+
+
+
+
+	\section{Caracterizaci\'on de la interfaz}
+
+		Para la definici\'on de la funcionalidad de la interfaz se tomaran en cuenta los siguientes requerimientos generales:
+		\begin{itemize}
+			\item Los tipos de dato de los componentes de entrada de las interfaces estar\'an definidos de acuerdo al tipo de dato nativo en la BD, esto para mejorar la experiencia del usuario.
+			\item Todas las entradas de datos se mostrar\'an en ventanas emergentes.
+			\item La visualizaci\'on de los datos se har\'a en una tabla para mejorar la accesibilidad de los datos
+			\item Las acciones propias a los registros serán colocadas a la derecha de la tabla, estas no tendr\'an t\'itulo de encabezado.
+			\item Se crearan los botones de navegaci\'on del sistema en la parte superior derecha de las tablas, estas acciones ser\'an determinadas por m\'odulo.
+			\item En el caso de que no existan registros para mostrar en el m\'odulo, deber\'a de mostrar un mensaje descriptivo a la situaci\'on, dejando invisibles los encabezados de la tabla propia del m\'odulo.
+		\end{itemize}
+
+		En el caso de algunos m\'odulos, se deber\'an de tomar algunas consideraciones especiales las cuales se describe continuaci\'on:
+
+		\begin{itemize}
+			\item \textbf{Colecciones:} En el caso de este formulario se deber\'a agregar una columna que muestre un bot\'on, este bot\'on re direccionara al formulario DetalleColecciones.
+			\item \textbf{DetalleColecciones:} Este formulario contara \'unicamente con las funciones de agregar y eliminar, se deshabilita la funci\'on de actualizar ya que aqu\'i no se pueden modificar las formulas si no solo agregarlas o eliminarlas. 
+
+			La funcionalidad de agregar se mostrara en una ventana emergente la cual tendr\'a \'unicamente una lista multi-selecci\'on que mostrara las f\'ormulas que est\'an disponibles para ser agregadas a la colecci\'on.
+			\item \textbf{Proceso:} Este dormulario mostrara los registros del encabezado de los procesos con las siguientes funcionalidades.
+			\begin{itemize}
+				\item \textbf{Crear:} Esta funcionalidad permitir\'a crear un nuevo proceso.
+				\item \textbf{Actualizar:} Esta funcionalidad permite actualizar los datos del periodo. Cuando se realiza esta acci\'on es importante mencionar que el periodo puede que necesite reprocesarse, ya que los datos como las fechas de inicio y fin o el n\'umero de colecci\'on de f\'ormulas afectan directamente en el resultado.
+				\item \textbf{Eliminar:} Esta funcionalidad permite eliminar un proceso. Es importante destacar que al eliminar un proceso se eliminaran tanto los registros en el encabezado y el detalle.
+				\item \textbf{Procesar:} Esta funcionalidad ejecuta la resoluci\'on de f\'ormulas del sistema guardando los resultados en el detalle del proceso.
+				\item \textbf{Detalle:} Esta funcionalidad muestra los registros que se encuentran en el detalle del proceso. Este formulario es solo de consulta por lo que no se tendr\'a ninguna funcionalidad.
+			\end{itemize}
+		\end{itemize}
+
+
