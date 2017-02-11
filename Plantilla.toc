@@ -1,8 +1,6 @@
 \select@language {spanish}
 \contentsline {chapter}{Lista de figuras}{\es@scroman {iii}}
 \contentsline {chapter}{Lista de tablas}{\es@scroman {iv}}
-\contentsline {chapter}{Lista de algoritmos}{\es@scroman {v}}
-\contentsline {chapter}{Lista de siglas}{\es@scroman {vi}}
 \contentsline {chapter}{\numberline {1}Generalidades}{1}
 \contentsline {section}{\numberline {1.1}Objetivos}{1}
 \contentsline {subsection}{\numberline {1.1.1}Objetivo general}{1}

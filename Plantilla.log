@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.12.6)  10 FEB 2017 17:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.12.6)  10 FEB 2017 18:22
 entering extended mode
 **./Plantilla.tex
 (Plantilla.tex
@@ -615,20 +615,12 @@ LaTeX Info: Redefining \% on input line 1.
 
  [4
 
-] (Plantilla.loa)
-\tf@loa=\write6
-\openout6 = `Plantilla.loa'.
-
-
-(Extras/acronimos.tex [5
-
-]) [6
-
-] (2.Generalidades/generalidades.tex
+]
+(2.Generalidades/generalidades.tex
 Cap\'{\i }tulo 1.
 [1
 
-] <figuras/croquis.png, id=44, 630.85687pt x 397.485pt>
+] <figuras/croquis.png, id=38, 630.85687pt x 397.485pt>
 File: figuras/croquis.png Graphic file (type png)
 
 <use figuras/croquis.png>
@@ -641,7 +633,7 @@ File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Info: Redefining \. on input line 57.
 LaTeX Info: Redefining \% on input line 57.
- [2 <./figuras/croquis.png>] <figuras/organigrama.jpg, id=50, 990.099pt x 567.5
+ [2 <./figuras/croquis.png>] <figuras/organigrama.jpg, id=44, 990.099pt x 567.5
 604pt>
 File: figuras/organigrama.jpg Graphic file (type jpg)
 
@@ -705,7 +697,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
 
-<figuras/clienteservidor.png, id=64, 548.449pt x 221.628pt>
+<figuras/clienteservidor.png, id=57, 548.449pt x 221.628pt>
 File: figuras/clienteservidor.png Graphic file (type png)
 
 <use figuras/clienteservidor.png>
@@ -951,7 +943,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 331--332
 
 LaTeX Info: Redefining \. on input line 332.
 LaTeX Info: Redefining \% on input line 332.
-[16] <figuras/MVC.pdf, id=98, 613.99059pt x 370.96928pt>
+[16] <figuras/MVC.pdf, id=92, 613.99059pt x 370.96928pt>
 File: figuras/MVC.pdf Graphic file (type pdf)
  <use figuras/MVC.pdf>
 Package pdftex.def Info: figuras/MVC.pdf used on input line 367.
@@ -1152,7 +1144,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 142--143
 
  []
 
-<figuras/ConfiguracionIndicadores.pdf, id=144, 699.41293pt x 365.365pt>
+<figuras/ConfiguracionIndicadores.pdf, id=137, 699.41293pt x 365.365pt>
 File: figuras/ConfiguracionIndicadores.pdf Graphic file (type pdf)
 
 <use figuras/ConfiguracionIndicadores.pdf>
@@ -1171,7 +1163,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 171--172
 
  []
 
-<figuras/ProcesoIndicadores.pdf, id=148, 699.41293pt x 365.365pt>
+<figuras/ProcesoIndicadores.pdf, id=141, 699.41293pt x 365.365pt>
 File: figuras/ProcesoIndicadores.pdf Graphic file (type pdf)
 
 <use figuras/ProcesoIndicadores.pdf>
@@ -1194,7 +1186,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 241--242
 
  []
 
-<figuras/DEntidadRel.pdf, id=159, 480.265pt x 237.0707pt>
+<figuras/DEntidadRel.pdf, id=153, 480.265pt x 237.0707pt>
 File: figuras/DEntidadRel.pdf Graphic file (type pdf)
 
 <use figuras/DEntidadRel.pdf>
@@ -1203,7 +1195,7 @@ Package pdftex.def Info: figuras/DEntidadRel.pdf used on input line 247.
 LaTeX Info: Redefining \. on input line 250.
 LaTeX Info: Redefining \% on input line 250.
  [33]
-<figuras/DEntidadRelComp.pdf, id=163, 364.40358pt x 237.0707pt>
+<figuras/DEntidadRelComp.pdf, id=157, 364.40358pt x 237.0707pt>
 File: figuras/DEntidadRelComp.pdf Graphic file (type pdf)
 
 <use figuras/DEntidadRelComp.pdf>
@@ -1212,7 +1204,7 @@ Package pdftex.def Info: figuras/DEntidadRelComp.pdf used on input line 264.
 LaTeX Info: Redefining \. on input line 268.
 LaTeX Info: Redefining \% on input line 268.
  [34 <./figuras/DEntidadRel.pdf>]
-<figuras/Relacional.pdf, id=169, 710.61125pt x 416.71327pt>
+<figuras/Relacional.pdf, id=163, 710.61125pt x 416.71327pt>
 File: figuras/Relacional.pdf Graphic file (type pdf)
 
 <use figuras/Relacional.pdf>
@@ -1261,10 +1253,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7889 strings out of 493334
- 113367 string characters out of 3136669
+ 7880 strings out of 493334
+ 113264 string characters out of 3136669
  221411 words of memory out of 3000000
- 11200 multiletter control sequences out of 15000+200000
+ 11198 multiletter control sequences out of 15000+200000
  9972 words of font info for 37 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  40i,19n,58p,1039b,539s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1280,9 +1272,9 @@ ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Prog
 ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Plantilla.pdf (48 pages, 2330911 bytes).
+Output written on Plantilla.pdf (46 pages, 2329899 bytes).
 PDF statistics:
- 236 PDF objects out of 1000 (max. 8388607)
+ 230 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
