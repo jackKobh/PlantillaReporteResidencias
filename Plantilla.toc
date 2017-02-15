@@ -1,67 +1,92 @@
 \select@language {spanish}
 \contentsline {chapter}{Lista de figuras}{\es@scroman {iii}}
-\contentsline {chapter}{Lista de tablas}{\es@scroman {iv}}
-\contentsline {chapter}{\numberline {1}Generalidades}{1}
-\contentsline {section}{\numberline {1.1}Objetivos}{1}
-\contentsline {subsection}{\numberline {1.1.1}Objetivo general}{1}
-\contentsline {subsection}{\numberline {1.1.2}Objetivos espec\'ificos}{1}
-\contentsline {section}{\numberline {1.2}Justificaci\'on}{1}
-\contentsline {paragraph}{}{1}
-\contentsline {section}{\numberline {1.3}Caracterizaci\'on de la empresa en la que particip\'o}{2}
-\contentsline {subsection}{\numberline {1.3.1}Datos generales de la empresa}{2}
-\contentsline {subsection}{\numberline {1.3.2}Descripci\'on del departamento o \'area de trabajo.}{3}
-\contentsline {section}{\numberline {1.4}Problemas a resolver}{3}
-\contentsline {paragraph}{}{3}
-\contentsline {chapter}{\numberline {2}Fundamento te\'orico}{5}
-\contentsline {section}{\numberline {2.1}Indicador}{5}
-\contentsline {section}{\numberline {2.2}Sistema de gest\'ion}{5}
-\contentsline {section}{\numberline {2.3}Arquitectura Cliente-Servidor}{7}
-\contentsline {section}{\numberline {2.4}Lenguajes en cliente (Frontend)}{8}
-\contentsline {subsection}{\numberline {2.4.1}HTML Y HTML 5}{8}
-\contentsline {subsection}{\numberline {2.4.2}CSS}{9}
-\contentsline {subsection}{\numberline {2.4.3}Javascript}{9}
-\contentsline {section}{\numberline {2.5}Lenguajes en servidor (Backend)}{10}
-\contentsline {subsection}{\numberline {2.5.1}C\#}{10}
-\contentsline {section}{\numberline {2.6}Frameworks}{14}
-\contentsline {subsection}{\numberline {2.6.1}Frameworks en cliente}{14}
-\contentsline {subsubsection}{Bootstrap}{14}
-\contentsline {subsubsection}{JQuery}{14}
-\contentsline {subsection}{\numberline {2.6.2}Frameworks en servidor}{15}
-\contentsline {subsubsection}{.NET Framework}{15}
-\contentsline {section}{\numberline {2.7}Arquitectura de Software}{16}
-\contentsline {subsection}{\numberline {2.7.1}MVC (Modelo Vista Controlador)}{17}
-\contentsline {section}{\numberline {2.8}Base de Datos}{19}
-\contentsline {subsection}{\numberline {2.8.1}Lenguaje SQL}{20}
-\contentsline {subsection}{\numberline {2.8.2}Microsoft SQL Server}{20}
-\contentsline {subsubsection}{Requisitos de hardware}{21}
-\contentsline {subsubsection}{Rendimiento}{21}
-\contentsline {subsubsection}{Administraci\'on y mantenimiento}{22}
-\contentsline {subsubsection}{Estabilidad}{22}
-\contentsline {subsubsection}{Desarrollo de aplicaciones}{22}
-\contentsline {subsubsection}{Licencias}{22}
-\contentsline {section}{\numberline {2.9}Metodolog\'ia de desarrollo}{23}
-\contentsline {subsection}{\numberline {2.9.1}Modelo en cascada}{24}
-\contentsline {subsubsection}{Ventajas}{25}
-\contentsline {subsubsection}{Desventajas}{25}
-\contentsline {subsubsection}{Probable fracaso del modelo de cascada}{26}
-\contentsline {chapter}{\numberline {3}Desarollo}{27}
-\contentsline {section}{\numberline {3.1}An\'alisis del sistema}{27}
-\contentsline {section}{\numberline {3.2}An\'alisis de requisitos del software}{28}
-\contentsline {subsection}{\numberline {3.2.1}Requerimientos f\'isicos}{28}
-\contentsline {subsection}{\numberline {3.2.2}Interfaces}{29}
-\contentsline {subsubsection}{Entrada de datos}{29}
-\contentsline {subsubsection}{Salida de datos}{29}
-\contentsline {subsection}{\numberline {3.2.3}Usuarios y factores humanos}{29}
-\contentsline {subsubsection}{Usuario administrador}{30}
-\contentsline {subsubsection}{Usuario soporte}{30}
-\contentsline {subsubsection}{Usuario consulta}{30}
-\contentsline {subsection}{\numberline {3.2.4}Funcionalidad}{30}
-\contentsline {subsubsection}{Configuraci\'on}{30}
-\contentsline {subsubsection}{Proceso de datos}{31}
-\contentsline {section}{\numberline {3.3}Dise\~no del sistema}{33}
-\contentsline {subsection}{\numberline {3.3.1}Estructura de los datos}{33}
-\contentsline {subsubsection}{Definici\'on del diccionario de datos del sistema}{35}
-\contentsline {subsubsection}{Definici\'on del diccionario de datos del sistema}{36}
-\contentsline {section}{\numberline {3.4}Caracterizaci\'on de la interfaz}{37}
-\contentsline {chapter}{\numberline {4}Pruebas y resultados}{39}
-\contentsline {chapter}{\numberline {5}Conclusiones}{40}
+\contentsline {chapter}{Lista de tablas}{\es@scroman {v}}
+\contentsline {chapter}{\numberline {1}Introducci\'on}{1}
+\contentsline {chapter}{\numberline {2}Generalidades}{5}
+\contentsline {section}{\numberline {2.1}Objetivos}{5}
+\contentsline {subsection}{\numberline {2.1.1}Objetivo general}{5}
+\contentsline {subsection}{\numberline {2.1.2}Objetivos espec\'ificos}{5}
+\contentsline {section}{\numberline {2.2}Justificaci\'on}{5}
+\contentsline {paragraph}{}{5}
+\contentsline {section}{\numberline {2.3}Caracterizaci\'on de la empresa en la que particip\'o}{6}
+\contentsline {subsection}{\numberline {2.3.1}Datos generales de la empresa}{6}
+\contentsline {subsection}{\numberline {2.3.2}Descripci\'on del departamento o \'area de trabajo.}{7}
+\contentsline {section}{\numberline {2.4}Problemas a resolver}{7}
+\contentsline {paragraph}{}{7}
+\contentsline {chapter}{\numberline {3}Fundamento te\'orico}{9}
+\contentsline {section}{\numberline {3.1}Indicador}{9}
+\contentsline {section}{\numberline {3.2}Sistema de gest\'ion}{9}
+\contentsline {section}{\numberline {3.3}Arquitectura Cliente-Servidor}{11}
+\contentsline {section}{\numberline {3.4}Lenguajes en cliente (Frontend)}{12}
+\contentsline {subsection}{\numberline {3.4.1}HTML Y HTML 5}{12}
+\contentsline {subsection}{\numberline {3.4.2}CSS}{13}
+\contentsline {subsection}{\numberline {3.4.3}Javascript}{13}
+\contentsline {section}{\numberline {3.5}Lenguajes en servidor (Backend)}{14}
+\contentsline {subsection}{\numberline {3.5.1}C\#}{14}
+\contentsline {section}{\numberline {3.6}Frameworks}{18}
+\contentsline {subsection}{\numberline {3.6.1}Frameworks en cliente}{18}
+\contentsline {subsubsection}{Bootstrap}{18}
+\contentsline {subsubsection}{JQuery}{18}
+\contentsline {subsection}{\numberline {3.6.2}Frameworks en servidor}{19}
+\contentsline {subsubsection}{.NET Framework}{19}
+\contentsline {section}{\numberline {3.7}Arquitectura de Software}{20}
+\contentsline {subsection}{\numberline {3.7.1}MVC (Modelo Vista Controlador)}{21}
+\contentsline {section}{\numberline {3.8}Base de Datos}{23}
+\contentsline {subsection}{\numberline {3.8.1}Lenguaje SQL}{24}
+\contentsline {subsection}{\numberline {3.8.2}Microsoft SQL Server}{24}
+\contentsline {subsubsection}{Requisitos de hardware}{25}
+\contentsline {subsubsection}{Rendimiento}{25}
+\contentsline {subsubsection}{Administraci\'on y mantenimiento}{26}
+\contentsline {subsubsection}{Estabilidad}{26}
+\contentsline {subsubsection}{Desarrollo de aplicaciones}{26}
+\contentsline {subsubsection}{Licencias}{26}
+\contentsline {section}{\numberline {3.9}Metodolog\'ia de desarrollo}{27}
+\contentsline {subsection}{\numberline {3.9.1}Modelo en cascada}{28}
+\contentsline {subsubsection}{Ventajas}{29}
+\contentsline {subsubsection}{Desventajas}{29}
+\contentsline {subsubsection}{Probable fracaso del modelo de cascada}{30}
+\contentsline {chapter}{\numberline {4}Desarollo}{31}
+\contentsline {section}{\numberline {4.1}An\'alisis del sistema}{31}
+\contentsline {section}{\numberline {4.2}An\'alisis de requisitos del software}{32}
+\contentsline {subsection}{\numberline {4.2.1}Requerimientos f\'isicos}{32}
+\contentsline {subsection}{\numberline {4.2.2}Interfaces}{33}
+\contentsline {subsubsection}{Entrada de datos}{33}
+\contentsline {subsubsection}{Salida de datos}{33}
+\contentsline {subsection}{\numberline {4.2.3}Usuarios y factores humanos}{33}
+\contentsline {subsubsection}{Usuario administrador}{34}
+\contentsline {subsubsection}{Usuario soporte}{34}
+\contentsline {subsubsection}{Usuario consulta}{34}
+\contentsline {subsection}{\numberline {4.2.4}Funcionalidad}{34}
+\contentsline {subsubsection}{Configuraci\'on}{34}
+\contentsline {subsubsection}{Proceso de datos}{35}
+\contentsline {section}{\numberline {4.3}Dise\~no del sistema}{37}
+\contentsline {subsection}{\numberline {4.3.1}Estructura de los datos}{37}
+\contentsline {subsubsection}{Definici\'on del diccionario de datos del sistema}{39}
+\contentsline {subsubsection}{Definici\'on del diccionario de datos del sistema}{40}
+\contentsline {section}{\numberline {4.4}Caracterizaci\'on de la interfaz}{41}
+\contentsline {section}{\numberline {4.5}Programaci\'on}{42}
+\contentsline {subsection}{\numberline {4.5.1}Manejo de interfaces de mensajes emergentes}{42}
+\contentsline {chapter}{\numberline {5}Pruebas y resultados}{44}
+\contentsline {section}{\numberline {5.1}Pruebas y resultados de las p\'aginas principales del SII.}{44}
+\contentsline {section}{\numberline {5.2}Pruebas y resultados de m\'odulo Departamentos.}{45}
+\contentsline {subsection}{\numberline {5.2.1}Alta de departamento}{47}
+\contentsline {subsection}{\numberline {5.2.2}Actualizaci\'on de departamentos}{48}
+\contentsline {subsection}{\numberline {5.2.3}Baja de departamentos}{48}
+\contentsline {section}{\numberline {5.3}Pruebas y resultados de m\'odulo F\'ormulas.}{51}
+\contentsline {subsection}{\numberline {5.3.1}Alta de f\'ormula}{51}
+\contentsline {subsection}{\numberline {5.3.2}Actualizaci\'on de f\'ormulas}{53}
+\contentsline {subsection}{\numberline {5.3.3}Baja de f\'ormulas}{53}
+\contentsline {section}{\numberline {5.4}Pruebas y resultados de m\'odulo Colecciones.}{55}
+\contentsline {subsection}{\numberline {5.4.1}Alta de colecci\'on}{55}
+\contentsline {subsection}{\numberline {5.4.2}Actualizaci\'on de colecciones}{57}
+\contentsline {subsection}{\numberline {5.4.3}Baja de colecci\'on}{57}
+\contentsline {subsection}{\numberline {5.4.4}Detalle de colecciones}{60}
+\contentsline {subsubsection}{Agregar formulas a colecci\'on}{60}
+\contentsline {subsubsection}{Quitar f\'ormulas de colecci\'on}{60}
+\contentsline {section}{\numberline {5.5}Pruebas y resultados de m\'odulo Proceso.}{63}
+\contentsline {subsection}{\numberline {5.5.1}Alta de Procesos}{63}
+\contentsline {subsection}{\numberline {5.5.2}Actualizaci\'on de procesos}{64}
+\contentsline {subsection}{\numberline {5.5.3}Baja de procesos}{67}
+\contentsline {subsection}{\numberline {5.5.4}Proceso de periodo de indicadores}{67}
+\contentsline {subsection}{\numberline {5.5.5}Visualizaci\'on del detalle de procesos}{67}
+\contentsline {chapter}{\numberline {6}Conclusiones}{70}

@@ -16,9 +16,13 @@
 	[\vspace{0.5mm} \bigrule] % despuï¿½s del cuerpo, dejar espacio vertical y trazar lï¿½nea horizontal gruesa
 	\pagestyle{fancy}
 	\fancyhf{}
-	\fancyhead[LO]{\leftmark} % En las pï¿½ginas impares, parte izquierda del encabezado, aparecerï¿½ el nombre de capï¿½tulo
-	\fancyhead[RE]{\rightmark} % En las pï¿½ginas pares, parte derecha del encabezado, aparecerï¿½ el nombre de secciï¿½n
-	\fancyhead[RO,LE]{\thepage} % Nï¿½meros de pï¿½gina en las esquinas de los encabezados
+	%\fancyhead[LO]{\leftmark} % En las pï¿½ginas impares, parte izquierda del encabezado, aparecerï¿½ el nombre de capï¿½tulo
+	%\fancyhead[RE]{\rightmark} % En las pï¿½ginas pares, parte derecha del encabezado, aparecerï¿½ el nombre de secciï¿½n
+	%\fancyhead[RO,LE]{\thepage} % Nï¿½meros de pï¿½gina en las esquinas de los encabezados
+	%2017-02-14
+	% Por disposicion se modifico la estructura de la plantilla original para mostrar la numeracion en la parte inferior derecha.
+	\fancyfoot[RE]{\thepage} % Páginas Pares numeradas a la derecha
+	\fancyfoot[RO]{\thepage} % Páginas Impares numeradas a la izquierda
 
 	\renewcommand{\chaptermark}[1]{\markboth{\textbf{\thechapter. #1}}{}} % Formato para el capï¿½tulo: N. Nombre
 	\renewcommand{\sectionmark}[1]{\markright{\textbf{\thesection. #1}}} % Formato para la secciï¿½n: N.M. Nombre
@@ -58,3 +62,5 @@
 	\renewcommand\listtablename{Lista de tablas}
 	\renewcommand\contentsname{Tabla de contenido}
 	\renewcommand\bibname{Bibliograf\'ia}
+
+	

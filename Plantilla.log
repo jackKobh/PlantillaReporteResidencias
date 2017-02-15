@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.12.6)  10 FEB 2017 18:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.12.6)  14 FEB 2017 18:07
 entering extended mode
 **./Plantilla.tex
 (Plantilla.tex
@@ -309,6 +309,9 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@lastruleclass=\count115
 \@thisrulewidth=\dimen149
 )
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
 (C:\Users\Urbano\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
@@ -374,20 +377,20 @@ LaTeX Warning: Label `fig_DEntidadRelComp' multiply defined.
 )
 \openout1 = `Plantilla.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Info: Redefining \. on input line 30.
-LaTeX Info: Redefining \% on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Info: Redefining \. on input line 31.
+LaTeX Info: Redefining \% on input line 31.
  (C:\Users\Urbano\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count125
@@ -568,26 +571,18 @@ Package spanish Warning: Replacing `OT1/cmr/bx/sc' by
 Package spanish Warning: Replacing `OT1/cmr/bx/sc' by 
 (spanish)                faked small caps on input line 3.
 
-
-Package spanish Warning: Replacing `OT1/cmr/bx/sc' by 
-(spanish)                faked small caps on input line 4.
-
-
-Package spanish Warning: Replacing `OT1/cmr/bx/sc' by 
-(spanish)                faked small caps on input line 5.
-
-LaTeX Font Info:    Try loading font information for U+msa on input line 7.
+LaTeX Font Info:    Try loading font information for U+msa on input line 6.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 7.
+LaTeX Font Info:    Try loading font information for U+msb on input line 6.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <10> not available
-(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 51.
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 52.
 
 [1
 
@@ -595,74 +590,156 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <10> not available
 \tf@toc=\write3
 \openout3 = `Plantilla.toc'.
 
-LaTeX Info: Redefining \. on input line 44.
-LaTeX Info: Redefining \% on input line 44.
  [2] (Plantilla.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-)
+ [3
+
+])
 \tf@lof=\write4
 \openout4 = `Plantilla.lof'.
 
- [3
-
-] (Plantilla.lot
+ [4] (Plantilla.lot
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
 \tf@lot=\write5
 \openout5 = `Plantilla.lot'.
 
- [4
+ [5
 
 ]
-(2.Generalidades/generalidades.tex
+(1.Introduccion/introduccion.tex
 Cap\'{\i }tulo 1.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+
+ []
+
 [1
 
-] <figuras/croquis.png, id=38, 630.85687pt x 397.485pt>
+]
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--68
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--84
+
+ []
+
+[3]) (2.Generalidades/generalidades.tex [4]
+Cap\'{\i }tulo 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
+ []
+
+[5
+
+] <figuras/croquis.png, id=53, 630.85687pt x 397.485pt>
 File: figuras/croquis.png Graphic file (type png)
 
 <use figuras/croquis.png>
-Package pdftex.def Info: figuras/croquis.png used on input line 39.
+Package pdftex.def Info: figuras/croquis.png used on input line 40.
 (pdftex.def)             Requested size: 398.33716pt x 256.0817pt.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 52.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 53.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Info: Redefining \. on input line 57.
-LaTeX Info: Redefining \% on input line 57.
- [2 <./figuras/croquis.png>] <figuras/organigrama.jpg, id=44, 990.099pt x 567.5
-604pt>
+) [6 <./figuras/croquis.png>] <figuras/organigrama.jpg, id=60, 990.099pt x 567.
+5604pt>
 File: figuras/organigrama.jpg Graphic file (type jpg)
 
 <use figuras/organigrama.jpg>
-Package pdftex.def Info: figuras/organigrama.jpg used on input line 64.
+Package pdftex.def Info: figuras/organigrama.jpg used on input line 65.
 (pdftex.def)             Requested size: 398.32895pt x 256.08397pt.
-LaTeX Info: Redefining \. on input line 81.
-LaTeX Info: Redefining \% on input line 81.
- [3 <./figuras/organigrama.jpg>])
-(3.FundaTeo/fundateo.tex
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
- [4]
-Cap\'{\i }tulo 2.
+ [7 <./figuras/organigrama.jpg>])
+(3.FundaTeo/fundateo.tex [8]
+Cap\'{\i }tulo 3.
 
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
 
-[5
+[9
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 68--69
 
  []
 
-LaTeX Info: Redefining \. on input line 69.
-LaTeX Info: Redefining \% on input line 69.
-[6]
+[10]
 Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
  []
@@ -697,15 +774,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
 
-<figuras/clienteservidor.png, id=57, 548.449pt x 221.628pt>
+<figuras/clienteservidor.png, id=73, 548.449pt x 221.628pt>
 File: figuras/clienteservidor.png Graphic file (type png)
 
 <use figuras/clienteservidor.png>
 Package pdftex.def Info: figuras/clienteservidor.png used on input line 109.
 (pdftex.def)             Requested size: 455.24602pt x 199.16914pt.
-LaTeX Info: Redefining \. on input line 112.
-LaTeX Info: Redefining \% on input line 112.
- [7]
+ [11]
 Underfull \hbox (badness 10000) in paragraph at lines 119--120
 
  []
@@ -740,9 +815,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 131--132
 
  []
 
-LaTeX Info: Redefining \. on input line 132.
-LaTeX Info: Redefining \% on input line 132.
-[8 <./figuras/clienteservidor.png>]
+[12 <./figuras/clienteservidor.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 133--134
 
  []
@@ -767,9 +840,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 158--159
 
  []
 
-LaTeX Info: Redefining \. on input line 159.
-LaTeX Info: Redefining \% on input line 159.
-[9]
+[13]
 Underfull \hbox (badness 10000) in paragraph at lines 166--167
 
  []
@@ -789,9 +860,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 182--183
 
  []
 
-LaTeX Info: Redefining \. on input line 184.
-LaTeX Info: Redefining \% on input line 184.
-[10]
+[14]
 Underfull \hbox (badness 10000) in paragraph at lines 184--185
 
  []
@@ -806,9 +875,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 188--189
 
  []
 
-LaTeX Info: Redefining \. on input line 201.
-LaTeX Info: Redefining \% on input line 201.
-[11]
+[15]
 Underfull \hbox (badness 10000) in paragraph at lines 207--208
 
  []
@@ -828,9 +895,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 217--218
 
  []
 
-LaTeX Info: Redefining \. on input line 220.
-LaTeX Info: Redefining \% on input line 220.
-[12]
+[16]
 Underfull \hbox (badness 10000) in paragraph at lines 223--224
 
  []
@@ -845,9 +910,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 236--237
 
  []
 
-LaTeX Info: Redefining \. on input line 237.
-LaTeX Info: Redefining \% on input line 237.
-[13]
+[17]
 Underfull \hbox (badness 10000) in paragraph at lines 248--249
 
  []
@@ -882,16 +945,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 275--276
 
  []
 
-LaTeX Info: Redefining \. on input line 276.
-LaTeX Info: Redefining \% on input line 276.
-[14]
+[18]
 Underfull \hbox (badness 10000) in paragraph at lines 277--278
 
  []
 
-LaTeX Info: Redefining \. on input line 296.
-LaTeX Info: Redefining \% on input line 296.
-[15]
+[19]
 Underfull \hbox (badness 10000) in paragraph at lines 299--300
 
  []
@@ -941,24 +1000,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 331--332
 
  []
 
-LaTeX Info: Redefining \. on input line 332.
-LaTeX Info: Redefining \% on input line 332.
-[16] <figuras/MVC.pdf, id=92, 613.99059pt x 370.96928pt>
+[20] <figuras/MVC.pdf, id=108, 613.99059pt x 370.96928pt>
 File: figuras/MVC.pdf Graphic file (type pdf)
- <use figuras/MVC.pdf>
+
+<use figuras/MVC.pdf>
 Package pdftex.def Info: figuras/MVC.pdf used on input line 367.
 (pdftex.def)             Requested size: 455.25468pt x 284.54907pt.
-LaTeX Info: Redefining \. on input line 371.
-LaTeX Info: Redefining \% on input line 371.
-
-[17]
+ [21]
 Underfull \hbox (badness 10000) in paragraph at lines 389--390
 
  []
 
-LaTeX Info: Redefining \. on input line 390.
-LaTeX Info: Redefining \% on input line 390.
-[18 <./figuras/MVC.pdf>]
+[22 <./figuras/MVC.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 391--392
 
  []
@@ -973,16 +1026,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 414--415
 
  []
 
-LaTeX Info: Redefining \. on input line 432.
-LaTeX Info: Redefining \% on input line 432.
-[19]
+[23]
 Underfull \hbox (badness 10000) in paragraph at lines 472--473
 
  []
 
-LaTeX Info: Redefining \. on input line 474.
-LaTeX Info: Redefining \% on input line 474.
-[20]
+[24]
 Overfull \hbox (12.49702pt too wide) in paragraph at lines 482--489
  [][] 
  []
@@ -997,16 +1046,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 495--496
 
  []
 
-LaTeX Info: Redefining \. on input line 504.
-LaTeX Info: Redefining \% on input line 504.
-[21]
+[25]
 Underfull \hbox (badness 10000) in paragraph at lines 541--542
 
  []
 
-LaTeX Info: Redefining \. on input line 542.
-LaTeX Info: Redefining \% on input line 542.
-[22]
+[26]
 Underfull \hbox (badness 10000) in paragraph at lines 543--544
 
  []
@@ -1016,9 +1061,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 564--565
 
  []
 
-LaTeX Info: Redefining \. on input line 569.
-LaTeX Info: Redefining \% on input line 569.
-[23]
+[27]
 Underfull \hbox (badness 10000) in paragraph at lines 577--578
 
  []
@@ -1038,16 +1081,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 603--604
 
  []
 
-LaTeX Info: Redefining \. on input line 604.
-LaTeX Info: Redefining \% on input line 604.
-[24]
-LaTeX Info: Redefining \. on input line 642.
-LaTeX Info: Redefining \% on input line 642.
- [25]) (4.Desarollo/desarrollo.tex
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
- [26]
-Cap\'{\i }tulo 3.
+[28] [29]) (4.Desarollo/desarrollo.tex [30]
+Cap\'{\i }tulo 4.
 
 Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
@@ -1063,7 +1098,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
  []
 
-[27
+[31
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 37--38
@@ -1095,16 +1130,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 71--72
 
  []
 
-LaTeX Info: Redefining \. on input line 72.
-LaTeX Info: Redefining \% on input line 72.
-[28]
+[32]
 Underfull \hbox (badness 10000) in paragraph at lines 109--110
 
  []
 
-LaTeX Info: Redefining \. on input line 110.
-LaTeX Info: Redefining \% on input line 110.
-[29]
+[33]
 Underfull \hbox (badness 10000) in paragraph at lines 111--112
 
  []
@@ -1144,16 +1175,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 142--143
 
  []
 
-<figuras/ConfiguracionIndicadores.pdf, id=137, 699.41293pt x 365.365pt>
+<figuras/ConfiguracionIndicadores.pdf, id=153, 699.41293pt x 365.365pt>
 File: figuras/ConfiguracionIndicadores.pdf Graphic file (type pdf)
 
 <use figuras/ConfiguracionIndicadores.pdf>
 Package pdftex.def Info: figuras/ConfiguracionIndicadores.pdf used on input lin
 e 146.
 (pdftex.def)             Requested size: 455.24268pt x 241.84967pt.
-LaTeX Info: Redefining \. on input line 150.
-LaTeX Info: Redefining \% on input line 150.
- [30]
+ [34]
 Underfull \hbox (badness 10000) in paragraph at lines 169--170
 
  []
@@ -1163,19 +1192,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 171--172
 
  []
 
-<figuras/ProcesoIndicadores.pdf, id=141, 699.41293pt x 365.365pt>
+<figuras/ProcesoIndicadores.pdf, id=157, 699.41293pt x 365.365pt>
 File: figuras/ProcesoIndicadores.pdf Graphic file (type pdf)
 
 <use figuras/ProcesoIndicadores.pdf>
 Package pdftex.def Info: figuras/ProcesoIndicadores.pdf used on input line 177.
 
 (pdftex.def)             Requested size: 455.24268pt x 241.84967pt.
-LaTeX Info: Redefining \. on input line 181.
-LaTeX Info: Redefining \% on input line 181.
- [31 <./figuras/ConfiguracionIndicadores.pdf>]
-LaTeX Info: Redefining \. on input line 204.
-LaTeX Info: Redefining \% on input line 204.
- [32 <./figuras/ProcesoIndicadores.pdf>]
+ [35 <./figuras/ConfiguracionIndicadores.pdf>] [36 <./figuras/ProcesoIndicadore
+s.pdf>]
 Overfull \hbox (4.26515pt too wide) in paragraph at lines 210--211
 \OT1/cmr/m/n/10 fun-cio-nes pa-ra-me-tri-za-bles, las cua-les se podran ac-ce-
 der con la si-guien-te no-men-cla-tu-ra NOM-BRE[]FUNCION
@@ -1186,25 +1211,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 241--242
 
  []
 
-<figuras/DEntidadRel.pdf, id=153, 480.265pt x 237.0707pt>
+<figuras/DEntidadRel.pdf, id=169, 480.265pt x 237.0707pt>
 File: figuras/DEntidadRel.pdf Graphic file (type pdf)
 
 <use figuras/DEntidadRel.pdf>
 Package pdftex.def Info: figuras/DEntidadRel.pdf used on input line 247.
 (pdftex.def)             Requested size: 455.25252pt x 241.85591pt.
-LaTeX Info: Redefining \. on input line 250.
-LaTeX Info: Redefining \% on input line 250.
- [33]
-<figuras/DEntidadRelComp.pdf, id=157, 364.40358pt x 237.0707pt>
+ [37]
+<figuras/DEntidadRelComp.pdf, id=173, 364.40358pt x 237.0707pt>
 File: figuras/DEntidadRelComp.pdf Graphic file (type pdf)
 
 <use figuras/DEntidadRelComp.pdf>
 Package pdftex.def Info: figuras/DEntidadRelComp.pdf used on input line 264.
 (pdftex.def)             Requested size: 455.27539pt x 241.85591pt.
-LaTeX Info: Redefining \. on input line 268.
-LaTeX Info: Redefining \% on input line 268.
- [34 <./figuras/DEntidadRel.pdf>]
-<figuras/Relacional.pdf, id=163, 710.61125pt x 416.71327pt>
+ [38 <./figuras/DEntidadRel.pdf>]
+<figuras/Relacional.pdf, id=179, 710.61125pt x 416.71327pt>
 File: figuras/Relacional.pdf Graphic file (type pdf)
 
 <use figuras/Relacional.pdf>
@@ -1213,33 +1234,636 @@ Package pdftex.def Info: figuras/Relacional.pdf used on input line 275.
 
 Underfull \vbox (badness 2460) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 298.
-LaTeX Info: Redefining \% on input line 298.
- [35 <./figuras/DEntidadRelComp.pdf> <./figuras/Relacional.pdf
+ [39 <./figuras/DEntidadRelComp.pdf> <./figuras/Relacional.pdf
 
 pdfTeX warning: pdflatex (file ./figuras/Relacional.pdf): PDF inclusion: multip
 le pdfs with page group included in a single page
 >]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 373.
-LaTeX Info: Redefining \% on input line 373.
- [36]
-LaTeX Info: Redefining \. on input line 415.
-LaTeX Info: Redefining \% on input line 415.
+ [40]
+[41]
+Underfull \hbox (badness 10000) in paragraph at lines 432--433
 
-[37]) (5.PrueRes/pruebas.tex
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
- [38]
-Cap\'{\i }tulo 4.
-) (6.Conclusion/conclusiones.tex [39
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 434--435
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 438--439
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 447--448
+
+ []
+
+) (5.PrueRes/pruebas.tex [42] [43]
+Cap\'{\i }tulo 5.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+<figuras/principal.png, id=201, 991.45406pt x 646.66594pt>
+File: figuras/principal.png Graphic file (type png)
+
+<use figuras/principal.png>
+Package pdftex.def Info: figuras/principal.png used on input line 29.
+(pdftex.def)             Requested size: 455.24234pt x 270.29535pt.
+
+Underfull \vbox (badness 2027) has occurred while \output is active []
+
+ [44
 
 ]
-Cap\'{\i }tulo 5.
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 45.
+
+<figuras/principali.png, id=205, 989.94844pt x 648.17157pt>
+File: figuras/principali.png Graphic file (type png)
+
+<use figuras/principali.png>
+Package pdftex.def Info: figuras/principali.png used on input line 47.
+(pdftex.def)             Requested size: 455.24586pt x 270.30159pt.
+
+<figuras/Departamentos.png, id=206, 989.19562pt x 549.55313pt>
+File: figuras/Departamentos.png Graphic file (type png)
+
+<use figuras/Departamentos.png>
+Package pdftex.def Info: figuras/Departamentos.png used on input line 58.
+(pdftex.def)             Requested size: 455.23174pt x 270.30641pt.
+
+Underfull \vbox (badness 6510) has occurred while \output is active []
+
+ [45 <./figuras/principal.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [46 <./figuras/principali.png> <./figuras/Departamentos.png>]
+<figuras/DepartamentosCrear.png, id=216, 991.45406pt x 548.80031pt>
+File: figuras/DepartamentosCrear.png Graphic file (type png)
+
+<use figuras/DepartamentosCrear.png>
+Package pdftex.def Info: figuras/DepartamentosCrear.png used on input line 78.
+(pdftex.def)             Requested size: 455.24234pt x 270.30458pt.
+
+<figuras/DepartamentosValida.png, id=217, 991.45406pt x 548.0475pt>
+File: figuras/DepartamentosValida.png Graphic file (type png)
+
+<use figuras/DepartamentosValida.png>
+Package pdftex.def Info: figuras/DepartamentosValida.png used on input line 94.
+
+(pdftex.def)             Requested size: 455.24234pt x 270.30174pt.
+ [47 <./figuras/DepartamentosCrear.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
+
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 101.
+
+<figuras/DepartamentosGraba.png, id=222, 991.45406pt x 548.0475pt>
+File: figuras/DepartamentosGraba.png Graphic file (type png)
+
+<use figuras/DepartamentosGraba.png>
+Package pdftex.def Info: figuras/DepartamentosGraba.png used on input line 103.
+
+(pdftex.def)             Requested size: 455.24234pt x 270.30174pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
+
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 110.
+
+<figuras/DepartamentosTabla.png, id=223, 989.94844pt x 549.55313pt>
+File: figuras/DepartamentosTabla.png Graphic file (type png)
+
+<use figuras/DepartamentosTabla.png>
+Package pdftex.def Info: figuras/DepartamentosTabla.png used on input line 112.
+
+(pdftex.def)             Requested size: 455.24586pt x 270.30641pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 121.
+
+<figuras/DepartamentosActualiza.png, id=224, 990.70125pt x 548.0475pt>
+File: figuras/DepartamentosActualiza.png Graphic file (type png)
+
+<use figuras/DepartamentosActualiza.png>
+Package pdftex.def Info: figuras/DepartamentosActualiza.png used on input line 
+123.
+(pdftex.def)             Requested size: 455.24437pt x 270.30174pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
+
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 132.
+
+<figuras/DepartamentosElimina.png, id=225, 991.45406pt x 548.80031pt>
+File: figuras/DepartamentosElimina.png Graphic file (type png)
+
+<use figuras/DepartamentosElimina.png>
+Package pdftex.def Info: figuras/DepartamentosElimina.png used on input line 13
+4.
+(pdftex.def)             Requested size: 455.24234pt x 270.30458pt.
+
+<figuras/Formulas.png, id=226, 989.94844pt x 547.2947pt>
+File: figuras/Formulas.png Graphic file (type png)
+
+<use figuras/Formulas.png>
+Package pdftex.def Info: figuras/Formulas.png used on input line 153.
+(pdftex.def)             Requested size: 455.24586pt x 270.30626pt.
+ [48 <./figuras/DepartamentosValida.png>] [49 <./figuras/DepartamentosGraba.png
+> <./figuras/DepartamentosTabla.png>] [50 <./figuras/DepartamentosActualiza.png
+> <./figuras/DepartamentosElimina.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 169--170
+
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 171.
+
+<figuras/FormulasCrear.png, id=242, 991.45406pt x 549.55313pt>
+File: figuras/FormulasCrear.png Graphic file (type png)
+
+<use figuras/FormulasCrear.png>
+Package pdftex.def Info: figuras/FormulasCrear.png used on input line 173.
+(pdftex.def)             Requested size: 455.24234pt x 270.30641pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--186
+
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 187.
+
+<figuras/FormulaValida.png, id=243, 991.45406pt x 548.0475pt>
+File: figuras/FormulaValida.png Graphic file (type png)
+
+<use figuras/FormulaValida.png>
+Package pdftex.def Info: figuras/FormulaValida.png used on input line 189.
+(pdftex.def)             Requested size: 455.24234pt x 270.30174pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--195
+
+ []
+
+[51 <./figuras/Formulas.png>] [52 <./figuras/FormulasCrear.png> <./figuras/Form
+ulaValida.png>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 196.
+
+<figuras/FormulasGraba.png, id=253, 990.70125pt x 546.54187pt>
+File: figuras/FormulasGraba.png Graphic file (type png)
+
+<use figuras/FormulasGraba.png>
+Package pdftex.def Info: figuras/FormulasGraba.png used on input line 198.
+(pdftex.def)             Requested size: 455.24437pt x 270.30138pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
+
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 205.
+
+<figuras/FormulasTabla.png, id=254, 989.94844pt x 548.0475pt>
+File: figuras/FormulasTabla.png Graphic file (type png)
+
+<use figuras/FormulasTabla.png>
+Package pdftex.def Info: figuras/FormulasTabla.png used on input line 207.
+(pdftex.def)             Requested size: 455.24586pt x 270.30174pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 216.
+
+<figuras/FormulasActualiza.png, id=255, 990.70125pt x 547.2947pt>
+File: figuras/FormulasActualiza.png Graphic file (type png)
+
+<use figuras/FormulasActualiza.png>
+Package pdftex.def Info: figuras/FormulasActualiza.png used on input line 218.
+(pdftex.def)             Requested size: 455.24437pt x 270.30626pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 225--226
+
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 227.
+
+<figuras/FormulasElimina.png, id=256, 989.94844pt x 548.0475pt>
+File: figuras/FormulasElimina.png Graphic file (type png)
+
+<use figuras/FormulasElimina.png>
+Package pdftex.def Info: figuras/FormulasElimina.png used on input line 229.
+(pdftex.def)             Requested size: 455.24586pt x 270.30174pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 243--244
+
+ []
+
+
+Underfull \vbox (badness 2635) has occurred while \output is active []
+
+ [53 <./figuras/FormulasGraba.png>] [54 <./figuras/FormulasTabla.png> <./figura
+s/FormulasActualiza.png>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 246.
+
+<figuras/Colecciones.png, id=267, 991.45406pt x 547.2947pt>
+File: figuras/Colecciones.png Graphic file (type png)
+
+<use figuras/Colecciones.png>
+Package pdftex.def Info: figuras/Colecciones.png used on input line 248.
+(pdftex.def)             Requested size: 455.24234pt x 270.30626pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 265--266
+
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 267.
+
+<figuras/ColeccionesCrear.png, id=268, 989.94844pt x 547.2947pt>
+File: figuras/ColeccionesCrear.png Graphic file (type png)
+
+<use figuras/ColeccionesCrear.png>
+Package pdftex.def Info: figuras/ColeccionesCrear.png used on input line 269.
+(pdftex.def)             Requested size: 455.24586pt x 270.30626pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 281--282
+
+ []
+
+[55 <./figuras/FormulasElimina.png>] [56 <./figuras/Colecciones.png> <./figuras
+/ColeccionesCrear.png>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 283.
+
+<figuras/ColeccionesValida.png, id=278, 990.70125pt x 548.0475pt>
+File: figuras/ColeccionesValida.png Graphic file (type png)
+
+<use figuras/ColeccionesValida.png>
+Package pdftex.def Info: figuras/ColeccionesValida.png used on input line 285.
+(pdftex.def)             Requested size: 455.24437pt x 270.30174pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 290--291
+
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 292.
+
+<figuras/ColeccionesGraba.png, id=279, 989.94844pt x 548.80031pt>
+File: figuras/ColeccionesGraba.png Graphic file (type png)
+
+<use figuras/ColeccionesGraba.png>
+Package pdftex.def Info: figuras/ColeccionesGraba.png used on input line 294.
+(pdftex.def)             Requested size: 455.24586pt x 270.30458pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 299--300
+
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 301.
+
+<figuras/ColeccionesTabla.png, id=280, 987.69pt x 547.2947pt>
+File: figuras/ColeccionesTabla.png Graphic file (type png)
+
+<use figuras/ColeccionesTabla.png>
+Package pdftex.def Info: figuras/ColeccionesTabla.png used on input line 303.
+(pdftex.def)             Requested size: 455.2321pt x 270.30626pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 312.
+
+<figuras/ColeccionesActualiza.png, id=281, 990.70125pt x 548.0475pt>
+File: figuras/ColeccionesActualiza.png Graphic file (type png)
+
+<use figuras/ColeccionesActualiza.png>
+Package pdftex.def Info: figuras/ColeccionesActualiza.png used on input line 31
+4.
+(pdftex.def)             Requested size: 455.24437pt x 270.30174pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--322
+
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 323.
+
+<figuras/ColeccionesElimina.png, id=282, 989.19562pt x 548.0475pt>
+File: figuras/ColeccionesElimina.png Graphic file (type png)
+
+<use figuras/ColeccionesElimina.png>
+Package pdftex.def Info: figuras/ColeccionesElimina.png used on input line 325.
+
+(pdftex.def)             Requested size: 455.23174pt x 270.30174pt.
+
+Underfull \vbox (badness 1248) has occurred while \output is active []
+
+ [57 <./figuras/ColeccionesValida.png>] [58 <./figuras/ColeccionesGraba.png> <.
+/figuras/ColeccionesTabla.png>] [59 <./figuras/ColeccionesActualiza.png> <./fig
+uras/ColeccionesElimina.png>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 334.
+
+<figuras/ColeccionesDetalle.png, id=297, 990.70125pt x 548.80031pt>
+File: figuras/ColeccionesDetalle.png Graphic file (type png)
+
+<use figuras/ColeccionesDetalle.png>
+Package pdftex.def Info: figuras/ColeccionesDetalle.png used on input line 336.
+
+(pdftex.def)             Requested size: 455.24437pt x 270.30458pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 349--350
+
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 351.
+
+<figuras/ColeccionesDetalleAgregar.png, id=298, 989.19562pt x 548.0475pt>
+File: figuras/ColeccionesDetalleAgregar.png Graphic file (type png)
+
+<use figuras/ColeccionesDetalleAgregar.png>
+Package pdftex.def Info: figuras/ColeccionesDetalleAgregar.png used on input li
+ne 353.
+(pdftex.def)             Requested size: 455.23174pt x 270.30174pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 360.
+
+<figuras/ColeccionesDetalleGrabar.png, id=299, 990.70125pt x 548.80031pt>
+File: figuras/ColeccionesDetalleGrabar.png Graphic file (type png)
+
+<use figuras/ColeccionesDetalleGrabar.png>
+Package pdftex.def Info: figuras/ColeccionesDetalleGrabar.png used on input lin
+e 362.
+(pdftex.def)             Requested size: 455.24437pt x 270.30458pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 367.
+
+<figuras/ColeccionesDetalleTabla.png, id=300, 990.70125pt x 548.0475pt>
+File: figuras/ColeccionesDetalleTabla.png Graphic file (type png)
+
+<use figuras/ColeccionesDetalleTabla.png>
+Package pdftex.def Info: figuras/ColeccionesDetalleTabla.png used on input line
+ 369.
+(pdftex.def)             Requested size: 455.24437pt x 270.30174pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 378.
+
+<figuras/ColeccionesDetalleEliminar.png, id=301, 989.94844pt x 547.2947pt>
+File: figuras/ColeccionesDetalleEliminar.png Graphic file (type png)
+
+<use figuras/ColeccionesDetalleEliminar.png>
+Package pdftex.def Info: figuras/ColeccionesDetalleEliminar.png used on input l
+ine 380.
+(pdftex.def)             Requested size: 455.24586pt x 270.30626pt.
+
+<figuras/Procesos.png, id=302, 990.70125pt x 546.54187pt>
+File: figuras/Procesos.png Graphic file (type png)
+
+<use figuras/Procesos.png>
+Package pdftex.def Info: figuras/Procesos.png used on input line 406.
+(pdftex.def)             Requested size: 455.24437pt x 270.30138pt.
+ [60 <./figuras/ColeccionesDetalle.png>] [61 <./figuras/ColeccionesDetalleAgreg
+ar.png> <./figuras/ColeccionesDetalleGrabar.png>]
+[62 <./figuras/ColeccionesDetalleTabla.png> <./figuras/ColeccionesDetalleElimin
+ar.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 424--425
+
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 426.
+
+<figuras/ProcesoCrear.png, id=318, 989.94844pt x 545.78906pt>
+File: figuras/ProcesoCrear.png Graphic file (type png)
+
+<use figuras/ProcesoCrear.png>
+Package pdftex.def Info: figuras/ProcesoCrear.png used on input line 428.
+(pdftex.def)             Requested size: 455.24586pt x 270.30383pt.
+ [63 <./figuras/Procesos.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 443--444
+
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 445.
+
+<figuras/ProcesoValida.png, id=323, 992.20688pt x 550.30594pt>
+File: figuras/ProcesoValida.png Graphic file (type png)
+
+<use figuras/ProcesoValida.png>
+Package pdftex.def Info: figuras/ProcesoValida.png used on input line 447.
+(pdftex.def)             Requested size: 455.2398pt x 270.30724pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--453
+
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 454.
+
+<figuras/ProcesoGraba.png, id=324, 989.94844pt x 544.28343pt>
+File: figuras/ProcesoGraba.png Graphic file (type png)
+
+<use figuras/ProcesoGraba.png>
+Package pdftex.def Info: figuras/ProcesoGraba.png used on input line 456.
+(pdftex.def)             Requested size: 455.24586pt x 270.29732pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 461--462
+
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 463.
+
+<figuras/ProcesoTabla.png, id=325, 990.70125pt x 549.55313pt>
+File: figuras/ProcesoTabla.png Graphic file (type png)
+
+<use figuras/ProcesoTabla.png>
+Package pdftex.def Info: figuras/ProcesoTabla.png used on input line 465.
+(pdftex.def)             Requested size: 455.24437pt x 270.30641pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 474.
+
+<figuras/ProcesoActualiza.png, id=326, 989.94844pt x 547.2947pt>
+File: figuras/ProcesoActualiza.png Graphic file (type png)
+
+<use figuras/ProcesoActualiza.png>
+Package pdftex.def Info: figuras/ProcesoActualiza.png used on input line 476.
+(pdftex.def)             Requested size: 455.24586pt x 270.30626pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 483--484
+
+ []
+
+[64 <./figuras/ProcesoCrear.png>] [65 <./figuras/ProcesoValida.png> <./figuras/
+ProcesoGraba.png>] [66 <./figuras/ProcesoTabla.png> <./figuras/ProcesoActualiza
+.png>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 485.
+
+<figuras/ProcesoElimina.png, id=342, 989.94844pt x 548.0475pt>
+File: figuras/ProcesoElimina.png Graphic file (type png)
+
+<use figuras/ProcesoElimina.png>
+Package pdftex.def Info: figuras/ProcesoElimina.png used on input line 487.
+(pdftex.def)             Requested size: 455.24586pt x 270.30174pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 494--495
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 496--497
+
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 499.
+
+<figuras/ProcesoProcesar.png, id=343, 987.69pt x 546.54187pt>
+File: figuras/ProcesoProcesar.png Graphic file (type png)
+
+<use figuras/ProcesoProcesar.png>
+Package pdftex.def Info: figuras/ProcesoProcesar.png used on input line 501.
+(pdftex.def)             Requested size: 455.2321pt x 270.30138pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 506--507
+
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 508.
+
+<figuras/ProcesoReprocesar.png, id=344, 989.19562pt x 545.78906pt>
+File: figuras/ProcesoReprocesar.png Graphic file (type png)
+
+<use figuras/ProcesoReprocesar.png>
+Package pdftex.def Info: figuras/ProcesoReprocesar.png used on input line 510.
+(pdftex.def)             Requested size: 455.23174pt x 270.30383pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--518
+
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 519.
+
+<figuras/ProcesoDetalle.png, id=345, 987.69pt x 547.2947pt>
+File: figuras/ProcesoDetalle.png Graphic file (type png)
+
+<use figuras/ProcesoDetalle.png>
+Package pdftex.def Info: figuras/ProcesoDetalle.png used on input line 521.
+(pdftex.def)             Requested size: 455.2321pt x 270.30626pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 526--527
+
+ []
+
+[67 <./figuras/ProcesoElimina.png>] [68 <./figuras/ProcesoProcesar.png> <./figu
+ras/ProcesoReprocesar.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 528--529
+
+ []
+
+) (6.Conclusion/conclusiones.tex [69 <./figuras/ProcesoDetalle.png>]
+Cap\'{\i }tulo 6.
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
 ) (Referencias/referencias.tex)
 No file Plantilla.bbl.
-[40
+[70
 
 ] (Plantilla.aux
 LaTeX Info: Redefining \. on input line 6.
@@ -1253,13 +1877,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7880 strings out of 493334
- 113264 string characters out of 3136669
- 221411 words of memory out of 3000000
- 11198 multiletter control sequences out of 15000+200000
+ 8322 strings out of 493334
+ 121935 string characters out of 3136669
+ 221460 words of memory out of 3000000
+ 11595 multiletter control sequences out of 15000+200000
  9972 words of font info for 37 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,19n,58p,1039b,539s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,19n,58p,1039b,485s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Urbano\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
 \tcrm1000.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
 cmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
@@ -1272,9 +1896,9 @@ ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Prog
 ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Plantilla.pdf (46 pages, 2329899 bytes).
+Output written on Plantilla.pdf (77 pages, 5782412 bytes).
 PDF statistics:
- 230 PDF objects out of 1000 (max. 8388607)
+ 405 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 246 words of extra memory for PDF output out of 10000 (max. 10000000)
 

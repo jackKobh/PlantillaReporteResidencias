@@ -1,0 +1,1401 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="931.78656"
+   height="635.8938"
+   id="svg4252"
+   sodipodi:version="0.32"
+   inkscape:version="0.91 r13725"
+   version="1.0"
+   sodipodi:docname="DEntidadRelCompSVG.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs4254">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-50 : 600 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="700 : 600 : 1"
+       inkscape:persp3d-origin="300 : 400 : 1"
+       id="perspective4260" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="306.87834"
+     inkscape:cy="436.59277"
+     inkscape:document-units="px"
+     inkscape:current-layer="g3984"
+     showgrid="false"
+     inkscape:window-width="1360"
+     inkscape:window-height="706"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-maximized="1">
+    <sodipodi:guide
+       position="438.03572,582.58929"
+       orientation="0,1"
+       id="guide4868" />
+    <sodipodi:guide
+       position="351.25,528.03572"
+       orientation="1,0"
+       id="guide4888" />
+    <sodipodi:guide
+       position="293.44931,373.1251"
+       orientation="0,1"
+       id="guide4958" />
+    <sodipodi:guide
+       position="550.59627,397.46346"
+       orientation="1,0"
+       id="guide4975" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata4257">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+        <dc:date />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title />
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title />
+          </cc:Agent>
+        </dc:rights>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title />
+          </cc:Agent>
+        </dc:publisher>
+        <dc:identifier />
+        <dc:source />
+        <dc:relation />
+        <dc:language />
+        <dc:subject>
+          <rdf:Bag />
+        </dc:subject>
+        <dc:coverage />
+        <dc:description />
+        <dc:contributor>
+          <cc:Agent>
+            <dc:title />
+          </cc:Agent>
+        </dc:contributor>
+        <cc:license
+           rdf:resource="" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(371.60756,131.29901)">
+    <g
+       style="font-size:12px;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3;overflow:visible"
+       id="g3984"
+       transform="matrix(1.1256774,0,0,1.1256774,-386.31031,-148.95379)">
+      <g
+         id="g5766">
+        <rect
+           y="28.479816"
+           x="34.58144"
+           height="261.53812"
+           width="402.4057"
+           id="rect5172"
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.73174113;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <g
+           transform="translate(-2.0639519,-4.6452961)"
+           id="g5615">
+          <g
+             transform="matrix(0.74083953,0,0,0.74083953,61.569218,-295.75824)"
+             v:layerMember="0"
+             v:groupContext="shape"
+             v:mID="3"
+             id="shape3-10"
+             style="stroke:#000000;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1">
+            <title
+               id="title45">Process.3</title>
+            <desc
+               id="desc47">Carrera</desc>
+            <v:custProps>
+              <v:cp
+                 v:langID="3082"
+                 v:format="@"
+                 v:type="7"
+                 v:lbl="Costo"
+                 v:nameU="Cost" />
+              <v:cp
+                 v:langID="3082"
+                 v:type="2"
+                 v:lbl="Duración"
+                 v:nameU="Duration" />
+              <v:cp
+                 v:langID="3082"
+                 v:lbl="Recursos"
+                 v:nameU="Resources" />
+            </v:custProps>
+            <v:userDefs>
+              <v:ud
+                 v:val="VT0(11):26"
+                 v:nameU="visVersion" />
+            </v:userDefs>
+            <v:textBlock
+               v:tabSpace="42.5197"
+               v:margins="rect(2,2,2,2)" />
+            <v:textRect
+               height="42.5197"
+               width="70.87"
+               cy="574.016"
+               cx="35.4331" />
+            <rect
+               style="fill:#e8eef7;stroke:#000000;stroke-width:0.94000137;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+               id="rect49"
+               class="st3"
+               height="42.519699"
+               width="70.866096"
+               y="552.75598"
+               x="0" />
+            <text
+               style="font-size:8.56573963px;font-family:Arial;fill:#000000;stroke:none;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+               id="text51"
+               v:langID="3082"
+               class="st4"
+               y="576.23047"
+               x="5.9569483"><v:paragraph
+   v:horizAlign="1" />
+<v:tabList />
+Departamentos</text>
+          </g>
+          <g
+             transform="matrix(0.74083953,0,0,0.74083953,261.60615,-296.06213)"
+             v:layerMember="0"
+             v:groupContext="shape"
+             v:mID="7"
+             id="shape7-22"
+             style="stroke:#000000;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1">
+            <title
+               id="title81">Process.7</title>
+            <desc
+               id="desc83">Materia</desc>
+            <v:custProps>
+              <v:cp
+                 v:langID="3082"
+                 v:format="@"
+                 v:type="7"
+                 v:lbl="Costo"
+                 v:nameU="Cost" />
+              <v:cp
+                 v:langID="3082"
+                 v:type="2"
+                 v:lbl="Duración"
+                 v:nameU="Duration" />
+              <v:cp
+                 v:langID="3082"
+                 v:lbl="Recursos"
+                 v:nameU="Resources" />
+            </v:custProps>
+            <v:userDefs>
+              <v:ud
+                 v:val="VT0(11):26"
+                 v:nameU="visVersion" />
+            </v:userDefs>
+            <v:textBlock
+               v:tabSpace="42.5197"
+               v:margins="rect(2,2,2,2)" />
+            <v:textRect
+               height="42.5197"
+               width="70.87"
+               cy="574.016"
+               cx="35.4331" />
+            <rect
+               style="fill:#e8eef7;stroke:#000000;stroke-width:0.94000137;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+               id="rect85"
+               class="st3"
+               height="42.519699"
+               width="70.866096"
+               y="552.75598"
+               x="0" />
+            <text
+               style="font-family:Arial;fill:#000000;stroke:none;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+               id="text87"
+               v:langID="3082"
+               class="st4"
+               y="578.24042"
+               x="10.129337"><v:paragraph
+   v:horizAlign="1" />
+<v:tabList />
+Formulas</text>
+          </g>
+          <g
+             transform="matrix(0.74083953,0,0,0.74083953,161.3203,-364.00882)"
+             v:layerMember="0"
+             v:groupContext="shape"
+             v:mID="9"
+             id="shape9-28"
+             style="stroke:#000000;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1">
+            <title
+               id="title99">Process.9</title>
+            <desc
+               id="desc101">Periodo</desc>
+            <v:custProps>
+              <v:cp
+                 v:langID="3082"
+                 v:format="@"
+                 v:type="7"
+                 v:lbl="Costo"
+                 v:nameU="Cost" />
+              <v:cp
+                 v:langID="3082"
+                 v:type="2"
+                 v:lbl="Duración"
+                 v:nameU="Duration" />
+              <v:cp
+                 v:langID="3082"
+                 v:lbl="Recursos"
+                 v:nameU="Resources" />
+            </v:custProps>
+            <v:userDefs>
+              <v:ud
+                 v:val="VT0(11):26"
+                 v:nameU="visVersion" />
+            </v:userDefs>
+            <v:textBlock
+               v:tabSpace="42.5197"
+               v:margins="rect(2,2,2,2)" />
+            <v:textRect
+               height="42.5197"
+               width="70.87"
+               cy="574.016"
+               cx="35.4331" />
+            <rect
+               style="fill:#e8eef7;stroke:#000000;stroke-width:0.94000137;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+               id="rect103"
+               class="st3"
+               height="42.519699"
+               width="70.866096"
+               y="552.75598"
+               x="0" />
+            <text
+               style="font-family:Arial;fill:#000000;stroke:none;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+               id="text105"
+               v:langID="3082"
+               class="st4"
+               y="577.2052"
+               x="8.8306427"><v:paragraph
+   v:horizAlign="1" />
+<v:tabList />
+Institución</text>
+          </g>
+          <g
+             transform="matrix(0.74083953,0,0,0.74083953,83.329913,-331.50153)"
+             v:groupContext="shape"
+             v:mID="57"
+             id="shape57-172"
+             style="stroke:none;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1">
+            <title
+               id="title431">Hoja.57</title>
+            <desc
+               id="desc433">(1,1)</desc>
+            <v:textBlock
+               v:tabSpace="42.5197"
+               v:margins="rect(2,2,2,2)" />
+            <v:textRect
+               height="14.5039"
+               width="28.35"
+               cy="588.024"
+               cx="14.1732" />
+            <text
+               style="font-family:Arial;fill:#000000;stroke:none;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+               id="text437"
+               v:langID="3082"
+               class="st4"
+               y="595.21997"
+               x="5.9499998"><v:paragraph
+   v:horizAlign="1" />
+<v:tabList />
+(1,1)</text>
+          </g>
+          <g
+             transform="matrix(0.74083953,0,0,0.74083953,210.26433,-385.01869)"
+             v:groupContext="shape"
+             v:mID="58"
+             id="shape58-175"
+             style="stroke:#000000;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1">
+            <title
+               id="title440">Hoja.58</title>
+            <desc
+               id="desc442">(1,n)</desc>
+            <v:textBlock
+               v:tabSpace="42.5197"
+               v:margins="rect(2,2,2,2)" />
+            <v:textRect
+               height="14.5039"
+               width="28.35"
+               cy="588.024"
+               cx="14.1732" />
+            <text
+               style="font-family:Arial;fill:#000000;stroke:none;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+               id="text446"
+               v:langID="3082"
+               class="st4"
+               y="595.21997"
+               x="5.9499998"><v:paragraph
+   v:horizAlign="1" />
+<v:tabList />
+(1,n)</text>
+          </g>
+          <g
+             style="stroke:none;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+             id="g4747"
+             v:mID="57"
+             v:groupContext="shape"
+             transform="matrix(0.74083953,0,0,0.74083953,136.68087,-386.01591)">
+            <title
+               id="title4749">Hoja.57</title>
+            <desc
+               id="desc4751">(1,1)</desc>
+            <v:textBlock
+               v:margins="rect(2,2,2,2)"
+               v:tabSpace="42.5197" />
+            <v:textRect
+               cx="14.1732"
+               cy="588.024"
+               width="28.35"
+               height="14.5039" />
+            <text
+               x="5.9499998"
+               y="595.21997"
+               class="st4"
+               v:langID="3082"
+               id="text4753"
+               style="font-family:Arial;fill:#000000;stroke:none;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"><v:paragraph
+   v:horizAlign="1" />
+<v:tabList />
+(1,n)</text>
+          </g>
+          <g
+             id="g4809"
+             transform="matrix(0.74083953,0,0,0.74083953,-153.68245,13.99418)">
+            <g
+               transform="translate(289.63759,-511.54897)"
+               v:layerMember="0"
+               v:groupContext="shape"
+               v:mID="4"
+               id="g4763"
+               style="stroke:#000000;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1">
+              <title
+                 id="title4765">Decision.4</title>
+              <desc
+                 id="desc4767">Tiene</desc>
+              <v:custProps>
+                <v:cp
+                   v:langID="3082"
+                   v:format="@"
+                   v:type="7"
+                   v:lbl="Costo"
+                   v:nameU="Cost" />
+                <v:cp
+                   v:langID="3082"
+                   v:type="2"
+                   v:lbl="Duración"
+                   v:nameU="Duration" />
+                <v:cp
+                   v:langID="3082"
+                   v:lbl="Recursos"
+                   v:nameU="Resources" />
+              </v:custProps>
+              <v:userDefs>
+                <v:ud
+                   v:val="VT0(11):26"
+                   v:nameU="visVersion" />
+              </v:userDefs>
+              <v:textBlock
+                 v:tabSpace="42.5197"
+                 v:margins="rect(2,2,2,2)" />
+              <v:textRect
+                 height="31.8898"
+                 width="59.06"
+                 cy="574.016"
+                 cx="35.4331" />
+              <path
+                 inkscape:connector-curvature="0"
+                 style="fill:#e8eef7;stroke:#000000;stroke-width:0.94000137;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+                 id="path4769"
+                 class="st3"
+                 d="M 0,574.02 35.43,552.76 70.87,574.02 35.43,595.28 0,574.02 Z" />
+              <text
+                 style="font-family:Arial;fill:#000000;stroke:none;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+                 id="text4771"
+                 v:langID="3082"
+                 class="st4"
+                 y="576.41998"
+                 x="20.687"><v:paragraph
+   v:horizAlign="1" />
+<v:tabList />
+Tiene</text>
+            </g>
+            <g
+               transform="translate(317.9275,-510.92305)"
+               v:layerMember="1"
+               v:groupContext="shape"
+               v:mID="27"
+               id="g4773"
+               style="stroke:#000000;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1">
+              <title
+                 id="title4775">Dynamic connector.27</title>
+              <v:userDefs>
+                <v:ud
+                   v:val="VT0(11):26"
+                   v:nameU="visVersion" />
+              </v:userDefs>
+              <path
+                 inkscape:connector-curvature="0"
+                 style="stroke:#000000;stroke-width:0.94000137;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+                 id="path4777"
+                 class="st5"
+                 d="m 7.09,595.28 0,49.6" />
+            </g>
+            <g
+               transform="translate(360.74397,-525.6098)"
+               v:layerMember="1"
+               v:groupContext="shape"
+               v:mID="30"
+               id="g4779"
+               style="stroke:#000000;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1">
+              <title
+                 id="title4781">Conector dinámico.30</title>
+              <path
+                 inkscape:connector-curvature="0"
+                 style="stroke:#000000;stroke-width:0.94000137;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+                 id="path4783"
+                 class="st5"
+                 d="m 0,588.19 42.52,0 21.26,0" />
+            </g>
+          </g>
+          <g
+             style="stroke:#000000;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+             id="g4785"
+             v:mID="4"
+             v:groupContext="shape"
+             v:layerMember="0"
+             transform="matrix(0.74083953,0,0,0.74083953,-25.953757,-248.30265)">
+            <title
+               id="title4787">Decision.4</title>
+            <desc
+               id="desc4789">Tiene</desc>
+            <v:custProps>
+              <v:cp
+                 v:nameU="Cost"
+                 v:lbl="Costo"
+                 v:type="7"
+                 v:format="@"
+                 v:langID="3082" />
+              <v:cp
+                 v:nameU="Duration"
+                 v:lbl="Duración"
+                 v:type="2"
+                 v:langID="3082" />
+              <v:cp
+                 v:nameU="Resources"
+                 v:lbl="Recursos"
+                 v:langID="3082" />
+            </v:custProps>
+            <v:userDefs>
+              <v:ud
+                 v:nameU="visVersion"
+                 v:val="VT0(11):26" />
+            </v:userDefs>
+            <v:textBlock
+               v:margins="rect(2,2,2,2)"
+               v:tabSpace="42.5197" />
+            <v:textRect
+               cx="35.4331"
+               cy="574.016"
+               width="59.06"
+               height="31.8898" />
+            <g
+               id="g4878"
+               transform="translate(117.38963,29.188774)">
+              <path
+                 inkscape:connector-curvature="0"
+                 style="fill:#e8eef7;stroke:#000000;stroke-width:0.94000137;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+                 id="path4791"
+                 class="st3"
+                 d="M 0,574.02 35.43,552.76 70.87,574.02 35.43,595.28 0,574.02 Z" />
+              <text
+                 style="font-family:Arial;fill:#000000;stroke:none;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+                 id="text4793"
+                 v:langID="3082"
+                 class="st4"
+                 y="578.31494"
+                 x="12.164493">Generan<v:paragraph
+   v:horizAlign="1" />
+<v:tabList />
+</text>
+            </g>
+          </g>
+          <g
+             id="g4822"
+             transform="matrix(0.74083953,0,0,0.74083953,-153.68245,13.99418)">
+            <g
+               style="stroke:#000000;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+               id="g4824"
+               v:mID="4"
+               v:groupContext="shape"
+               v:layerMember="0"
+               transform="translate(289.63759,-511.54897)">
+              <title
+                 id="title4826">Decision.4</title>
+              <desc
+                 id="desc4828">Tiene</desc>
+              <v:custProps>
+                <v:cp
+                   v:nameU="Cost"
+                   v:lbl="Costo"
+                   v:type="7"
+                   v:format="@"
+                   v:langID="3082" />
+                <v:cp
+                   v:nameU="Duration"
+                   v:lbl="Duración"
+                   v:type="2"
+                   v:langID="3082" />
+                <v:cp
+                   v:nameU="Resources"
+                   v:lbl="Recursos"
+                   v:langID="3082" />
+              </v:custProps>
+              <v:userDefs>
+                <v:ud
+                   v:nameU="visVersion"
+                   v:val="VT0(11):26" />
+              </v:userDefs>
+              <v:textBlock
+                 v:margins="rect(2,2,2,2)"
+                 v:tabSpace="42.5197" />
+              <v:textRect
+                 cx="35.4331"
+                 cy="574.016"
+                 width="59.06"
+                 height="31.8898" />
+              <path
+                 d="M 0,574.02 35.43,552.76 70.87,574.02 35.43,595.28 0,574.02 Z"
+                 class="st3"
+                 id="path4830"
+                 style="fill:#e8eef7;stroke:#000000;stroke-width:0.94000137;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+                 inkscape:connector-curvature="0" />
+              <text
+                 x="20.687"
+                 y="576.41998"
+                 class="st4"
+                 v:langID="3082"
+                 id="text4832"
+                 style="font-family:Arial;fill:#000000;stroke:none;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"><v:paragraph
+   v:horizAlign="1" />
+<v:tabList />
+Tiene</text>
+            </g>
+            <g
+               style="stroke:#000000;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+               id="g4834"
+               v:mID="27"
+               v:groupContext="shape"
+               v:layerMember="1"
+               transform="translate(317.9275,-510.92305)">
+              <title
+                 id="title4836">Dynamic connector.27</title>
+              <v:userDefs>
+                <v:ud
+                   v:nameU="visVersion"
+                   v:val="VT0(11):26" />
+              </v:userDefs>
+              <path
+                 d="m 7.09,595.28 0,49.6"
+                 class="st5"
+                 id="path4838"
+                 style="stroke:#000000;stroke-width:0.94000137;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+                 inkscape:connector-curvature="0" />
+            </g>
+            <g
+               style="stroke:#000000;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+               id="g4840"
+               v:mID="30"
+               v:groupContext="shape"
+               v:layerMember="1"
+               transform="translate(360.74397,-525.6098)">
+              <title
+                 id="title4842">Conector dinámico.30</title>
+              <path
+                 d="m 0,588.19 42.52,0 21.26,0"
+                 class="st5"
+                 id="path4844"
+                 style="stroke:#000000;stroke-width:0.94000137;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+                 inkscape:connector-curvature="0" />
+            </g>
+          </g>
+          <g
+             style="stroke:#000000;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+             id="g4846"
+             v:mID="4"
+             v:groupContext="shape"
+             v:layerMember="0"
+             transform="matrix(0.74083953,0,0,0.74083953,261.72014,-364.91685)">
+            <title
+               id="title4848">Decision.4</title>
+            <desc
+               id="desc4850">Tiene</desc>
+            <v:custProps>
+              <v:cp
+                 v:nameU="Cost"
+                 v:lbl="Costo"
+                 v:type="7"
+                 v:format="@"
+                 v:langID="3082" />
+              <v:cp
+                 v:nameU="Duration"
+                 v:lbl="Duración"
+                 v:type="2"
+                 v:langID="3082" />
+              <v:cp
+                 v:nameU="Resources"
+                 v:lbl="Recursos"
+                 v:langID="3082" />
+            </v:custProps>
+            <v:userDefs>
+              <v:ud
+                 v:nameU="visVersion"
+                 v:val="VT0(11):26" />
+            </v:userDefs>
+            <v:textBlock
+               v:margins="rect(2,2,2,2)"
+               v:tabSpace="42.5197" />
+            <v:textRect
+               cx="35.4331"
+               cy="574.016"
+               width="59.06"
+               height="31.8898" />
+            <path
+               d="M 0,574.02 35.43,552.76 70.87,574.02 35.43,595.28 0,574.02 Z"
+               class="st3"
+               id="path4852"
+               style="fill:#e8eef7;stroke:#000000;stroke-width:0.94000137;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+               inkscape:connector-curvature="0" />
+            <text
+               x="20.687"
+               y="576.41998"
+               class="st4"
+               v:langID="3082"
+               id="text4854"
+               style="font-family:Arial;fill:#000000;stroke:none;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"><v:paragraph
+   v:horizAlign="1" />
+<v:tabList />
+Tiene</text>
+          </g>
+          <g
+             style="stroke:#000000;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+             id="g4856"
+             v:mID="27"
+             v:groupContext="shape"
+             v:layerMember="1"
+             transform="matrix(0.74083953,0,0,0.74083953,282.714,-364.74334)">
+            <title
+               id="title4858">Dynamic connector.27</title>
+            <v:userDefs>
+              <v:ud
+                 v:nameU="visVersion"
+                 v:val="VT0(11):26" />
+            </v:userDefs>
+            <path
+               d="m 7.09,595.28 0,49.6"
+               class="st5"
+               id="path4860"
+               style="stroke:#000000;stroke-width:0.94000137;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+               inkscape:connector-curvature="0" />
+          </g>
+          <g
+             style="stroke:#000000;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+             id="g4862"
+             v:mID="30"
+             v:groupContext="shape"
+             v:layerMember="1"
+             transform="matrix(0.74083953,0,0,0.74083953,214.1782,-375.402)">
+            <title
+               id="title4864">Conector dinámico.30</title>
+            <path
+               d="m 0,588.19 42.52,0 21.26,0"
+               class="st5"
+               id="path4866"
+               style="stroke:#000000;stroke-width:0.94000137;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+               inkscape:connector-curvature="0" />
+          </g>
+          <g
+             style="stroke:none;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+             id="g4870"
+             v:mID="57"
+             v:groupContext="shape"
+             transform="matrix(0.74083953,0,0,0.74083953,263.49326,-332.16634)">
+            <title
+               id="title4872">Hoja.57</title>
+            <desc
+               id="desc4874">(1,1)</desc>
+            <v:textBlock
+               v:margins="rect(2,2,2,2)"
+               v:tabSpace="42.5197" />
+            <v:textRect
+               cx="14.1732"
+               cy="588.024"
+               width="28.35"
+               height="14.5039" />
+            <text
+               x="5.9499998"
+               y="595.21997"
+               class="st4"
+               v:langID="3082"
+               id="text4876"
+               style="font-family:Arial;fill:#000000;stroke:none;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"><v:paragraph
+   v:horizAlign="1" />
+<v:tabList />
+(1,1)</text>
+          </g>
+          <g
+             transform="matrix(0.74083953,0,0,0.74083953,81.926274,-295.28736)"
+             v:layerMember="1"
+             v:groupContext="shape"
+             v:mID="27"
+             id="g4882"
+             style="stroke:#000000;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1">
+            <title
+               id="title4884">Dynamic connector.27</title>
+            <v:userDefs>
+              <v:ud
+                 v:val="VT0(11):26"
+                 v:nameU="visVersion" />
+            </v:userDefs>
+            <path
+               inkscape:connector-curvature="0"
+               style="stroke:#000000;stroke-width:0.94000137;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+               id="path4886"
+               class="st5"
+               d="m 7.09,595.28 0,49.6" />
+          </g>
+          <g
+             transform="matrix(0.74083953,0,0,0.74083953,113.74027,-237.1658)"
+             v:layerMember="1"
+             v:groupContext="shape"
+             v:mID="30"
+             id="g4890"
+             style="stroke:#000000;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1">
+            <title
+               id="title4892">Conector dinámico.30</title>
+            <path
+               inkscape:connector-curvature="0"
+               style="stroke:#000000;stroke-width:0.94000137;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+               id="path4894"
+               class="st5"
+               d="m 0,588.19 42.52,0 21.26,0" />
+          </g>
+          <g
+             style="stroke:#000000;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+             id="g4896"
+             v:mID="7"
+             v:groupContext="shape"
+             v:layerMember="0"
+             transform="matrix(0.74083953,0,0,0.74083953,161.42768,-226.7973)">
+            <title
+               id="title4898">Process.7</title>
+            <desc
+               id="desc4900">Materia</desc>
+            <v:custProps>
+              <v:cp
+                 v:nameU="Cost"
+                 v:lbl="Costo"
+                 v:type="7"
+                 v:format="@"
+                 v:langID="3082" />
+              <v:cp
+                 v:nameU="Duration"
+                 v:lbl="Duración"
+                 v:type="2"
+                 v:langID="3082" />
+              <v:cp
+                 v:nameU="Resources"
+                 v:lbl="Recursos"
+                 v:langID="3082" />
+            </v:custProps>
+            <v:userDefs>
+              <v:ud
+                 v:nameU="visVersion"
+                 v:val="VT0(11):26" />
+            </v:userDefs>
+            <v:textBlock
+               v:margins="rect(2,2,2,2)"
+               v:tabSpace="42.5197" />
+            <v:textRect
+               cx="35.4331"
+               cy="574.016"
+               width="70.87"
+               height="42.5197" />
+            <rect
+               x="0"
+               y="552.75598"
+               width="70.866096"
+               height="42.519699"
+               class="st3"
+               id="rect4902"
+               style="fill:#e8eef7;stroke:#000000;stroke-width:0.94000137;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1" />
+            <text
+               x="6.5759215"
+               y="578.24042"
+               class="st4"
+               v:langID="3082"
+               id="text4904"
+               style="font-family:Arial;fill:#000000;stroke:none;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1">ProcesosE<v:paragraph
+   v:horizAlign="1" />
+<v:tabList />
+</text>
+          </g>
+          <g
+             id="g4971"
+             transform="matrix(0.74083953,0,0,0.74083953,207.7231,13.541806)">
+            <path
+               inkscape:connector-curvature="0"
+               style="fill:#e8eef7;stroke:#000000;stroke-width:0.94000137;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+               id="path4914"
+               class="st3"
+               d="m 208.648,156.70919 35.43,-21.26 35.44,21.26 -35.44,21.26 -35.43,-21.26 z" />
+            <text
+               style="font-family:Arial;fill:#000000;stroke:none;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+               id="text4916"
+               v:langID="3082"
+               class="st4"
+               y="161.00414"
+               x="217.25909">Pertenece<v:paragraph
+   v:horizAlign="1" />
+<v:tabList />
+</text>
+          </g>
+          <g
+             style="stroke:#000000;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+             id="g4934"
+             transform="matrix(0.74083953,0,0,0.74083953,261.82994,-226.6908)">
+            <path
+               d="M 0,574.02 35.43,552.76 70.87,574.02 35.43,595.28 0,574.02 Z"
+               class="st3"
+               id="path4930"
+               style="fill:#e8eef7;stroke:#000000;stroke-width:0.94000137;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+               inkscape:connector-curvature="0" />
+            <text
+               x="17.546328"
+               y="578.24463"
+               class="st4"
+               v:langID="3082"
+               id="text4932"
+               style="font-family:Arial;fill:#000000;stroke:none;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1">Tienen<v:paragraph
+   v:horizAlign="1" />
+<v:tabList />
+</text>
+          </g>
+          <g
+             style="stroke:#000000;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+             id="g4918"
+             v:mID="27"
+             v:groupContext="shape"
+             v:layerMember="1"
+             transform="matrix(0.74083953,0,0,0.74083953,383.296,-295.34843)">
+            <title
+               id="title4920">Dynamic connector.27</title>
+            <v:userDefs>
+              <v:ud
+                 v:nameU="visVersion"
+                 v:val="VT0(11):26" />
+            </v:userDefs>
+            <path
+               d="m 7.09,595.28 0,49.6"
+               class="st5"
+               id="path4922"
+               style="stroke:#000000;stroke-width:0.94000137;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+               inkscape:connector-curvature="0" />
+          </g>
+          <g
+             style="stroke:#000000;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+             id="g4924"
+             v:mID="30"
+             v:groupContext="shape"
+             v:layerMember="1"
+             transform="matrix(0.74083953,0,0,0.74083953,314.60747,-237.18153)">
+            <title
+               id="title4926">Conector dinámico.30</title>
+            <path
+               d="m 0,588.19 42.52,0 21.26,0"
+               class="st5"
+               id="path4928"
+               style="stroke:#000000;stroke-width:0.94000137;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+               inkscape:connector-curvature="0" />
+          </g>
+          <g
+             transform="matrix(0.74083953,0,0,0.74083953,362.30352,-226.6789)"
+             v:layerMember="0"
+             v:groupContext="shape"
+             v:mID="7"
+             id="g4938"
+             style="stroke:#000000;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1">
+            <title
+               id="title4940">Process.7</title>
+            <desc
+               id="desc4942">Materia</desc>
+            <v:custProps>
+              <v:cp
+                 v:langID="3082"
+                 v:format="@"
+                 v:type="7"
+                 v:lbl="Costo"
+                 v:nameU="Cost" />
+              <v:cp
+                 v:langID="3082"
+                 v:type="2"
+                 v:lbl="Duración"
+                 v:nameU="Duration" />
+              <v:cp
+                 v:langID="3082"
+                 v:lbl="Recursos"
+                 v:nameU="Resources" />
+            </v:custProps>
+            <v:userDefs>
+              <v:ud
+                 v:val="VT0(11):26"
+                 v:nameU="visVersion" />
+            </v:userDefs>
+            <v:textBlock
+               v:tabSpace="42.5197"
+               v:margins="rect(2,2,2,2)" />
+            <v:textRect
+               height="42.5197"
+               width="70.87"
+               cy="574.016"
+               cx="35.4331" />
+            <g
+               id="g4948">
+              <rect
+                 x="0"
+                 y="552.75598"
+                 width="70.866096"
+                 height="42.519699"
+                 class="st3"
+                 id="rect4944"
+                 style="fill:#e8eef7;stroke:#000000;stroke-width:0.94000137;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1" />
+              <text
+                 x="1.6548654"
+                 y="578.24042"
+                 class="st4"
+                 v:langID="3082"
+                 id="text4946"
+                 style="font-family:Arial;fill:#000000;stroke:none;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1">GFormulasE<v:paragraph
+   v:horizAlign="1" />
+<v:tabList />
+</text>
+            </g>
+          </g>
+          <g
+             transform="matrix(0.74083953,0,0,0.74083953,214.40037,-237.19319)"
+             v:layerMember="1"
+             v:groupContext="shape"
+             v:mID="30"
+             id="g4952"
+             style="stroke:#000000;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1">
+            <title
+               id="title4954">Conector dinámico.30</title>
+            <path
+               inkscape:connector-curvature="0"
+               style="stroke:#000000;stroke-width:0.94000137;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+               id="path4956"
+               class="st5"
+               d="m 0,588.19 42.52,0 21.26,0" />
+          </g>
+          <g
+             transform="matrix(0.74083953,0,0,0.74083953,314.59822,-306.0979)"
+             v:layerMember="1"
+             v:groupContext="shape"
+             v:mID="30"
+             id="g4977"
+             style="stroke:#000000;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1">
+            <title
+               id="title4979">Conector dinámico.30</title>
+            <path
+               inkscape:connector-curvature="0"
+               style="stroke:#000000;stroke-width:0.94000137;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+               id="path4981"
+               class="st5"
+               d="m 0,588.19 42.52,0 21.26,0" />
+          </g>
+          <g
+             style="stroke:#000000;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+             id="g4983"
+             v:mID="58"
+             v:groupContext="shape"
+             transform="matrix(0.74083953,0,0,0.74083953,387.76845,-263.35856)">
+            <title
+               id="title4985">Hoja.58</title>
+            <desc
+               id="desc4987">(1,n)</desc>
+            <v:textBlock
+               v:margins="rect(2,2,2,2)"
+               v:tabSpace="42.5197" />
+            <v:textRect
+               cx="14.1732"
+               cy="588.024"
+               width="28.35"
+               height="14.5039" />
+            <text
+               x="5.9499998"
+               y="595.21997"
+               class="st4"
+               v:langID="3082"
+               id="text4989"
+               style="font-family:Arial;fill:#000000;stroke:none;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"><v:paragraph
+   v:horizAlign="1" />
+<v:tabList />
+(1,n)</text>
+          </g>
+          <g
+             transform="matrix(0.74083953,0,0,0.74083953,312.02435,-315.5461)"
+             v:groupContext="shape"
+             v:mID="57"
+             id="g4991"
+             style="stroke:none;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1">
+            <title
+               id="title4993">Hoja.57</title>
+            <desc
+               id="desc4995">(1,1)</desc>
+            <v:textBlock
+               v:tabSpace="42.5197"
+               v:margins="rect(2,2,2,2)" />
+            <v:textRect
+               height="14.5039"
+               width="28.35"
+               cy="588.024"
+               cx="14.1732" />
+            <text
+               style="font-family:Arial;fill:#000000;stroke:none;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+               id="text4997"
+               v:langID="3082"
+               class="st4"
+               y="595.21997"
+               x="5.9499998"><v:paragraph
+   v:horizAlign="1" />
+<v:tabList />
+(1,1)</text>
+          </g>
+          <g
+             style="stroke:none;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+             id="g4999"
+             v:mID="57"
+             v:groupContext="shape"
+             transform="matrix(0.74083953,0,0,0.74083953,337.40927,-246.44269)">
+            <title
+               id="title5001">Hoja.57</title>
+            <desc
+               id="desc5003">(1,1)</desc>
+            <v:textBlock
+               v:margins="rect(2,2,2,2)"
+               v:tabSpace="42.5197" />
+            <v:textRect
+               cx="14.1732"
+               cy="588.024"
+               width="28.35"
+               height="14.5039" />
+            <text
+               x="5.9499998"
+               y="595.21997"
+               class="st4"
+               v:langID="3082"
+               id="text5005"
+               style="font-family:Arial;fill:#000000;stroke:none;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"><v:paragraph
+   v:horizAlign="1" />
+<v:tabList />
+(1,1)</text>
+          </g>
+          <g
+             transform="matrix(0.74083953,0,0,0.74083953,210.48464,-246.09012)"
+             v:groupContext="shape"
+             v:mID="57"
+             id="g5015"
+             style="stroke:none;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1">
+            <title
+               id="title5017">Hoja.57</title>
+            <desc
+               id="desc5019">(1,1)</desc>
+            <v:textBlock
+               v:tabSpace="42.5197"
+               v:margins="rect(2,2,2,2)" />
+            <v:textRect
+               height="14.5039"
+               width="28.35"
+               cy="588.024"
+               cx="14.1732" />
+            <text
+               style="font-family:Arial;fill:#000000;stroke:none;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+               id="text5021"
+               v:langID="3082"
+               class="st4"
+               y="595.21997"
+               x="5.9499998"><v:paragraph
+   v:horizAlign="1" />
+<v:tabList />
+(1,1)</text>
+          </g>
+          <g
+             transform="matrix(0.74083953,0,0,0.74083953,84.160925,-287.95652)"
+             v:groupContext="shape"
+             v:mID="57"
+             id="g5023"
+             style="stroke:none;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1">
+            <title
+               id="title5025">Hoja.57</title>
+            <desc
+               id="desc5027">(1,1)</desc>
+            <v:textBlock
+               v:tabSpace="42.5197"
+               v:margins="rect(2,2,2,2)" />
+            <v:textRect
+               height="14.5039"
+               width="28.35"
+               cy="588.024"
+               cx="14.1732" />
+            <text
+               style="font-family:Arial;fill:#000000;stroke:none;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+               id="text5029"
+               v:langID="3082"
+               class="st4"
+               y="595.21997"
+               x="5.9499998"><v:paragraph
+   v:horizAlign="1" />
+<v:tabList />
+(1,n)</text>
+          </g>
+          <g
+             style="stroke:none;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+             id="g5031"
+             v:mID="57"
+             v:groupContext="shape"
+             transform="matrix(0.74083953,0,0,0.74083953,137.688,-245.75771)">
+            <title
+               id="title5033">Hoja.57</title>
+            <desc
+               id="desc5035">(1,1)</desc>
+            <v:textBlock
+               v:margins="rect(2,2,2,2)"
+               v:tabSpace="42.5197" />
+            <v:textRect
+               cx="14.1732"
+               cy="588.024"
+               width="28.35"
+               height="14.5039" />
+            <text
+               x="5.9499998"
+               y="595.21997"
+               class="st4"
+               v:langID="3082"
+               id="text5037"
+               style="font-family:Arial;fill:#000000;stroke:none;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"><v:paragraph
+   v:horizAlign="1" />
+<v:tabList />
+(1,1)</text>
+          </g>
+          <g
+             style="stroke:#000000;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+             id="g5573"
+             v:mID="7"
+             v:groupContext="shape"
+             v:layerMember="0"
+             transform="matrix(0.74083953,0,0,0.74083953,161.44734,-295.66549)">
+            <title
+               id="title5575">Process.7</title>
+            <desc
+               id="desc5577">Materia</desc>
+            <v:custProps>
+              <v:cp
+                 v:nameU="Cost"
+                 v:lbl="Costo"
+                 v:type="7"
+                 v:format="@"
+                 v:langID="3082" />
+              <v:cp
+                 v:nameU="Duration"
+                 v:lbl="Duración"
+                 v:type="2"
+                 v:langID="3082" />
+              <v:cp
+                 v:nameU="Resources"
+                 v:lbl="Recursos"
+                 v:langID="3082" />
+            </v:custProps>
+            <v:userDefs>
+              <v:ud
+                 v:nameU="visVersion"
+                 v:val="VT0(11):26" />
+            </v:userDefs>
+            <v:textBlock
+               v:margins="rect(2,2,2,2)"
+               v:tabSpace="42.5197" />
+            <v:textRect
+               cx="35.4331"
+               cy="574.016"
+               width="70.87"
+               height="42.5197" />
+            <rect
+               x="0"
+               y="552.75598"
+               width="70.866096"
+               height="42.519699"
+               class="st3"
+               id="rect5579"
+               style="fill:#e8eef7;stroke:#000000;stroke-width:0.94000137;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1" />
+            <text
+               x="5.9028916"
+               y="578.24042"
+               class="st4"
+               v:langID="3082"
+               id="text5581"
+               style="font-family:Arial;fill:#000000;stroke:none;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1">ProcesosD<v:paragraph
+   v:horizAlign="1" />
+<v:tabList />
+</text>
+          </g>
+          <g
+             transform="matrix(0.74083953,0,0,0.74083953,182.42425,-295.16635)"
+             v:layerMember="1"
+             v:groupContext="shape"
+             v:mID="27"
+             id="g5583"
+             style="stroke:#000000;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1">
+            <title
+               id="title5585">Dynamic connector.27</title>
+            <v:userDefs>
+              <v:ud
+                 v:val="VT0(11):26"
+                 v:nameU="visVersion" />
+            </v:userDefs>
+            <path
+               inkscape:connector-curvature="0"
+               style="stroke:#000000;stroke-width:0.94000137;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+               id="path5587"
+               class="st5"
+               d="m 7.09,595.28 0,49.6" />
+          </g>
+          <g
+             id="g5601"
+             transform="matrix(0.74083953,0,0,0.74083953,14.868046,7.923183)">
+            <g
+               transform="translate(468.76227,-223.61596)"
+               v:layerMember="0"
+               v:groupContext="shape"
+               v:mID="7"
+               id="g5589"
+               style="stroke:#000000;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1">
+              <title
+                 id="title5591">Process.7</title>
+              <desc
+                 id="desc5593">Materia</desc>
+              <v:custProps>
+                <v:cp
+                   v:langID="3082"
+                   v:format="@"
+                   v:type="7"
+                   v:lbl="Costo"
+                   v:nameU="Cost" />
+                <v:cp
+                   v:langID="3082"
+                   v:type="2"
+                   v:lbl="Duración"
+                   v:nameU="Duration" />
+                <v:cp
+                   v:langID="3082"
+                   v:lbl="Recursos"
+                   v:nameU="Resources" />
+              </v:custProps>
+              <v:userDefs>
+                <v:ud
+                   v:val="VT0(11):26"
+                   v:nameU="visVersion" />
+              </v:userDefs>
+              <v:textBlock
+                 v:tabSpace="42.5197"
+                 v:margins="rect(2,2,2,2)" />
+              <v:textRect
+                 height="42.5197"
+                 width="70.87"
+                 cy="574.016"
+                 cx="35.4331" />
+              <g
+                 id="g5595">
+                <rect
+                   x="0"
+                   y="552.75598"
+                   width="70.866096"
+                   height="42.519699"
+                   class="st3"
+                   id="rect5597"
+                   style="fill:#e8eef7;stroke:#000000;stroke-width:0.94000137;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1" />
+                <text
+                   x="1.6548654"
+                   y="578.24042"
+                   class="st4"
+                   v:langID="3082"
+                   id="text5599"
+                   style="font-family:Arial;fill:#000000;stroke:none;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1">GFormulasE<v:paragraph
+   v:horizAlign="1" />
+<v:tabList />
+</text>
+              </g>
+            </g>
+          </g>
+          <g
+             transform="matrix(0.74083953,0,0,0.74083953,383.28131,-226.53581)"
+             v:layerMember="1"
+             v:groupContext="shape"
+             v:mID="27"
+             id="g5609"
+             style="stroke:#000000;stroke-width:0.94000137;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1">
+            <title
+               id="title5611">Dynamic connector.27</title>
+            <v:userDefs>
+              <v:ud
+                 v:val="VT0(11):26"
+                 v:nameU="visVersion" />
+            </v:userDefs>
+            <path
+               inkscape:connector-curvature="0"
+               style="stroke:#000000;stroke-width:0.94000137;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+               id="path5613"
+               class="st5"
+               d="m 7.09,595.28 0,49.6" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

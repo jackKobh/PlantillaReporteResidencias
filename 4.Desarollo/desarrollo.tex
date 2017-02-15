@@ -426,3 +426,26 @@
 		\end{itemize}
 
 
+
+	\section{Programaci\'on}
+
+		Dentro de los puntos destacables para la codificaci\'on de este proyecto, se detectaron procesos los cuales, debido a su constante repetici\'on, se hizo c\'odigo reutilizable que permitiera manejar estos casos.\\
+		
+		Para dar una soluci\'on a este problema, se utiliz\'o el framework que el Instituto Tecnol\'ogico de Tláhuac está desarrollando, el cual cuenta con muchas tareas programadas que pueden sernos de gran utilidad.\\
+
+		\subsection{Manejo de interfaces de mensajes emergentes}
+
+			Los menajes emergentes dentro del sistema son una de las tareas que a nivel de programaci\'on requieren realizar la repetici\'on de c\'odigo, haciendo con esto que este se vuelva ilegible y muy dif\'icil de entender. Para solucionar este punto se cre\'o una clase dentro del proyecto de las utiler\'ias del Framework del Instituto Tecnol\'ogico de Tl\'ahuac la cual se encarga de realizar el manejo de la creaci\'on del c\'odigo que contendr\'a el cuerpo de este mensaje.\\
+
+			Las acciones que soporta esta clase son las siguientes:
+			\begin{itemize}
+				\item Creaci\'on de ventana emergente para creaci\'on, actualizaci\'on y eliminaci\'on de datos del sistema.
+				\item Ejecuci\'on de acciones de creaci\'on, actualizaci\'on y eliminaci\'on de informaci\'on.
+				\item Acciones especiales de m\'odulos.
+			\end{itemize}
+
+			Cada una de estas acciones est\'a delimitada a usarse de acuerdo al nombre del m\'odulo que se ejecuten, es decir, si se quisiera la ventana emergente para la creaci\'on de un nuevo registro en el m\'odulo de departamentos sea visible, basta con indicar que se requiere el alta del formulario junto con el nombre del departamento.\\
+
+			Las acciones a ejecutar dentro de cada uno de estas ventanas emergentes se encuentra tambi\'en en esta clase, la cual realiza las actividades necesarias para realizar la actualizaci\'on o eliminaci\'on de estos modulo.
+
+
