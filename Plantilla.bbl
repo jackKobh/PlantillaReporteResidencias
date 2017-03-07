@@ -1,0 +1,46 @@
+\begin{thebibliography}{1}
+\providecommand{\url}[1]{#1}
+\csname url@rmstyle\endcsname
+\providecommand{\newblock}{\relax}
+\providecommand{\bibinfo}[2]{#2}
+\providecommand\BIBentrySTDinterwordspacing{\spaceskip=0pt\relax}
+\providecommand\BIBentryALTinterwordstretchfactor{4}
+\providecommand\BIBentryALTinterwordspacing{\spaceskip=\fontdimen2\font plus
+\BIBentryALTinterwordstretchfactor\fontdimen3\font minus
+  \fontdimen4\font\relax}
+\providecommand\BIBforeignlanguage[2]{{%
+\expandafter\ifx\csname l@#1\endcsname\relax
+\typeout{** WARNING: IEEEtran.bst: No hyphenation pattern has been}%
+\typeout{** loaded for the language `#1'. Using the pattern for}%
+\typeout{** the default language instead.}%
+\else
+\language=\csname l@#1\endcsname
+\fi
+#2}}
+
+\bibitem{ref_Analisis}
+M.~Del Carmen~G\'omez, \emph{An\'alisis de requerimientos}.\hskip 1em plus
+  0.5em minus 0.4em\relax Universidad Aut\'onoma Metropolitana, 2011.
+
+
+\bibitem{ref_jQuery}
+{Jos\'e Luis Comesa\~na}. (2015)
+  \texttt{http://mundosica.github.io/tutorial\_hispano\_jQuery/}.
+
+
+\bibitem{ref_Bootstrap1}
+J.~Pavon~Maestras, \emph{Aplicaciones Web/Sistemas Web}.\hskip 1em plus 0.5em
+  minus 0.4em\relax Universidad Computense de Madrid, 2014.
+
+
+\bibitem{ref_MVC}
+J.~Vall\'es~Botella, \emph{ASP.NET MVC 3 y 4, CONTACTO CON MVC}.\hskip 1em plus
+  0.5em minus 0.4em\relax UNIVERSIDAD DE ALICANTE, 2014.
+
+
+\bibitem{ref_SQL}
+J.~S. y~Javier~Hern\'andez, \emph{SQL Server Vs MySQL}.\hskip 1em plus 0.5em
+  minus 0.4em\relax Documento de internet, 2014.
+
+
+\end{thebibliography}

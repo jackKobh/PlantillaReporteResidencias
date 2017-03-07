@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.12.6)  14 FEB 2017 18:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.12.6)  15 FEB 2017 09:55
 entering extended mode
 **./Plantilla.tex
 (Plantilla.tex
@@ -1861,9 +1861,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
-) (Referencias/referencias.tex)
-No file Plantilla.bbl.
-[70
+) (Referencias/referencias.tex) (Plantilla.bbl [70
+
+]) [71
 
 ] (Plantilla.aux
 LaTeX Info: Redefining \. on input line 6.
@@ -1877,11 +1877,11 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8322 strings out of 493334
- 121935 string characters out of 3136669
+ 8347 strings out of 493334
+ 122310 string characters out of 3136669
  221460 words of memory out of 3000000
- 11595 multiletter control sequences out of 15000+200000
- 9972 words of font info for 37 fonts, out of 3000000 for 9000
+ 11616 multiletter control sequences out of 15000+200000
+ 10486 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  40i,19n,58p,1039b,485s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Urbano\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
@@ -1895,10 +1895,12 @@ b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C
 ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Prog
 ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Plantilla.pdf (77 pages, 5782412 bytes).
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on Plantilla.pdf (78 pages, 5813681 bytes).
 PDF statistics:
- 405 PDF objects out of 1000 (max. 8388607)
+ 416 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  246 words of extra memory for PDF output out of 10000 (max. 10000000)
 
