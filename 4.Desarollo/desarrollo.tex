@@ -78,7 +78,7 @@
 				\begin{itemize}
 					\item \textbf{Departamentos:} En este m\'odulo se permitir\'a declarar la informaci\'on de los departamentos que se manejar\'an en el SII, los datos requeridos hasta el momento son Id, nombre y descripci\'on.
 					\item \textbf{Formulas:} En este m\'odulo se configurar\'an las f\'ormulas que extraer\'an los datos de la base de datos y realizaran los c\'alculos establecidos en estas. Los campos requeridos para configurar una formula son id formula, nombre y la definici\'on de la formula.
-					\item \textbf{Colecciones:} Este m\'odulo permite establecer las f\'ormulas que se aplicaran a cada proceso. Las formulas pueden estar en m\'as de un proceso, esto debido a que se puede reutilizar un cálculo de un departamento a otro. Los campos necesarios en este m\'odulo solamente son el id de formula y el id de colecci\'on.
+					\item \textbf{Colecciones:} Este m\'odulo permite establecer las f\'ormulas que se aplicaran a cada proceso. Las formulas pueden estar en m\'as de un proceso, esto debido a que se puede reutilizar un c\'alculo de un departamento a otro. Los campos necesarios en este m\'odulo solamente son el id de formula y el id de colecci\'on.
 					\item \textbf{Procesos:} En este se definen los datos del periodo dentro de los cuales se necesitan el departamento al que pertenece, numero interno de proceso, descripci\'on, grupo de f\'ormulas a aplicar, fecha de inicio y fin, responsable y unidad de medida.
 				\end{itemize}
 
@@ -137,7 +137,7 @@
 
 			\subsubsection{Configuraci\'on}
 
-				En esta etapa se realizara la configuraci\'on necesaria la cual servir\'a para alimentar el motor de informaci\'on, adem\'as de ser un paso necesario ya que sin \'el no ser\'a posible configurar los par\'ametros de los indicadores.\\
+				En esta etapa se realizar\'a la configuraci\'on necesaria la cual servir\'a para alimentar el motor de informaci\'on, adem\'as de ser un paso necesario ya que sin \'el no ser\'a posible configurar los par\'ametros de los indicadores.\\
 
 				El proceso de configuraci\'on consta de 3 pasos los cuales se muestran en la figura \ref{fig_ConfiguracionIndicadores}.\\
 
@@ -156,11 +156,11 @@
 		    		\item \textbf{Crear pantalla con detalles de las tablas necesarias.}
 
 		    			Este punto consta de realizar el dise\~no de una pantalla  que permita mostrar las tablas en una pantalla para poder ser consultadas y aplicadas directamente a las formulas del sistema.
-						Los datos a mostrar en la pantalla son solamente el nombre de la tabla, permitiendo con esto navegar y ubicar los datos de mejor manera. La pantalla de tablas por solicitud del usuario mostrara todas las tablas de la base de datos.
-						Estas tablas se mostraran en una lista en el m\'odulo de creaci\'on de f\'ormulas.
+						Los datos a mostrar en la pantalla son solamente el nombre de la tabla, permitiendo con esto navegar y ubicar los datos de mejor manera. La pantalla de tablas por solicitud del usuario mostrar\'a todas las tablas de la base de datos.
+						Estas tablas se mostrar\'an en una lista en el m\'odulo de creaci\'on de f\'ormulas.
 					\item \textbf{Crear pantalla con el detalle de los campos.}
 
-						Esta pantalla ser\'a para complementar la pantalla tablas ya que el detalle de los campos de de cada tabla se mostrara en una segunda lista en el m\'odulo de creaci\'on de f\'ormulas, permitiendo con esto tener a la mano todos las herramientas necesarias para el dise\~no de estas.
+						Esta pantalla ser\'a para complementar la pantalla tablas ya que el detalle de los campos de de cada tabla se mostrar\'a en una segunda lista en el m\'odulo de creaci\'on de f\'ormulas, permitiendo con esto tener a la mano todos las herramientas necesarias para el dise\~no de estas.
 
 		    	\end{enumerate}
 
@@ -168,9 +168,9 @@
 
 		    	En este proceso se realizar\'a una de las tareas m\'as delicadas del sistema, ya que es aqu\'i donde se procesar\'a la informaci\'on de los indicadores.\\
 
-				En este proceso se realizaran los c\'alculos de los indicadores, realizando el registro de los datos para tener la informaci\'on organizada seg\'un los datos reales y adem\'as para hacer m\'as eficiente la consulta de informaci\'on.\\
+				En este proceso se realizar\'an los c\'alculos de los indicadores, realizando el registro de los datos para tener la informaci\'on organizada seg\'un los datos reales y adem\'as para hacer m\'as eficiente la consulta de informaci\'on.\\
 
-				En este paso se realizarla lo descrito  en la figura \ref{fig_ProcesoIndicador}
+				En este paso se realizar\'a lo descrito  en la figura \ref{fig_ProcesoIndicador}
 
 				\begin{figure}[H]
 			        \centering
@@ -179,7 +179,7 @@
 			        \label{fig_ProcesoIndicador}
 			    \end{figure}
 
-			    La definici\'on de los indicadores es la parte en donde se definen los datos para generar los resultados de los indicadores, el cual se realizara de acuerdo a los lineamientos del Instituto Tecnol\'ogico de Tl\'ahuac el cual establece que la informaci\'on se organizar\'a primeramente por instituci\'on, despu\'es se especificar\'a el departamento al que pertenece el indicador y por \'ultimo se organizar\'an por un rango de fechas especificado manualmente. Este rango de fechas podr\'a ser utilizado en la programaci\'on de las formulas permitiendo filtrar los datos.
+			    La definici\'on de los indicadores es la parte en donde se definen los datos para generar los resultados de los indicadores, el cual se realizar\'a de acuerdo a los lineamientos del Instituto Tecnol\'ogico de Tl\'ahuac el cual establece que la informaci\'on se organizar\'a primeramente por instituci\'on, despu\'es se especificar\'a el departamento al que pertenece el indicador y por \'ultimo se organizar\'an por un rango de fechas especificado manualmente. Este rango de fechas podr\'a ser utilizado en la programaci\'on de las formulas permitiendo filtrar los datos.
 
 			    \begin{enumerate}[1.]
 		    		\item \textbf{Definic\'ion del proceso de indicador.}
@@ -188,7 +188,7 @@
 		    			\begin{itemize}
 		    				\item \textbf{ID instituci\'on:} Este campo contendr\'a el ID de la instituci\'on a la que pertenece el indicador, este campo formar\'a parte de la llave para identificar el indicador.
 		    				\item \textbf{Departamento:} Este campo es el n\'umero de departamento.
-		    				\item \textbf{N\'umero interno del proceso:} Este campo se autogenerara cuando se crea un nuevo proceso, ya que es \'unico para poder identificar los procesos dentro de todo el sistema.
+		    				\item \textbf{N\'umero interno del proceso:} Este campo se autogenerar\'a cuando se crea un nuevo proceso, ya que es \'unico para poder identificar los procesos dentro de todo el sistema.
 		    				\item \textbf{Descripci\'on:} Este campo contendr\'a el detalle del contenido del indicador, permitiendo tener un resumen r\'apido del mismo.
 		    				\item \textbf{Colecci\'on de f\'ormulas:} Este campo contendr\'a el n\'umero de colecci\'on que se utilizara para realizar el c\'alculo del indicador.
 		    				\item \textbf{Fecha inicial:} Fecha de inicio del proceso.
@@ -403,7 +403,7 @@
 			\item Los tipos de dato de los componentes de entrada de las interfaces estar\'an definidos de acuerdo al tipo de dato nativo en la BD, esto para mejorar la experiencia del usuario.
 			\item Todas las entradas de datos se mostrar\'an en ventanas emergentes.
 			\item La visualizaci\'on de los datos se har\'a en una tabla para mejorar la accesibilidad de los datos
-			\item Las acciones propias a los registros serán colocadas a la derecha de la tabla, estas no tendr\'an t\'itulo de encabezado.
+			\item Las acciones propias a los registros ser\'an colocadas a la derecha de la tabla, estas no tendr\'an t\'itulo de encabezado.
 			\item Se crearan los botones de navegaci\'on del sistema en la parte superior derecha de las tablas, estas acciones ser\'an determinadas por m\'odulo.
 			\item En el caso de que no existan registros para mostrar en el m\'odulo, deber\'a de mostrar un mensaje descriptivo a la situaci\'on, dejando invisibles los encabezados de la tabla propia del m\'odulo.
 		\end{itemize}
@@ -419,7 +419,7 @@
 			\begin{itemize}
 				\item \textbf{Crear:} Esta funcionalidad permitir\'a crear un nuevo proceso.
 				\item \textbf{Actualizar:} Esta funcionalidad permite actualizar los datos del periodo. Cuando se realiza esta acci\'on es importante mencionar que el periodo puede que necesite reprocesarse, ya que los datos como las fechas de inicio y fin o el n\'umero de colecci\'on de f\'ormulas afectan directamente en el resultado.
-				\item \textbf{Eliminar:} Esta funcionalidad permite eliminar un proceso. Es importante destacar que al eliminar un proceso se eliminaran tanto los registros en el encabezado y el detalle.
+				\item \textbf{Eliminar:} Esta funcionalidad permite eliminar un proceso. Es importante destacar que al eliminar un proceso se eliminar\'an tanto los registros en el encabezado y el detalle.
 				\item \textbf{Procesar:} Esta funcionalidad ejecuta la resoluci\'on de f\'ormulas del sistema guardando los resultados en el detalle del proceso.
 				\item \textbf{Detalle:} Esta funcionalidad muestra los registros que se encuentran en el detalle del proceso. Este formulario es solo de consulta por lo que no se tendr\'a ninguna funcionalidad.
 			\end{itemize}
@@ -431,7 +431,7 @@
 
 		Dentro de los puntos destacables para la codificaci\'on de este proyecto, se detectaron procesos los cuales, debido a su constante repetici\'on, se hizo c\'odigo reutilizable que permitiera manejar estos casos.\\
 		
-		Para dar una soluci\'on a este problema, se utiliz\'o el framework que el Instituto Tecnol\'ogico de Tláhuac está desarrollando, el cual cuenta con muchas tareas programadas que pueden sernos de gran utilidad.\\
+		Para dar una soluci\'on a este problema, se utiliz\'o el framework que el Instituto Tecnol\'ogico de Tl\'ahuac est\'a desarrollando, el cual cuenta con muchas tareas programadas que pueden sernos de gran utilidad.\\
 
 		\subsection{Manejo de interfaces de mensajes emergentes}
 

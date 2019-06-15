@@ -1,12 +1,14 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.12.6)  15 FEB 2017 09:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.4.9)  12 MAY 2019 23:56
 entering extended mode
-**./Plantilla.tex
-(Plantilla.tex
-LaTeX2e <2016/03/31> patch level 3
-Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\book.cls"
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Plantilla.tex
+(./Plantilla.tex
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\bk10.clo"
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk10.clo
 File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -22,40 +24,39 @@ File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
-Package: babel 2016/04/23 3.9r The Babel package
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2018/02/14 3.18 The Babel package
 
-*************************************
-* Local config file bblopts.cfg used
-*
-(C:\Users\Urbano\AppData\Roaming\MiKTeX\2.9\tex\latex\arabi\bblopts.cfg
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
- babel
+(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2018/02/14 3.18 Babel switching mechanism
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\babel-spanish\spanish.ldf"
+(/usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf
 Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
-File: babel.def 2016/04/23 3.9r Babel common definitions
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2018/02/14 3.18 Babel common definitions
 \babel@savecnt=\count88
 \U@D=\dimen103
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count89
 )
 \es@quottoks=\toks14
-\es@quotdepth=\count89
+\es@quotdepth=\count90
 Package babel Info: Making " an active character on input line 561.
 Package babel Info: Making . an active character on input line 662.
 Package babel Info: Making < an active character on input line 707.
 Package babel Info: Making > an active character on input line 707.
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks15
 \inpenc@posthook=\toks16
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\latin1.def"
+(/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
 File: latin1.def 2015/03/17 v1.2c Input encoding file
 ))
-(C:\Users\Urbano\AppData\Roaming\MiKTeX\2.9\tex\latex\titlesec\titlesec.sty
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \ttl@box=\box26
 \beforetitleunit=\skip43
@@ -67,85 +68,79 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \titlewidthlast=\dimen107
 \titlewidthfirst=\dimen108
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\enumerate.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \@enLab=\toks18
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\anysize.sty"
-Package: anysize 1994/08/13 1.0 Contributed LaTeX2e package
+(/usr/share/texlive/texmf-dist/tex/latex/anysize/anysize.sty
+Package: anysize 1994/08/13 setting margin sizes
 
-Package: `anysize' 1.0 <1994/08/13>
+document style option `anysize' loaded
+Michael Salzenberg, Thomas Esser, Dirk Hillbrecht
+Version 1.0, Aug 13, 1994
 \@Leftmargin=\dimen109
 \@Rightmargin=\dimen110
 \@Topmargin=\dimen111
 \@Bottommargin=\dimen112
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks19
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2016/07/10 v1.0t Standard LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
-File: pdftex.def 2016/07/10 v0.06j Graphics/color for pdfTeX
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count90
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen113
 \Gin@req@width=\dimen114
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
-Package: amsmath 2016/06/28 v2.15d AMS math features
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip45
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks20
 \ex@=\dimen115
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen116
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count91
-LaTeX Info: Redefining \frac on input line 199.
+LaTeX Info: Redefining \frac on input line 213.
 \uproot@=\count92
 \leftroot@=\count93
-LaTeX Info: Redefining \overline on input line 297.
+LaTeX Info: Redefining \overline on input line 375.
 \classnum@=\count94
 \DOTSCASE@=\count95
-LaTeX Info: Redefining \ldots on input line 394.
-LaTeX Info: Redefining \dots on input line 397.
-LaTeX Info: Redefining \cdots on input line 518.
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
 \Mathstrutbox@=\box27
 \strutbox@=\box28
 \big@size=\dimen117
-LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \macc@depth=\count96
 \c@MaxMatrixCols=\count97
 \dotsspace@=\muskip10
@@ -166,13 +161,13 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
 \multlinegap=\skip46
 \multlinetaggap=\skip47
 \mathdisplay@stack=\toks24
-LaTeX Info: Redefining \[ on input line 2739.
-LaTeX Info: Redefining \] on input line 2740.
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
 )
-(C:\Users\Urbano\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
-(C:\Users\Urbano\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
 \captionmargin=\dimen124
@@ -185,19 +180,19 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 )
 \c@ContinuedFloat=\count103
 )
-(C:\Users\Urbano\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\subcaption.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
 \c@subfigure=\count104
 \c@subtable=\count105
 )
-(C:\Users\Urbano\AppData\Roaming\MiKTeX\2.9\tex\latex\tocbibind\tocbibind.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tocbibind/tocbibind.sty
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
 Package tocbibind Info: The document has chapter divisions on input line 50.
 
 
 Package tocbibind Note: Using chapter style headings, unless overridden.
 
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
+) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count106
 \float@exts=\toks25
@@ -205,27 +200,28 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks26
 \@floatcapt=\box30
 )
-(C:\Users\Urbano\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.sty
-Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
-\fancy@headwidth=\skip48
-\f@ncyO@elh=\skip49
-\f@ncyO@erh=\skip50
-\f@ncyO@olh=\skip51
-\f@ncyO@orh=\skip52
-\f@ncyO@elf=\skip53
-\f@ncyO@erf=\skip54
-\f@ncyO@olf=\skip55
-\f@ncyO@orf=\skip56
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip48
+\f@nch@O@elh=\skip49
+\f@nch@O@erh=\skip50
+\f@nch@O@olh=\skip51
+\f@nch@O@orh=\skip52
+\f@nch@O@elf=\skip53
+\f@nch@O@erf=\skip54
+\f@nch@O@olf=\skip55
+\f@nch@O@orf=\skip56
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 )
-(C:\Users\Urbano\AppData\Roaming\MiKTeX\2.9\tex\latex\soul\soul.sty
+(/usr/share/texlive/texmf-dist/tex/latex/soul/soul.sty
 Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@word=\toks27
 \SOUL@lasttoken=\toks28
@@ -237,27 +233,27 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@uldp=\dimen132
 \SOUL@ulht=\dimen133
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-(C:\Users\Urbano\AppData\Roaming\MiKTeX\2.9\tex\latex\cite\cite.sty
+(/usr/share/texlive/texmf-dist/tex/latex/cite/cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 )
-(C:\Users\Urbano\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-(C:\Users\Urbano\AppData\Roaming\MiKTeX\2.9\tex\latex\colortbl\colortbl.sty
+(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
-Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \col@sep=\dimen134
 \extrarowheight=\dimen135
 \NC@list=\toks32
@@ -267,18 +263,17 @@ Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \everycr=\toks33
 \minrowclearance=\skip60
 )
-(C:\Users\Urbano\AppData\Roaming\MiKTeX\2.9\tex\latex\algorithms\algorithm.sty
+(/usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithm.sty
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
 nment
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \@float@every@algorithm=\toks34
 \c@algorithm=\count107
 )
-(C:\Users\Urbano\AppData\Roaming\MiKTeX\2.9\tex\latex\algorithms\algorithmic.st
-y
+(/usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithmic.sty
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 \c@ALC@unique=\count108
 \c@ALC@line=\count109
@@ -286,11 +281,16 @@ Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 \c@ALC@depth=\count111
 \ALC@tlm=\skip61
 \algorithmicindent=\skip62
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
+\multirow@colwidth=\skip63
+\multirow@cntb=\count112
+\multirow@dima=\skip64
 \bigstrutjot=\dimen136
 )
-(C:\Users\Urbano\AppData\Roaming\MiKTeX\2.9\tex\latex\booktabs\booktabs.sty
-Package: booktabs 2005/04/14 v1.61803 publication quality tables
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \heavyrulewidth=\dimen137
 \lightrulewidth=\dimen138
 \cmidrulewidth=\dimen139
@@ -301,26 +301,26 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \cmidrulesep=\dimen144
 \cmidrulekern=\dimen145
 \defaultaddspace=\dimen146
-\@cmidla=\count112
-\@cmidlb=\count113
+\@cmidla=\count113
+\@cmidlb=\count114
 \@aboverulesep=\dimen147
 \@belowrulesep=\dimen148
-\@thisruleclass=\count114
-\@lastruleclass=\count115
+\@thisruleclass=\count115
+\@lastruleclass=\count116
 \@thisrulewidth=\dimen149
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-(C:\Users\Urbano\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 LaTeX Info: Redefining \color on input line 709.
-\rownum=\count116
+\rownum=\count117
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
@@ -331,43 +331,43 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-(config/codeConf.tex
-(C:\Users\Urbano\AppData\Roaming\MiKTeX\2.9\tex\latex\upquote\upquote.sty
+(./config/codeConf.tex
+(/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
 tim
 )
-(C:\Users\Urbano\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty
-\lst@mode=\count117
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count118
 \lst@gtempboxa=\box31
 \lst@token=\toks35
-\lst@length=\count118
+\lst@length=\count119
 \lst@currlwidth=\dimen150
-\lst@column=\count119
-\lst@pos=\count120
+\lst@column=\count120
+\lst@pos=\count121
 \lst@lostspace=\dimen151
 \lst@width=\dimen152
-\lst@newlines=\count121
-\lst@lineno=\count122
+\lst@newlines=\count122
+\lst@lineno=\count123
 \lst@maxwidth=\dimen153
 
-(C:\Users\Urbano\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count123
-\lst@skipnumbers=\count124
+\c@lstnumber=\count124
+\lst@skipnumbers=\count125
 \lst@framebox=\box32
 )
-(C:\Users\Urbano\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
-(C:\Users\Urbano\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1.sty
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-(C:\Users\Urbano\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 ))
-(Plantilla.aux
+(./Plantilla.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 
@@ -391,71 +391,82 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
 LaTeX Font Info:    ... okay on input line 31.
 LaTeX Info: Redefining \. on input line 31.
 LaTeX Info: Redefining \% on input line 31.
- (C:\Users\Urbano\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count125
+\scratchcounter=\count126
 \scratchdimen=\dimen154
 \scratchbox=\box33
-\nofMPsegments=\count126
-\nofMParguments=\count127
+\nofMPsegments=\count127
+\nofMParguments=\count128
 \everyMPshowfont=\toks36
-\MPscratchCnt=\count128
+\MPscratchCnt=\count129
 \MPscratchDim=\dimen155
-\MPnumerator=\count129
-\makeMPintoPDFobject=\count130
+\MPnumerator=\count130
+\makeMPintoPDFobject=\count131
 \everyMPtoPDFconversion=\toks37
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
-Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
-)
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
-Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\textcomp.sty"
-Package: textcomp 2016/06/19 v1.99m Standard LaTeX package
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
 (textcomp)               4 = 5 + \texteuro
@@ -469,7 +480,7 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1enc.def"
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 )
 LaTeX Info: Redefining \oldstylenums on input line 334.
@@ -536,26 +547,25 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
-\c@lstlisting=\count131
+\c@lstlisting=\count132
 
-(config/spanishAlgorithmic.tex) (config/config.tex (Portada/portada.tex
-<logo.png, id=1, 764.10469pt x 85.82062pt>
-File: logo.png Graphic file (type png)
- <use logo.png>
-Package pdftex.def Info: logo.png used on input line 5.
+(./config/spanishAlgorithmic.tex) (./config/config.tex (./Portada/portada.tex
+<logo.PNG, id=1, 764.10469pt x 85.82062pt>
+File: logo.PNG Graphic file (type png)
+<use logo.PNG>
+Package pdftex.def Info: logo.PNG  used on input line 5.
 (pdftex.def)             Requested size: 455.2484pt x 56.90497pt.
-
-<logo_carrera.png, id=3, 252.945pt x 106.89937pt>
-File: logo_carrera.png Graphic file (type png)
- <use logo_carrera.png>
-Package pdftex.def Info: logo_carrera.png used on input line 45.
+<logo_carrera.PNG, id=3, 252.945pt x 106.89937pt>
+File: logo_carrera.PNG Graphic file (type png)
+<use logo_carrera.PNG>
+Package pdftex.def Info: logo_carrera.PNG  used on input line 45.
 (pdftex.def)             Requested size: 170.71892pt x 71.13121pt.
 
 [1
 
 
-{C:/Users/Urbano/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./logo.png
-> <./logo_carrera.png>]) [2]) (Plantilla.toc
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logo.PNG> <./logo_carrer
+a.PNG>]) [2]) (./Plantilla.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 
@@ -572,12 +582,12 @@ Package spanish Warning: Replacing `OT1/cmr/bx/sc' by
 (spanish)                faked small caps on input line 3.
 
 LaTeX Font Info:    Try loading font information for U+msa on input line 6.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 6.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
@@ -590,7 +600,7 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <10> not available
 \tf@toc=\write3
 \openout3 = `Plantilla.toc'.
 
- [2] (Plantilla.lof
+ [2] (./Plantilla.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
  [3
@@ -599,7 +609,7 @@ LaTeX Info: Redefining \% on input line 1.
 \tf@lof=\write4
 \openout4 = `Plantilla.lof'.
 
- [4] (Plantilla.lot
+ [4] (./Plantilla.lot
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
@@ -609,7 +619,7 @@ LaTeX Info: Redefining \% on input line 1.
  [5
 
 ]
-(1.Introduccion/introduccion.tex
+(./1.Introduccion/introduccion.tex
 Cap\'{\i }tulo 1.
 
 Underfull \hbox (badness 10000) in paragraph at lines 2--10
@@ -664,82 +674,69 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--35
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 38--39
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 47--48
-
- []
-
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 61--62
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--68
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--84
-
- []
-
-[3]) (2.Generalidades/generalidades.tex [4]
+) (./2.Generalidades/generalidades.tex [2]
 Cap\'{\i }tulo 2.
 
 Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
  []
 
-[5
+[3
 
-] <figuras/croquis.png, id=53, 630.85687pt x 397.485pt>
-File: figuras/croquis.png Graphic file (type png)
-
-<use figuras/croquis.png>
-Package pdftex.def Info: figuras/croquis.png used on input line 40.
+]
+<figuras/croquis.PNG, id=48, 630.85687pt x 397.485pt>
+File: figuras/croquis.PNG Graphic file (type png)
+<use figuras/croquis.PNG>
+Package pdftex.def Info: figuras/croquis.PNG  used on input line 40.
 (pdftex.def)             Requested size: 398.33716pt x 256.0817pt.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 53.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [6 <./figuras/croquis.png>] <figuras/organigrama.jpg, id=60, 990.099pt x 567.
-5604pt>
+) [4 <./figuras/croquis.PNG>]
+<figuras/organigrama.jpg, id=54, 990.099pt x 567.5604pt>
 File: figuras/organigrama.jpg Graphic file (type jpg)
-
 <use figuras/organigrama.jpg>
-Package pdftex.def Info: figuras/organigrama.jpg used on input line 65.
+Package pdftex.def Info: figuras/organigrama.jpg  used on input line 65.
 (pdftex.def)             Requested size: 398.32895pt x 256.08397pt.
- [7 <./figuras/organigrama.jpg>])
-(3.FundaTeo/fundateo.tex [8]
+
+Overfull \hbox (1.35841pt too wide) in paragraph at lines 72--73
+[]\OT1/cmr/m/n/10 El de-par-ta-men-to en-car-ga-do del desa-rro-llo del Si-sis-
+te-ma In-te-gral de In-di-ca-do-res es la Sub-di-rec-ci^^Son Acad^^Semi-
+ []
+
+[5 <./figuras/organigrama.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
+
+ []
+
+) (./3.FundaTeo/fundateo.tex [6]
 Cap\'{\i }tulo 3.
 
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
 
-[9
+[7
 
 ]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 68--69
 
  []
 
-[10]
+
 Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
  []
@@ -769,18 +766,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 82--83
 
  []
 
-
+[8]
 Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
 
-<figuras/clienteservidor.png, id=73, 548.449pt x 221.628pt>
-File: figuras/clienteservidor.png Graphic file (type png)
+[9]
+<figuras/clienteservidor.pdf, id=71, 548.52652pt x 221.30853pt>
+File: figuras/clienteservidor.pdf Graphic file (type pdf)
+<use figuras/clienteservidor.pdf>
+Package pdftex.def Info: figuras/clienteservidor.pdf  used on input line 109.
+(pdftex.def)             Requested size: 455.26015pt x 199.1792pt.
 
-<use figuras/clienteservidor.png>
-Package pdftex.def Info: figuras/clienteservidor.png used on input line 109.
-(pdftex.def)             Requested size: 455.24602pt x 199.16914pt.
- [11]
 Underfull \hbox (badness 10000) in paragraph at lines 119--120
 
  []
@@ -805,7 +802,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 127--128
 
  []
 
-
+[10 <./figuras/clienteservidor.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 129--130
 
  []
@@ -815,7 +812,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 131--132
 
  []
 
-[12 <./figuras/clienteservidor.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 133--134
 
  []
@@ -835,12 +832,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 156--157
 
  []
 
-
+[11]
 Underfull \hbox (badness 10000) in paragraph at lines 158--159
 
  []
 
-[13]
+
 Underfull \hbox (badness 10000) in paragraph at lines 166--167
 
  []
@@ -860,7 +857,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 182--183
 
  []
 
-[14]
+[12]
 Underfull \hbox (badness 10000) in paragraph at lines 184--185
 
  []
@@ -875,7 +872,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 188--189
 
  []
 
-[15]
+[13]
 Underfull \hbox (badness 10000) in paragraph at lines 207--208
 
  []
@@ -895,7 +892,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 217--218
 
  []
 
-[16]
+[14]
 Underfull \hbox (badness 10000) in paragraph at lines 223--224
 
  []
@@ -905,12 +902,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 234--235
 
  []
 
-
+[15]
 Underfull \hbox (badness 10000) in paragraph at lines 236--237
 
  []
 
-[17]
+
 Underfull \hbox (badness 10000) in paragraph at lines 248--249
 
  []
@@ -945,12 +942,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 275--276
 
  []
 
-[18]
+[16]
 Underfull \hbox (badness 10000) in paragraph at lines 277--278
 
  []
 
-[19]
+[17]
 Underfull \hbox (badness 10000) in paragraph at lines 299--300
 
  []
@@ -1000,18 +997,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 331--332
 
  []
 
-[20] <figuras/MVC.pdf, id=108, 613.99059pt x 370.96928pt>
+[18]
+<figuras/MVC.pdf, id=103, 613.99059pt x 370.96928pt>
 File: figuras/MVC.pdf Graphic file (type pdf)
-
 <use figuras/MVC.pdf>
-Package pdftex.def Info: figuras/MVC.pdf used on input line 367.
+Package pdftex.def Info: figuras/MVC.pdf  used on input line 367.
 (pdftex.def)             Requested size: 455.25468pt x 284.54907pt.
- [21]
+ [19]
 Underfull \hbox (badness 10000) in paragraph at lines 389--390
 
  []
 
-[22 <./figuras/MVC.pdf>]
+[20 <./figuras/MVC.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 391--392
 
  []
@@ -1026,12 +1023,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 414--415
 
  []
 
-[23]
+[21]
 Underfull \hbox (badness 10000) in paragraph at lines 472--473
 
  []
 
-[24]
+[22]
 Overfull \hbox (12.49702pt too wide) in paragraph at lines 482--489
  [][] 
  []
@@ -1046,12 +1043,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 495--496
 
  []
 
-[25]
+[23]
 Underfull \hbox (badness 10000) in paragraph at lines 541--542
 
  []
 
-[26]
+[24]
 Underfull \hbox (badness 10000) in paragraph at lines 543--544
 
  []
@@ -1061,7 +1058,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 564--565
 
  []
 
-[27]
+[25]
 Underfull \hbox (badness 10000) in paragraph at lines 577--578
 
  []
@@ -1081,7 +1078,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 603--604
 
  []
 
-[28] [29]) (4.Desarollo/desarrollo.tex [30]
+[26] [27]) (./4.Desarollo/desarrollo.tex [28]
 Cap\'{\i }tulo 4.
 
 Underfull \hbox (badness 10000) in paragraph at lines 6--7
@@ -1098,7 +1095,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
  []
 
-[31
+[29
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 37--38
@@ -1130,12 +1127,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 71--72
 
  []
 
-[32]
+[30]
 Underfull \hbox (badness 10000) in paragraph at lines 109--110
 
  []
 
-[33]
+[31]
 Underfull \hbox (badness 10000) in paragraph at lines 111--112
 
  []
@@ -1175,14 +1172,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 142--143
 
  []
 
-<figuras/ConfiguracionIndicadores.pdf, id=153, 699.41293pt x 365.365pt>
+<figuras/ConfiguracionIndicadores.pdf, id=148, 699.41293pt x 365.365pt>
 File: figuras/ConfiguracionIndicadores.pdf Graphic file (type pdf)
-
 <use figuras/ConfiguracionIndicadores.pdf>
-Package pdftex.def Info: figuras/ConfiguracionIndicadores.pdf used on input lin
-e 146.
+Package pdftex.def Info: figuras/ConfiguracionIndicadores.pdf  used on input li
+ne 146.
 (pdftex.def)             Requested size: 455.24268pt x 241.84967pt.
- [34]
+[32]
 Underfull \hbox (badness 10000) in paragraph at lines 169--170
 
  []
@@ -1192,18 +1188,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 171--172
 
  []
 
-<figuras/ProcesoIndicadores.pdf, id=157, 699.41293pt x 365.365pt>
+<figuras/ProcesoIndicadores.pdf, id=152, 699.41293pt x 365.365pt>
 File: figuras/ProcesoIndicadores.pdf Graphic file (type pdf)
-
 <use figuras/ProcesoIndicadores.pdf>
-Package pdftex.def Info: figuras/ProcesoIndicadores.pdf used on input line 177.
-
+Package pdftex.def Info: figuras/ProcesoIndicadores.pdf  used on input line 177
+.
 (pdftex.def)             Requested size: 455.24268pt x 241.84967pt.
- [35 <./figuras/ConfiguracionIndicadores.pdf>] [36 <./figuras/ProcesoIndicadore
-s.pdf>]
+[33 <./figuras/ConfiguracionIndicadores.pdf>] [34 <./figuras/ProcesoIndicadores
+.pdf>]
 Overfull \hbox (4.26515pt too wide) in paragraph at lines 210--211
-\OT1/cmr/m/n/10 fun-cio-nes pa-ra-me-tri-za-bles, las cua-les se podran ac-ce-
-der con la si-guien-te no-men-cla-tu-ra NOM-BRE[]FUNCION
+\OT1/cmr/m/n/10 fun-cio-nes pa-ra-me-tri-za-bles, las cua-les se podr^^San ac-c
+e-der con la si-guien-te no-men-cla-tu-ra NOM-BRE[]FUNCION
  []
 
 
@@ -1211,38 +1206,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 241--242
 
  []
 
-<figuras/DEntidadRel.pdf, id=169, 480.265pt x 237.0707pt>
+<figuras/DEntidadRel.pdf, id=163, 480.265pt x 237.0707pt>
 File: figuras/DEntidadRel.pdf Graphic file (type pdf)
-
 <use figuras/DEntidadRel.pdf>
-Package pdftex.def Info: figuras/DEntidadRel.pdf used on input line 247.
+Package pdftex.def Info: figuras/DEntidadRel.pdf  used on input line 247.
 (pdftex.def)             Requested size: 455.25252pt x 241.85591pt.
- [37]
-<figuras/DEntidadRelComp.pdf, id=173, 364.40358pt x 237.0707pt>
+[35]
+<figuras/DEntidadRelComp.pdf, id=167, 364.40358pt x 237.0707pt>
 File: figuras/DEntidadRelComp.pdf Graphic file (type pdf)
-
 <use figuras/DEntidadRelComp.pdf>
-Package pdftex.def Info: figuras/DEntidadRelComp.pdf used on input line 264.
+Package pdftex.def Info: figuras/DEntidadRelComp.pdf  used on input line 264.
 (pdftex.def)             Requested size: 455.27539pt x 241.85591pt.
- [38 <./figuras/DEntidadRel.pdf>]
-<figuras/Relacional.pdf, id=179, 710.61125pt x 416.71327pt>
+ [36 <./figuras/DEntidadRel.pdf>]
+<figuras/Relacional.pdf, id=174, 710.61125pt x 416.71327pt>
 File: figuras/Relacional.pdf Graphic file (type pdf)
-
 <use figuras/Relacional.pdf>
-Package pdftex.def Info: figuras/Relacional.pdf used on input line 275.
+Package pdftex.def Info: figuras/Relacional.pdf  used on input line 275.
 (pdftex.def)             Requested size: 455.24506pt x 241.85283pt.
 
 Underfull \vbox (badness 2460) has occurred while \output is active []
 
- [39 <./figuras/DEntidadRelComp.pdf> <./figuras/Relacional.pdf
+ [37 <./figuras/DEntidadRelComp.pdf> <./figuras/Relacional.pdf
 
 pdfTeX warning: pdflatex (file ./figuras/Relacional.pdf): PDF inclusion: multip
 le pdfs with page group included in a single page
 >]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [40]
-[41]
+ [38]
+[39]
 Underfull \hbox (badness 10000) in paragraph at lines 432--433
 
  []
@@ -1262,23 +1254,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 447--448
 
  []
 
-) (5.PrueRes/pruebas.tex [42] [43]
+) (./5.PrueRes/pruebas.tex [40] [41]
 Cap\'{\i }tulo 5.
 
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-<figuras/principal.png, id=201, 991.45406pt x 646.66594pt>
-File: figuras/principal.png Graphic file (type png)
-
-<use figuras/principal.png>
-Package pdftex.def Info: figuras/principal.png used on input line 29.
+<figuras/principal.PNG, id=196, 991.45406pt x 646.66594pt>
+File: figuras/principal.PNG Graphic file (type png)
+<use figuras/principal.PNG>
+Package pdftex.def Info: figuras/principal.PNG  used on input line 29.
 (pdftex.def)             Requested size: 455.24234pt x 270.29535pt.
 
 Underfull \vbox (badness 2027) has occurred while \output is active []
 
- [44
+ [42
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 34--35
@@ -1294,41 +1285,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--37
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 45.
 
-<figuras/principali.png, id=205, 989.94844pt x 648.17157pt>
-File: figuras/principali.png Graphic file (type png)
-
-<use figuras/principali.png>
-Package pdftex.def Info: figuras/principali.png used on input line 47.
+<figuras/principali.PNG, id=201, 989.94844pt x 648.17157pt>
+File: figuras/principali.PNG Graphic file (type png)
+<use figuras/principali.PNG>
+Package pdftex.def Info: figuras/principali.PNG  used on input line 47.
 (pdftex.def)             Requested size: 455.24586pt x 270.30159pt.
-
-<figuras/Departamentos.png, id=206, 989.19562pt x 549.55313pt>
-File: figuras/Departamentos.png Graphic file (type png)
-
-<use figuras/Departamentos.png>
-Package pdftex.def Info: figuras/Departamentos.png used on input line 58.
+<figuras/Departamentos.PNG, id=202, 989.19562pt x 549.55313pt>
+File: figuras/Departamentos.PNG Graphic file (type png)
+<use figuras/Departamentos.PNG>
+Package pdftex.def Info: figuras/Departamentos.PNG  used on input line 58.
 (pdftex.def)             Requested size: 455.23174pt x 270.30641pt.
 
 Underfull \vbox (badness 6510) has occurred while \output is active []
 
- [45 <./figuras/principal.png>]
+ [43 <./figuras/principal.PNG>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [46 <./figuras/principali.png> <./figuras/Departamentos.png>]
-<figuras/DepartamentosCrear.png, id=216, 991.45406pt x 548.80031pt>
-File: figuras/DepartamentosCrear.png Graphic file (type png)
+ [44 <./figuras/principali.PNG> <./figuras/Departamentos.PNG>]
+<figuras/DepartamentosCrear.PNG, id=212, 991.45406pt x 548.80031pt>
+File: figuras/DepartamentosCrear.PNG Graphic file (type png)
+<use figuras/DepartamentosCrear.PNG>
+Package pdftex.def Info: figuras/DepartamentosCrear.PNG  used on input line 78.
 
-<use figuras/DepartamentosCrear.png>
-Package pdftex.def Info: figuras/DepartamentosCrear.png used on input line 78.
 (pdftex.def)             Requested size: 455.24234pt x 270.30458pt.
-
-<figuras/DepartamentosValida.png, id=217, 991.45406pt x 548.0475pt>
-File: figuras/DepartamentosValida.png Graphic file (type png)
-
-<use figuras/DepartamentosValida.png>
-Package pdftex.def Info: figuras/DepartamentosValida.png used on input line 94.
-
+<figuras/DepartamentosValida.PNG, id=213, 991.45406pt x 548.0475pt>
+File: figuras/DepartamentosValida.PNG Graphic file (type png)
+<use figuras/DepartamentosValida.PNG>
+Package pdftex.def Info: figuras/DepartamentosValida.PNG  used on input line 94
+.
 (pdftex.def)             Requested size: 455.24234pt x 270.30174pt.
- [47 <./figuras/DepartamentosCrear.png>]
+ [45 <./figuras/DepartamentosCrear.PNG>]
 Underfull \hbox (badness 10000) in paragraph at lines 99--100
 
  []
@@ -1337,12 +1323,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 99--100
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 101.
 
-<figuras/DepartamentosGraba.png, id=222, 991.45406pt x 548.0475pt>
-File: figuras/DepartamentosGraba.png Graphic file (type png)
-
-<use figuras/DepartamentosGraba.png>
-Package pdftex.def Info: figuras/DepartamentosGraba.png used on input line 103.
-
+<figuras/DepartamentosGraba.PNG, id=218, 991.45406pt x 548.0475pt>
+File: figuras/DepartamentosGraba.PNG Graphic file (type png)
+<use figuras/DepartamentosGraba.PNG>
+Package pdftex.def Info: figuras/DepartamentosGraba.PNG  used on input line 103
+.
 (pdftex.def)             Requested size: 455.24234pt x 270.30174pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 108--109
@@ -1353,24 +1338,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 108--109
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 110.
 
-<figuras/DepartamentosTabla.png, id=223, 989.94844pt x 549.55313pt>
-File: figuras/DepartamentosTabla.png Graphic file (type png)
-
-<use figuras/DepartamentosTabla.png>
-Package pdftex.def Info: figuras/DepartamentosTabla.png used on input line 112.
-
+<figuras/DepartamentosTabla.PNG, id=219, 989.94844pt x 549.55313pt>
+File: figuras/DepartamentosTabla.PNG Graphic file (type png)
+<use figuras/DepartamentosTabla.PNG>
+Package pdftex.def Info: figuras/DepartamentosTabla.PNG  used on input line 112
+.
 (pdftex.def)             Requested size: 455.24586pt x 270.30641pt.
-
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 121.
 
-<figuras/DepartamentosActualiza.png, id=224, 990.70125pt x 548.0475pt>
-File: figuras/DepartamentosActualiza.png Graphic file (type png)
-
-<use figuras/DepartamentosActualiza.png>
-Package pdftex.def Info: figuras/DepartamentosActualiza.png used on input line 
-123.
+<figuras/DepartamentosActualiza.PNG, id=220, 990.70125pt x 548.0475pt>
+File: figuras/DepartamentosActualiza.PNG Graphic file (type png)
+<use figuras/DepartamentosActualiza.PNG>
+Package pdftex.def Info: figuras/DepartamentosActualiza.PNG  used on input line
+ 123.
 (pdftex.def)             Requested size: 455.24437pt x 270.30174pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 130--131
@@ -1401,23 +1383,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 130--131
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 132.
 
-<figuras/DepartamentosElimina.png, id=225, 991.45406pt x 548.80031pt>
-File: figuras/DepartamentosElimina.png Graphic file (type png)
-
-<use figuras/DepartamentosElimina.png>
-Package pdftex.def Info: figuras/DepartamentosElimina.png used on input line 13
-4.
+<figuras/DepartamentosElimina.PNG, id=221, 991.45406pt x 548.80031pt>
+File: figuras/DepartamentosElimina.PNG Graphic file (type png)
+<use figuras/DepartamentosElimina.PNG>
+Package pdftex.def Info: figuras/DepartamentosElimina.PNG  used on input line 1
+34.
 (pdftex.def)             Requested size: 455.24234pt x 270.30458pt.
-
-<figuras/Formulas.png, id=226, 989.94844pt x 547.2947pt>
-File: figuras/Formulas.png Graphic file (type png)
-
-<use figuras/Formulas.png>
-Package pdftex.def Info: figuras/Formulas.png used on input line 153.
+<figuras/Formulas.PNG, id=222, 989.94844pt x 547.2947pt>
+File: figuras/Formulas.PNG Graphic file (type png)
+<use figuras/Formulas.PNG>
+Package pdftex.def Info: figuras/Formulas.PNG  used on input line 153.
 (pdftex.def)             Requested size: 455.24586pt x 270.30626pt.
- [48 <./figuras/DepartamentosValida.png>] [49 <./figuras/DepartamentosGraba.png
-> <./figuras/DepartamentosTabla.png>] [50 <./figuras/DepartamentosActualiza.png
-> <./figuras/DepartamentosElimina.png>]
+[46 <./figuras/DepartamentosValida.PNG>] [47 <./figuras/DepartamentosGraba.PNG>
+ <./figuras/DepartamentosTabla.PNG>] [48 <./figuras/DepartamentosActualiza.PNG>
+ <./figuras/DepartamentosElimina.PNG>]
 Underfull \hbox (badness 10000) in paragraph at lines 169--170
 
  []
@@ -1426,11 +1405,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 169--170
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 171.
 
-<figuras/FormulasCrear.png, id=242, 991.45406pt x 549.55313pt>
-File: figuras/FormulasCrear.png Graphic file (type png)
-
-<use figuras/FormulasCrear.png>
-Package pdftex.def Info: figuras/FormulasCrear.png used on input line 173.
+<figuras/FormulasCrear.PNG, id=238, 991.45406pt x 549.55313pt>
+File: figuras/FormulasCrear.PNG Graphic file (type png)
+<use figuras/FormulasCrear.PNG>
+Package pdftex.def Info: figuras/FormulasCrear.PNG  used on input line 173.
 (pdftex.def)             Requested size: 455.24234pt x 270.30641pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 185--186
@@ -1441,28 +1419,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 185--186
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 187.
 
-<figuras/FormulaValida.png, id=243, 991.45406pt x 548.0475pt>
-File: figuras/FormulaValida.png Graphic file (type png)
-
-<use figuras/FormulaValida.png>
-Package pdftex.def Info: figuras/FormulaValida.png used on input line 189.
+<figuras/FormulaValida.PNG, id=239, 991.45406pt x 548.0475pt>
+File: figuras/FormulaValida.PNG Graphic file (type png)
+<use figuras/FormulaValida.PNG>
+Package pdftex.def Info: figuras/FormulaValida.PNG  used on input line 189.
 (pdftex.def)             Requested size: 455.24234pt x 270.30174pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 194--195
 
  []
 
-[51 <./figuras/Formulas.png>] [52 <./figuras/FormulasCrear.png> <./figuras/Form
-ulaValida.png>]
+[49 <./figuras/Formulas.PNG>] [50 <./figuras/FormulasCrear.PNG> <./figuras/Form
+ulaValida.PNG>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 196.
 
-<figuras/FormulasGraba.png, id=253, 990.70125pt x 546.54187pt>
-File: figuras/FormulasGraba.png Graphic file (type png)
-
-<use figuras/FormulasGraba.png>
-Package pdftex.def Info: figuras/FormulasGraba.png used on input line 198.
+<figuras/FormulasGraba.PNG, id=249, 990.70125pt x 546.54187pt>
+File: figuras/FormulasGraba.PNG Graphic file (type png)
+<use figuras/FormulasGraba.PNG>
+Package pdftex.def Info: figuras/FormulasGraba.PNG  used on input line 198.
 (pdftex.def)             Requested size: 455.24437pt x 270.30138pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 203--204
@@ -1473,22 +1449,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 203--204
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 205.
 
-<figuras/FormulasTabla.png, id=254, 989.94844pt x 548.0475pt>
-File: figuras/FormulasTabla.png Graphic file (type png)
-
-<use figuras/FormulasTabla.png>
-Package pdftex.def Info: figuras/FormulasTabla.png used on input line 207.
+<figuras/FormulasTabla.PNG, id=250, 989.94844pt x 548.0475pt>
+File: figuras/FormulasTabla.PNG Graphic file (type png)
+<use figuras/FormulasTabla.PNG>
+Package pdftex.def Info: figuras/FormulasTabla.PNG  used on input line 207.
 (pdftex.def)             Requested size: 455.24586pt x 270.30174pt.
-
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 216.
 
-<figuras/FormulasActualiza.png, id=255, 990.70125pt x 547.2947pt>
-File: figuras/FormulasActualiza.png Graphic file (type png)
+<figuras/FormulasActualiza.PNG, id=251, 990.70125pt x 547.2947pt>
+File: figuras/FormulasActualiza.PNG Graphic file (type png)
+<use figuras/FormulasActualiza.PNG>
+Package pdftex.def Info: figuras/FormulasActualiza.PNG  used on input line 218.
 
-<use figuras/FormulasActualiza.png>
-Package pdftex.def Info: figuras/FormulasActualiza.png used on input line 218.
 (pdftex.def)             Requested size: 455.24437pt x 270.30626pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 225--226
@@ -1499,11 +1473,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 225--226
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 227.
 
-<figuras/FormulasElimina.png, id=256, 989.94844pt x 548.0475pt>
-File: figuras/FormulasElimina.png Graphic file (type png)
-
-<use figuras/FormulasElimina.png>
-Package pdftex.def Info: figuras/FormulasElimina.png used on input line 229.
+<figuras/FormulasElimina.PNG, id=252, 989.94844pt x 548.0475pt>
+File: figuras/FormulasElimina.PNG Graphic file (type png)
+<use figuras/FormulasElimina.PNG>
+Package pdftex.def Info: figuras/FormulasElimina.PNG  used on input line 229.
 (pdftex.def)             Requested size: 455.24586pt x 270.30174pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 243--244
@@ -1513,17 +1486,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 243--244
 
 Underfull \vbox (badness 2635) has occurred while \output is active []
 
- [53 <./figuras/FormulasGraba.png>] [54 <./figuras/FormulasTabla.png> <./figura
-s/FormulasActualiza.png>]
+ [51 <./figuras/FormulasGraba.PNG>] [52 <./figuras/FormulasTabla.PNG> <./figura
+s/FormulasActualiza.PNG>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 246.
 
-<figuras/Colecciones.png, id=267, 991.45406pt x 547.2947pt>
-File: figuras/Colecciones.png Graphic file (type png)
-
-<use figuras/Colecciones.png>
-Package pdftex.def Info: figuras/Colecciones.png used on input line 248.
+<figuras/Colecciones.PNG, id=262, 991.45406pt x 547.2947pt>
+File: figuras/Colecciones.PNG Graphic file (type png)
+<use figuras/Colecciones.PNG>
+Package pdftex.def Info: figuras/Colecciones.PNG  used on input line 248.
 (pdftex.def)             Requested size: 455.24234pt x 270.30626pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 265--266
@@ -1534,28 +1506,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 265--266
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 267.
 
-<figuras/ColeccionesCrear.png, id=268, 989.94844pt x 547.2947pt>
-File: figuras/ColeccionesCrear.png Graphic file (type png)
-
-<use figuras/ColeccionesCrear.png>
-Package pdftex.def Info: figuras/ColeccionesCrear.png used on input line 269.
+<figuras/ColeccionesCrear.PNG, id=263, 989.94844pt x 547.2947pt>
+File: figuras/ColeccionesCrear.PNG Graphic file (type png)
+<use figuras/ColeccionesCrear.PNG>
+Package pdftex.def Info: figuras/ColeccionesCrear.PNG  used on input line 269.
 (pdftex.def)             Requested size: 455.24586pt x 270.30626pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 281--282
 
  []
 
-[55 <./figuras/FormulasElimina.png>] [56 <./figuras/Colecciones.png> <./figuras
-/ColeccionesCrear.png>]
+[53 <./figuras/FormulasElimina.PNG>] [54 <./figuras/Colecciones.PNG> <./figuras
+/ColeccionesCrear.PNG>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 283.
 
-<figuras/ColeccionesValida.png, id=278, 990.70125pt x 548.0475pt>
-File: figuras/ColeccionesValida.png Graphic file (type png)
+<figuras/ColeccionesValida.PNG, id=274, 990.70125pt x 548.0475pt>
+File: figuras/ColeccionesValida.PNG Graphic file (type png)
+<use figuras/ColeccionesValida.PNG>
+Package pdftex.def Info: figuras/ColeccionesValida.PNG  used on input line 285.
 
-<use figuras/ColeccionesValida.png>
-Package pdftex.def Info: figuras/ColeccionesValida.png used on input line 285.
 (pdftex.def)             Requested size: 455.24437pt x 270.30174pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 290--291
@@ -1566,11 +1537,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 290--291
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 292.
 
-<figuras/ColeccionesGraba.png, id=279, 989.94844pt x 548.80031pt>
-File: figuras/ColeccionesGraba.png Graphic file (type png)
-
-<use figuras/ColeccionesGraba.png>
-Package pdftex.def Info: figuras/ColeccionesGraba.png used on input line 294.
+<figuras/ColeccionesGraba.PNG, id=275, 989.94844pt x 548.80031pt>
+File: figuras/ColeccionesGraba.PNG Graphic file (type png)
+<use figuras/ColeccionesGraba.PNG>
+Package pdftex.def Info: figuras/ColeccionesGraba.PNG  used on input line 294.
 (pdftex.def)             Requested size: 455.24586pt x 270.30458pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 299--300
@@ -1581,23 +1551,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 299--300
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 301.
 
-<figuras/ColeccionesTabla.png, id=280, 987.69pt x 547.2947pt>
-File: figuras/ColeccionesTabla.png Graphic file (type png)
-
-<use figuras/ColeccionesTabla.png>
-Package pdftex.def Info: figuras/ColeccionesTabla.png used on input line 303.
+<figuras/ColeccionesTabla.PNG, id=276, 987.69pt x 547.2947pt>
+File: figuras/ColeccionesTabla.PNG Graphic file (type png)
+<use figuras/ColeccionesTabla.PNG>
+Package pdftex.def Info: figuras/ColeccionesTabla.PNG  used on input line 303.
 (pdftex.def)             Requested size: 455.2321pt x 270.30626pt.
-
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 312.
 
-<figuras/ColeccionesActualiza.png, id=281, 990.70125pt x 548.0475pt>
-File: figuras/ColeccionesActualiza.png Graphic file (type png)
-
-<use figuras/ColeccionesActualiza.png>
-Package pdftex.def Info: figuras/ColeccionesActualiza.png used on input line 31
-4.
+<figuras/ColeccionesActualiza.PNG, id=277, 990.70125pt x 548.0475pt>
+File: figuras/ColeccionesActualiza.PNG Graphic file (type png)
+<use figuras/ColeccionesActualiza.PNG>
+Package pdftex.def Info: figuras/ColeccionesActualiza.PNG  used on input line 3
+14.
 (pdftex.def)             Requested size: 455.24437pt x 270.30174pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 321--322
@@ -1608,29 +1575,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 321--322
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 323.
 
-<figuras/ColeccionesElimina.png, id=282, 989.19562pt x 548.0475pt>
-File: figuras/ColeccionesElimina.png Graphic file (type png)
-
-<use figuras/ColeccionesElimina.png>
-Package pdftex.def Info: figuras/ColeccionesElimina.png used on input line 325.
-
+<figuras/ColeccionesElimina.PNG, id=278, 989.19562pt x 548.0475pt>
+File: figuras/ColeccionesElimina.PNG Graphic file (type png)
+<use figuras/ColeccionesElimina.PNG>
+Package pdftex.def Info: figuras/ColeccionesElimina.PNG  used on input line 325
+.
 (pdftex.def)             Requested size: 455.23174pt x 270.30174pt.
 
 Underfull \vbox (badness 1248) has occurred while \output is active []
 
- [57 <./figuras/ColeccionesValida.png>] [58 <./figuras/ColeccionesGraba.png> <.
-/figuras/ColeccionesTabla.png>] [59 <./figuras/ColeccionesActualiza.png> <./fig
-uras/ColeccionesElimina.png>]
+ [55 <./figuras/ColeccionesValida.PNG>] [56 <./figuras/ColeccionesGraba.PNG> <.
+/figuras/ColeccionesTabla.PNG>] [57 <./figuras/ColeccionesActualiza.PNG> <./fig
+uras/ColeccionesElimina.PNG>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 334.
 
-<figuras/ColeccionesDetalle.png, id=297, 990.70125pt x 548.80031pt>
-File: figuras/ColeccionesDetalle.png Graphic file (type png)
-
-<use figuras/ColeccionesDetalle.png>
-Package pdftex.def Info: figuras/ColeccionesDetalle.png used on input line 336.
-
+<figuras/ColeccionesDetalle.PNG, id=293, 990.70125pt x 548.80031pt>
+File: figuras/ColeccionesDetalle.PNG Graphic file (type png)
+<use figuras/ColeccionesDetalle.PNG>
+Package pdftex.def Info: figuras/ColeccionesDetalle.PNG  used on input line 336
+.
 (pdftex.def)             Requested size: 455.24437pt x 270.30458pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 349--350
@@ -1641,60 +1606,50 @@ Underfull \hbox (badness 10000) in paragraph at lines 349--350
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 351.
 
-<figuras/ColeccionesDetalleAgregar.png, id=298, 989.19562pt x 548.0475pt>
-File: figuras/ColeccionesDetalleAgregar.png Graphic file (type png)
-
-<use figuras/ColeccionesDetalleAgregar.png>
-Package pdftex.def Info: figuras/ColeccionesDetalleAgregar.png used on input li
-ne 353.
+<figuras/ColeccionesDetalleAgregar.PNG, id=294, 989.19562pt x 548.0475pt>
+File: figuras/ColeccionesDetalleAgregar.PNG Graphic file (type png)
+<use figuras/ColeccionesDetalleAgregar.PNG>
+Package pdftex.def Info: figuras/ColeccionesDetalleAgregar.PNG  used on input l
+ine 353.
 (pdftex.def)             Requested size: 455.23174pt x 270.30174pt.
-
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 360.
 
-<figuras/ColeccionesDetalleGrabar.png, id=299, 990.70125pt x 548.80031pt>
-File: figuras/ColeccionesDetalleGrabar.png Graphic file (type png)
-
-<use figuras/ColeccionesDetalleGrabar.png>
-Package pdftex.def Info: figuras/ColeccionesDetalleGrabar.png used on input lin
-e 362.
+<figuras/ColeccionesDetalleGrabar.PNG, id=295, 990.70125pt x 548.80031pt>
+File: figuras/ColeccionesDetalleGrabar.PNG Graphic file (type png)
+<use figuras/ColeccionesDetalleGrabar.PNG>
+Package pdftex.def Info: figuras/ColeccionesDetalleGrabar.PNG  used on input li
+ne 362.
 (pdftex.def)             Requested size: 455.24437pt x 270.30458pt.
-
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 367.
 
-<figuras/ColeccionesDetalleTabla.png, id=300, 990.70125pt x 548.0475pt>
-File: figuras/ColeccionesDetalleTabla.png Graphic file (type png)
-
-<use figuras/ColeccionesDetalleTabla.png>
-Package pdftex.def Info: figuras/ColeccionesDetalleTabla.png used on input line
- 369.
+<figuras/ColeccionesDetalleTabla.PNG, id=296, 990.70125pt x 548.0475pt>
+File: figuras/ColeccionesDetalleTabla.PNG Graphic file (type png)
+<use figuras/ColeccionesDetalleTabla.PNG>
+Package pdftex.def Info: figuras/ColeccionesDetalleTabla.PNG  used on input lin
+e 369.
 (pdftex.def)             Requested size: 455.24437pt x 270.30174pt.
-
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 378.
 
-<figuras/ColeccionesDetalleEliminar.png, id=301, 989.94844pt x 547.2947pt>
-File: figuras/ColeccionesDetalleEliminar.png Graphic file (type png)
-
-<use figuras/ColeccionesDetalleEliminar.png>
-Package pdftex.def Info: figuras/ColeccionesDetalleEliminar.png used on input l
-ine 380.
+<figuras/ColeccionesDetalleEliminar.PNG, id=297, 989.94844pt x 547.2947pt>
+File: figuras/ColeccionesDetalleEliminar.PNG Graphic file (type png)
+<use figuras/ColeccionesDetalleEliminar.PNG>
+Package pdftex.def Info: figuras/ColeccionesDetalleEliminar.PNG  used on input 
+line 380.
 (pdftex.def)             Requested size: 455.24586pt x 270.30626pt.
-
-<figuras/Procesos.png, id=302, 990.70125pt x 546.54187pt>
-File: figuras/Procesos.png Graphic file (type png)
-
-<use figuras/Procesos.png>
-Package pdftex.def Info: figuras/Procesos.png used on input line 406.
+<figuras/Procesos.PNG, id=298, 990.70125pt x 546.54187pt>
+File: figuras/Procesos.PNG Graphic file (type png)
+<use figuras/Procesos.PNG>
+Package pdftex.def Info: figuras/Procesos.PNG  used on input line 406.
 (pdftex.def)             Requested size: 455.24437pt x 270.30138pt.
- [60 <./figuras/ColeccionesDetalle.png>] [61 <./figuras/ColeccionesDetalleAgreg
-ar.png> <./figuras/ColeccionesDetalleGrabar.png>]
-[62 <./figuras/ColeccionesDetalleTabla.png> <./figuras/ColeccionesDetalleElimin
-ar.png>]
+[58 <./figuras/ColeccionesDetalle.PNG>] [59 <./figuras/ColeccionesDetalleAgrega
+r.PNG> <./figuras/ColeccionesDetalleGrabar.PNG>] [60 <./figuras/ColeccionesDeta
+lleTabla.PNG> <./figuras/ColeccionesDetalleEliminar.PNG>]
 Underfull \hbox (badness 10000) in paragraph at lines 424--425
 
  []
@@ -1703,13 +1658,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 424--425
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 426.
 
-<figuras/ProcesoCrear.png, id=318, 989.94844pt x 545.78906pt>
-File: figuras/ProcesoCrear.png Graphic file (type png)
-
-<use figuras/ProcesoCrear.png>
-Package pdftex.def Info: figuras/ProcesoCrear.png used on input line 428.
+<figuras/ProcesoCrear.PNG, id=314, 989.94844pt x 545.78906pt>
+File: figuras/ProcesoCrear.PNG Graphic file (type png)
+<use figuras/ProcesoCrear.PNG>
+Package pdftex.def Info: figuras/ProcesoCrear.PNG  used on input line 428.
 (pdftex.def)             Requested size: 455.24586pt x 270.30383pt.
- [63 <./figuras/Procesos.png>]
+[61 <./figuras/Procesos.PNG>]
 Underfull \hbox (badness 10000) in paragraph at lines 443--444
 
  []
@@ -1718,11 +1672,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 443--444
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 445.
 
-<figuras/ProcesoValida.png, id=323, 992.20688pt x 550.30594pt>
-File: figuras/ProcesoValida.png Graphic file (type png)
-
-<use figuras/ProcesoValida.png>
-Package pdftex.def Info: figuras/ProcesoValida.png used on input line 447.
+<figuras/ProcesoValida.PNG, id=319, 992.20688pt x 550.30594pt>
+File: figuras/ProcesoValida.PNG Graphic file (type png)
+<use figuras/ProcesoValida.PNG>
+Package pdftex.def Info: figuras/ProcesoValida.PNG  used on input line 447.
 (pdftex.def)             Requested size: 455.2398pt x 270.30724pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 452--453
@@ -1733,11 +1686,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 452--453
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 454.
 
-<figuras/ProcesoGraba.png, id=324, 989.94844pt x 544.28343pt>
-File: figuras/ProcesoGraba.png Graphic file (type png)
-
-<use figuras/ProcesoGraba.png>
-Package pdftex.def Info: figuras/ProcesoGraba.png used on input line 456.
+<figuras/ProcesoGraba.PNG, id=320, 989.94844pt x 544.28343pt>
+File: figuras/ProcesoGraba.PNG Graphic file (type png)
+<use figuras/ProcesoGraba.PNG>
+Package pdftex.def Info: figuras/ProcesoGraba.PNG  used on input line 456.
 (pdftex.def)             Requested size: 455.24586pt x 270.29732pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 461--462
@@ -1748,40 +1700,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 461--462
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 463.
 
-<figuras/ProcesoTabla.png, id=325, 990.70125pt x 549.55313pt>
-File: figuras/ProcesoTabla.png Graphic file (type png)
-
-<use figuras/ProcesoTabla.png>
-Package pdftex.def Info: figuras/ProcesoTabla.png used on input line 465.
+<figuras/ProcesoTabla.PNG, id=321, 990.70125pt x 549.55313pt>
+File: figuras/ProcesoTabla.PNG Graphic file (type png)
+<use figuras/ProcesoTabla.PNG>
+Package pdftex.def Info: figuras/ProcesoTabla.PNG  used on input line 465.
 (pdftex.def)             Requested size: 455.24437pt x 270.30641pt.
-
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 474.
 
-<figuras/ProcesoActualiza.png, id=326, 989.94844pt x 547.2947pt>
-File: figuras/ProcesoActualiza.png Graphic file (type png)
-
-<use figuras/ProcesoActualiza.png>
-Package pdftex.def Info: figuras/ProcesoActualiza.png used on input line 476.
+<figuras/ProcesoActualiza.PNG, id=322, 989.94844pt x 547.2947pt>
+File: figuras/ProcesoActualiza.PNG Graphic file (type png)
+<use figuras/ProcesoActualiza.PNG>
+Package pdftex.def Info: figuras/ProcesoActualiza.PNG  used on input line 476.
 (pdftex.def)             Requested size: 455.24586pt x 270.30626pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 483--484
 
  []
 
-[64 <./figuras/ProcesoCrear.png>] [65 <./figuras/ProcesoValida.png> <./figuras/
-ProcesoGraba.png>] [66 <./figuras/ProcesoTabla.png> <./figuras/ProcesoActualiza
-.png>]
+[62 <./figuras/ProcesoCrear.PNG>] [63 <./figuras/ProcesoValida.PNG> <./figuras/
+ProcesoGraba.PNG>] [64 <./figuras/ProcesoTabla.PNG> <./figuras/ProcesoActualiza
+.PNG>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 485.
 
-<figuras/ProcesoElimina.png, id=342, 989.94844pt x 548.0475pt>
-File: figuras/ProcesoElimina.png Graphic file (type png)
-
-<use figuras/ProcesoElimina.png>
-Package pdftex.def Info: figuras/ProcesoElimina.png used on input line 487.
+<figuras/ProcesoElimina.PNG, id=337, 989.94844pt x 548.0475pt>
+File: figuras/ProcesoElimina.PNG Graphic file (type png)
+<use figuras/ProcesoElimina.PNG>
+Package pdftex.def Info: figuras/ProcesoElimina.PNG  used on input line 487.
 (pdftex.def)             Requested size: 455.24586pt x 270.30174pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 494--495
@@ -1797,11 +1745,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 496--497
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 499.
 
-<figuras/ProcesoProcesar.png, id=343, 987.69pt x 546.54187pt>
-File: figuras/ProcesoProcesar.png Graphic file (type png)
-
-<use figuras/ProcesoProcesar.png>
-Package pdftex.def Info: figuras/ProcesoProcesar.png used on input line 501.
+<figuras/ProcesoProcesar.PNG, id=338, 987.69pt x 546.54187pt>
+File: figuras/ProcesoProcesar.PNG Graphic file (type png)
+<use figuras/ProcesoProcesar.PNG>
+Package pdftex.def Info: figuras/ProcesoProcesar.PNG  used on input line 501.
 (pdftex.def)             Requested size: 455.2321pt x 270.30138pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 506--507
@@ -1812,11 +1759,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 506--507
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 508.
 
-<figuras/ProcesoReprocesar.png, id=344, 989.19562pt x 545.78906pt>
-File: figuras/ProcesoReprocesar.png Graphic file (type png)
+<figuras/ProcesoReprocesar.PNG, id=339, 989.19562pt x 545.78906pt>
+File: figuras/ProcesoReprocesar.PNG Graphic file (type png)
+<use figuras/ProcesoReprocesar.PNG>
+Package pdftex.def Info: figuras/ProcesoReprocesar.PNG  used on input line 510.
 
-<use figuras/ProcesoReprocesar.png>
-Package pdftex.def Info: figuras/ProcesoReprocesar.png used on input line 510.
 (pdftex.def)             Requested size: 455.23174pt x 270.30383pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 517--518
@@ -1827,24 +1774,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 517--518
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 519.
 
-<figuras/ProcesoDetalle.png, id=345, 987.69pt x 547.2947pt>
-File: figuras/ProcesoDetalle.png Graphic file (type png)
-
-<use figuras/ProcesoDetalle.png>
-Package pdftex.def Info: figuras/ProcesoDetalle.png used on input line 521.
+<figuras/ProcesoDetalle.PNG, id=340, 987.69pt x 547.2947pt>
+File: figuras/ProcesoDetalle.PNG Graphic file (type png)
+<use figuras/ProcesoDetalle.PNG>
+Package pdftex.def Info: figuras/ProcesoDetalle.PNG  used on input line 521.
 (pdftex.def)             Requested size: 455.2321pt x 270.30626pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 526--527
 
  []
 
-[67 <./figuras/ProcesoElimina.png>] [68 <./figuras/ProcesoProcesar.png> <./figu
-ras/ProcesoReprocesar.png>]
+[65 <./figuras/ProcesoElimina.PNG>] [66 <./figuras/ProcesoProcesar.PNG> <./figu
+ras/ProcesoReprocesar.PNG>]
 Underfull \hbox (badness 10000) in paragraph at lines 528--529
 
  []
 
-) (6.Conclusion/conclusiones.tex [69 <./figuras/ProcesoDetalle.png>]
+) (./6.Conclusion/conclusiones.tex [67 <./figuras/ProcesoDetalle.PNG>]
 Cap\'{\i }tulo 6.
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
@@ -1861,11 +1807,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
-) (Referencias/referencias.tex) (Plantilla.bbl [70
+) (./Referencias/referencias.tex)
+No file Plantilla.bbl.
+[68
 
-]) [71
-
-] (Plantilla.aux
+] (./Plantilla.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 )
@@ -1877,30 +1823,28 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8347 strings out of 493334
- 122310 string characters out of 3136669
- 221460 words of memory out of 3000000
- 11616 multiletter control sequences out of 15000+200000
- 10486 words of font info for 39 fonts, out of 3000000 for 9000
+ 8413 strings out of 492982
+ 122652 string characters out of 6134897
+ 221362 words of memory out of 5000000
+ 11711 multiletter control sequences out of 15000+600000
+ 9972 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,19n,58p,1039b,485s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Urbano\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
-\tcrm1000.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-bx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx
-7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10
-.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pf
-b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Prog
-ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Fi
-les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Plantilla.pdf (78 pages, 5813681 bytes).
+ 41i,19n,58p,1037b,487s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx
+10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on Plantilla.pdf (75 pages, 5703631 bytes).
 PDF statistics:
- 416 PDF objects out of 1000 (max. 8388607)
+ 399 PDF objects out of 1000 (max. 8388607)
+ 217 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  246 words of extra memory for PDF output out of 10000 (max. 10000000)
 

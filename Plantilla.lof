@@ -1,54 +1,54 @@
-\select@language {spanish}
+\babel@toc {spanish}{}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\leavevmode {\color {blue}2.1}}{\ignorespaces Croquis de ubicaci\'on.\relax }}{6}
-\contentsline {figure}{\numberline {\leavevmode {\color {blue}2.2}}{\ignorespaces Croquis de ubicaci\'on.\relax }}{7}
+\contentsline {figure}{\numberline {\leavevmode {\color {blue}2.1}}{\ignorespaces Croquis de ubicaci\'on.\relax }}{4}
+\contentsline {figure}{\numberline {\leavevmode {\color {blue}2.2}}{\ignorespaces Organigrama institucional.\relax }}{5}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\leavevmode {\color {blue}3.1}}{\ignorespaces Diagrama de modelo cliente-servidor.\relax }}{12}
-\contentsline {figure}{\numberline {\leavevmode {\color {blue}3.2}}{\ignorespaces Diagrama de flujo de una petici\'on en MVC.\relax }}{22}
+\contentsline {figure}{\numberline {\leavevmode {\color {blue}3.1}}{\ignorespaces Diagrama de modelo cliente-servidor.\relax }}{10}
+\contentsline {figure}{\numberline {\leavevmode {\color {blue}3.2}}{\ignorespaces Diagrama de flujo de una petici\'on en MVC.\relax }}{20}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\leavevmode {\color {blue}4.1}}{\ignorespaces Diagrama del proceso de configuraci\'on de f\'ormulas de indicadores.\relax }}{35}
-\contentsline {figure}{\numberline {\leavevmode {\color {blue}4.2}}{\ignorespaces Diagrama del proceso de informaci\'on de indicadores.\relax }}{36}
-\contentsline {figure}{\numberline {\leavevmode {\color {blue}4.3}}{\ignorespaces Diagrama entidad relaci\'on del sistema de indicadores.\relax }}{38}
-\contentsline {figure}{\numberline {\leavevmode {\color {blue}4.4}}{\ignorespaces Diagrama entidad relaci\'on con tablas compuestas del sistema de indicadores.\relax }}{39}
-\contentsline {figure}{\numberline {\leavevmode {\color {blue}4.5}}{\ignorespaces Diagrama relaional con campos del sistema de indicadores.\relax }}{39}
+\contentsline {figure}{\numberline {\leavevmode {\color {blue}4.1}}{\ignorespaces Diagrama del proceso de configuraci\'on de f\'ormulas de indicadores.\relax }}{33}
+\contentsline {figure}{\numberline {\leavevmode {\color {blue}4.2}}{\ignorespaces Diagrama del proceso de informaci\'on de indicadores.\relax }}{34}
+\contentsline {figure}{\numberline {\leavevmode {\color {blue}4.3}}{\ignorespaces Diagrama entidad relaci\'on del sistema de indicadores.\relax }}{36}
+\contentsline {figure}{\numberline {\leavevmode {\color {blue}4.4}}{\ignorespaces Diagrama entidad relaci\'on con tablas compuestas del sistema de indicadores.\relax }}{37}
+\contentsline {figure}{\numberline {\leavevmode {\color {blue}4.5}}{\ignorespaces Diagrama relaional con campos del sistema de indicadores.\relax }}{37}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.1}}{\ignorespaces Pantalla de inicio del Sisitema Integral de Informaci\'on del ITT.\relax }}{45}
-\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.2}}{\ignorespaces Pantalla de inicio del Sisitema Integral de Indicadores.\relax }}{46}
-\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.3}}{\ignorespaces Pantalla principal de departamentos.\relax }}{46}
-\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.4}}{\ignorespaces Ventana emergente para creaci\'on de departamentos.\relax }}{47}
-\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.5}}{\ignorespaces Mensaaje de validaci\'on departamentos.\relax }}{48}
-\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.6}}{\ignorespaces Mensaaje de grabaci\'on satisfactoria de departamento.\relax }}{49}
-\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.7}}{\ignorespaces Listado de departamentos.\relax }}{49}
-\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.8}}{\ignorespaces Ventana emergente de actualizaci\'on de departamento.\relax }}{50}
-\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.9}}{\ignorespaces Mensaje de advertencia al eliminar departamento.\relax }}{50}
-\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.10}}{\ignorespaces Pantalla principal de f\'ormulas.\relax }}{51}
-\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.11}}{\ignorespaces Ventana emergente para creaci\'on de f\'ormulas.\relax }}{52}
-\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.12}}{\ignorespaces Mensaaje de validaci\'on f\'ormulas.\relax }}{52}
-\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.13}}{\ignorespaces Mensaaje de grabaci\'on satisfactoria de f\'ormula.\relax }}{53}
-\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.14}}{\ignorespaces Listado de f\'ormulas.\relax }}{54}
-\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.15}}{\ignorespaces Ventana emergente de actualizaci\'on de f\'ormula.\relax }}{54}
-\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.16}}{\ignorespaces Mensaje de advertencia al eliminar f\'ormula.\relax }}{55}
-\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.17}}{\ignorespaces Pantalla principal de colecciones.\relax }}{56}
-\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.18}}{\ignorespaces Ventana emergente para creaci\'on de colecciones.\relax }}{56}
-\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.19}}{\ignorespaces Mensaaje de validaci\'on colecciones.\relax }}{57}
-\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.20}}{\ignorespaces Mensaaje de grabaci\'on satisfactoria de colecci\'on.\relax }}{58}
-\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.21}}{\ignorespaces Listado de colecciones.\relax }}{58}
-\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.22}}{\ignorespaces Ventana emergente de actualizaci\'on de colecciones.\relax }}{59}
-\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.23}}{\ignorespaces Mensaje de advertencia al eliminar colecci\'on.\relax }}{59}
-\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.24}}{\ignorespaces Pantalla de inicio del detalle de colecciones.\relax }}{60}
-\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.25}}{\ignorespaces Ventana emergente para agregar formulas a colecci\'on.\relax }}{61}
-\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.26}}{\ignorespaces Mensaje de grabaci\'on satisfactoria de formulas en colecci\'on.\relax }}{61}
-\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.27}}{\ignorespaces Listado de f\'ormulas en colecci\'on.\relax }}{62}
-\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.28}}{\ignorespaces Mensaje de advertencia al eliminar una formula de colecci\'on.\relax }}{62}
-\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.29}}{\ignorespaces Pantalla principal de procesos.\relax }}{63}
-\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.30}}{\ignorespaces Ventana emergente para creaci\'on de periodos de indicadores.\relax }}{64}
-\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.31}}{\ignorespaces Mensaaje de validaci\'on en proceso de indicadores.\relax }}{65}
-\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.32}}{\ignorespaces Mensaaje de grabaci\'on satisfactoria de procesos de indicadores.\relax }}{65}
-\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.33}}{\ignorespaces Listado de procesos.\relax }}{66}
-\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.34}}{\ignorespaces Ventana emergente de actualizaci\'on de periodos de indicadores.\relax }}{66}
-\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.35}}{\ignorespaces Mensaje de advertencia al eliminar un periodo de indicadores.\relax }}{67}
-\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.36}}{\ignorespaces Pantalla de procesos de indicadores listos para procesar.\relax }}{68}
-\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.37}}{\ignorespaces Alerta emergente con alerta de reproceso.\relax }}{68}
-\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.38}}{\ignorespaces Pantalla con el detalle de periodo de indicadores.\relax }}{69}
+\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.1}}{\ignorespaces Pantalla de inicio del Sisitema Integral de Informaci\'on del ITT.\relax }}{43}
+\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.2}}{\ignorespaces Pantalla de inicio del Sisitema Integral de Indicadores.\relax }}{44}
+\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.3}}{\ignorespaces Pantalla principal de departamentos.\relax }}{44}
+\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.4}}{\ignorespaces Ventana emergente para creaci\'on de departamentos.\relax }}{45}
+\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.5}}{\ignorespaces Mensaje de validaci\'on departamentos.\relax }}{46}
+\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.6}}{\ignorespaces Mensaje de grabaci\'on satisfactoria de departamento.\relax }}{47}
+\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.7}}{\ignorespaces Listado de departamentos.\relax }}{47}
+\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.8}}{\ignorespaces Ventana emergente de actualizaci\'on de departamento.\relax }}{48}
+\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.9}}{\ignorespaces Mensaje de advertencia al eliminar departamento.\relax }}{48}
+\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.10}}{\ignorespaces Pantalla principal de f\'ormulas.\relax }}{49}
+\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.11}}{\ignorespaces Ventana emergente para creaci\'on de f\'ormulas.\relax }}{50}
+\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.12}}{\ignorespaces Mensaje de validaci\'on f\'ormulas.\relax }}{50}
+\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.13}}{\ignorespaces Mensaje de grabaci\'on satisfactoria de f\'ormula.\relax }}{51}
+\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.14}}{\ignorespaces Listado de f\'ormulas.\relax }}{52}
+\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.15}}{\ignorespaces Ventana emergente de actualizaci\'on de f\'ormula.\relax }}{52}
+\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.16}}{\ignorespaces Mensaje de advertencia al eliminar f\'ormula.\relax }}{53}
+\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.17}}{\ignorespaces Pantalla principal de colecciones.\relax }}{54}
+\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.18}}{\ignorespaces Ventana emergente para creaci\'on de colecciones.\relax }}{54}
+\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.19}}{\ignorespaces Mensaje de validaci\'on colecciones.\relax }}{55}
+\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.20}}{\ignorespaces Mensaje de grabaci\'on satisfactoria de colecci\'on.\relax }}{56}
+\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.21}}{\ignorespaces Listado de colecciones.\relax }}{56}
+\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.22}}{\ignorespaces Ventana emergente de actualizaci\'on de colecciones.\relax }}{57}
+\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.23}}{\ignorespaces Mensaje de advertencia al eliminar colecci\'on.\relax }}{57}
+\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.24}}{\ignorespaces Pantalla de inicio del detalle de colecciones.\relax }}{58}
+\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.25}}{\ignorespaces Ventana emergente para agregar formulas a colecci\'on.\relax }}{59}
+\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.26}}{\ignorespaces Mensaje de grabaci\'on satisfactoria de formulas en colecci\'on.\relax }}{59}
+\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.27}}{\ignorespaces Listado de f\'ormulas en colecci\'on.\relax }}{60}
+\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.28}}{\ignorespaces Mensaje de advertencia al eliminar una formula de colecci\'on.\relax }}{60}
+\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.29}}{\ignorespaces Pantalla principal de procesos.\relax }}{61}
+\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.30}}{\ignorespaces Ventana emergente para creaci\'on de periodos de indicadores.\relax }}{62}
+\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.31}}{\ignorespaces Mensaje de validaci\'on en proceso de indicadores.\relax }}{63}
+\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.32}}{\ignorespaces Mensaje de grabaci\'on satisfactoria de procesos de indicadores.\relax }}{63}
+\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.33}}{\ignorespaces Listado de procesos.\relax }}{64}
+\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.34}}{\ignorespaces Ventana emergente de actualizaci\'on de periodos de indicadores.\relax }}{64}
+\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.35}}{\ignorespaces Mensaje de advertencia al eliminar un periodo de indicadores.\relax }}{65}
+\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.36}}{\ignorespaces Pantalla de procesos de indicadores listos para procesar.\relax }}{66}
+\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.37}}{\ignorespaces Alerta emergente con alerta de reproceso.\relax }}{66}
+\contentsline {figure}{\numberline {\leavevmode {\color {blue}5.38}}{\ignorespaces Pantalla con el detalle de periodo de indicadores.\relax }}{67}
 \addvspace {10\p@ }
